@@ -1,0 +1,5 @@
+.k--bootstrap-reset {
+  & h1 {
+    letter-spacing: -.02em; 
+  }
+}

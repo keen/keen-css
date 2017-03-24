@@ -18,10 +18,22 @@
   },
   "scripts": {
     "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
+    "mutations": "immutable-css src/base.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/keen.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/keen.min.css",
+    "build:css": "tachyons src/base.css > css/keen.css",
+    "build:minify": "tachyons src/base.css -m > css/keen.min.css",
     "build:watch": "watch 'npm run build' ./src/"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.10.0",
+    "perfectionist": "^2.4.0",
+    "postcss": "^5.2.16",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-css-variables": "^0.7.0",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^9.1.0"
   }
 }
