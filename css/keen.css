@@ -6402,6 +6402,18 @@ h1, h2, h3, h4, h5, h6 {
 .k--bootstrap-reset {
 }
 
-.k--bootstrap-reset h1 {
+.k--bootstrap-reset h1,
+  .k--bootstrap-reset h2,
+  .k--bootstrap-reset h3,
+  .k--bootstrap-reset h4,
+  .k--bootstrap-reset .h1,
+  .k--bootstrap-reset .h2,
+  .k--bootstrap-reset .h3,
+  .k--bootstrap-reset .h4 {
   letter-spacing: -.02em;
+  font-size: inherit;
+}
+
+.k--bootstrap-reset label {
+  font-weight: inherit;
 }

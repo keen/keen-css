@@ -1,5 +1,17 @@
 .k--bootstrap-reset {
-  & h1 {
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & .h1,
+  & .h2,
+  & .h3,
+  & .h4 {
     letter-spacing: -.02em; 
+    font-size: inherit;
+  }
+
+  & label {
+    font-weight: inherit;
   }
 }
