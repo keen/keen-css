@@ -14,7 +14,8 @@ const plugins = [
   require('postcss-custom-media')(),
   require('postcss-css-variables')(),
   require('postcss-conditionals')(),
-  require('postcss-nesting')()
+  require('postcss-nesting')(),
+  require('postcss-apply')()
 ];
 
 const perfectionistOptions = {
@@ -25,6 +26,10 @@ const perfectionistOptions = {
 const rawCss = fs.readFileSync('./src/base.css', 'utf8');
 
 postcss(plugins).process(rawCss).then(result => {
+  let warnings = result.messages.filter(message => { return message.type === 'warning' });
+  warnings.forEach(warning => {
+    console.log(`Warning: ${warning.text}`);
+  });
   fs.writeFileSync(__dirname + '/css/keen.css', result.css);
 });
 

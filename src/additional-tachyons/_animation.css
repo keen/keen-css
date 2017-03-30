@@ -1,0 +1,10 @@
+.ta { transition: all 0.3s; }
+@media(--breakpoint-not-small) {
+  .ta-ns { transition: all 0.3s; }
+}
+@media(--breakpoint-medium) {
+  .ta-m { transition: all 0.3s; }
+}
+@media(--breakpoint-large) {
+  .ta-l { transition: all 0.3s; }
+}

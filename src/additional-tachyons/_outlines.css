@@ -1,0 +1,10 @@
+.on { outline: none; }
+@media(--breakpoint-not-small) {
+  .on-ns { outline: none; }
+}
+@media(--breakpoint-medium) {
+  .on-m { outline: none; }
+}
+@media(--breakpoint-large) {
+  .on-l { outline: none; }
+}
