@@ -6509,14 +6509,114 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.k--button-black {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: hsl(220,20%,4%);
+}
+
+.k--button-dark-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: hsl(220,20%,50%);
+}
+
+.k--button-light-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: hsl(220,20%,14%);
+  background-color: hsl(220,20%,92%);
+}
+
+.k--button-white {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: hsl(195, 100%, 46%);
+  background-color: #fff;
+}
+
+.k--button-red {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #ff4d5b;
+}
+
+.k--button-orange {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #ff6300;
+}
+
+.k--button-yellow {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #ffd700;
+}
+
+.k--button-purple {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #676ee4;
+}
+
+.k--button-pink {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #ff80cc;
+}
+
+.k--button-green {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  color: #fff;
+  background-color: #00d17d;
+}
+
 .k--button-blue {
   border: none;
   font-weight: 300;
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
-  background-color: hsl(195, 100%, 46%);
   color: #fff;
+  background-color: hsl(195, 100%, 46%);
 }
 
 .k--bootstrap-reset {

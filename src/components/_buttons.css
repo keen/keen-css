@@ -6,10 +6,74 @@
     border-radius: .125rem;
     border: none;
   };
+
+  --white-text-button-base {
+    @apply --button-base;
+    color: var(--white);
+  }
+
+  --blue-text-button-base {
+    @apply --button-base;
+    color: var(--blue);
+  }
+
+  --black-text-button-base {
+    @apply --button-base;
+    color: var(--near-black);
+  }
+}
+
+.k--button-black {
+  @apply --white-text-button-base;
+  background-color: var(--black);
+}
+
+.k--button-dark-gray {
+  @apply --white-text-button-base;
+  background-color: var(--gray);
+}
+
+.k--button-light-gray {
+  @apply --black-text-button-base;
+  background-color: var(--light-gray);
+}
+
+.k--button-white {
+  @apply --blue-text-button-base;
+  background-color: var(--white);
+}
+
+.k--button-red {
+  @apply --white-text-button-base;
+  background-color: var(--red);
+}
+
+.k--button-orange {
+  @apply --white-text-button-base;
+  background-color: var(--orange);
+}
+
+.k--button-yellow {
+  @apply --black-text-button-base;
+  background-color: var(--yellow);
+}
+
+.k--button-purple {
+  @apply --white-text-button-base;
+  background-color: var(--purple);
+}
+
+.k--button-pink {
+  @apply --white-text-button-base;
+  background-color: var(--pink);
+}
+
+.k--button-green {
+  @apply --white-text-button-base;
+  background-color: var(--green);
 }
 
 .k--button-blue {
-  @apply --button-base;
+  @apply --white-text-button-base;
   background-color: var(--blue);
-  color: var(--white);
 }
