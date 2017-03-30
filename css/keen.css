@@ -6399,6 +6399,126 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @import './_debug'; */
 
+.ta { transition: all 0.3s; }
+
+@mediascreen and (min-width: 30em) {
+  .ta-ns { transition: all 0.3s; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .ta-m { transition: all 0.3s; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .ta-l { transition: all 0.3s; }
+}
+
+.content-box { box-sizing: content-box; }
+
+@mediascreen and (min-width: 30em) {
+  .content-box-ns { box-sizing: content-box; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .content-box-m { box-sizing: content-box; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .content-box-l { box-sizing: content-box; }
+}
+
+.on { outline: none; }
+
+@mediascreen and (min-width: 30em) {
+  .on-ns { outline: none; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .on-m { outline: none; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .on-l { outline: none; }
+}
+
+.maa { margin: auto; }
+
+.mla { margin-left: auto; }
+
+.mra { margin-left: auto; }
+
+.mta { margin-top: auto; }
+
+.mba { margin-bottom: auto; }
+
+.mha {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mva {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@mediascreen and (min-width: 30em) {
+  .maa-ns { margin: auto; }
+  .mla-ns { margin-left: auto; }
+  .mra-ns { margin-left: auto; }
+  .mta-ns { margin-top: auto; }
+  .mba-ns { margin-bottom: auto; }
+  .mha-ns {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mva-ns {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .maa-m { margin: auto; }
+  .mla-m { margin-left: auto; }
+  .mra-m { margin-left: auto; }
+  .mta-m { margin-top: auto; }
+  .mba-m { margin-bottom: auto; }
+  .mha-m {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mva-m {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@mediascreen and (min-width: 60em) {
+  .maa-l { margin: auto; }
+  .mla-l { margin-left: auto; }
+  .mra-l { margin-left: auto; }
+  .mta-l { margin-top: auto; }
+  .mba-l { margin-bottom: auto; }
+  .mha-l {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mva-l {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.k--button-blue {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  background-color: hsl(195, 100%, 46%);
+  color: #fff;
+}
+
 .k--bootstrap-reset {
 }
 
@@ -6411,7 +6531,6 @@ h1, h2, h3, h4, h5, h6 {
   .k--bootstrap-reset .h3,
   .k--bootstrap-reset .h4 {
   letter-spacing: -.02em;
-  font-size: inherit;
 }
 
 .k--bootstrap-reset label {

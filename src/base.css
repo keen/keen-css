@@ -1,3 +1,5 @@
-@import 'src/tachyons/tachyons.css';
+@import 'src/tachyons/tachyons';
+@import 'src/additional-tachyons/index';
+@import 'src/components/index';
 
-@import 'src/bootstrap-overrides.css';
+@import 'src/bootstrap-overrides';

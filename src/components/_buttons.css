@@ -1,0 +1,15 @@
+:root {
+  --button-base: {
+    border: none;
+    font-weight: 300;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .125rem;
+    border: none;
+  };
+}
+
+.k--button-blue {
+  @apply --button-base;
+  background-color: var(--blue);
+  color: var(--white);
+}

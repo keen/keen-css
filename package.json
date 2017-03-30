@@ -26,6 +26,7 @@
     "cssnano": "^3.10.0",
     "perfectionist": "^2.4.0",
     "postcss": "^5.2.16",
+    "postcss-apply": "^0.6.1",
     "postcss-conditionals": "^2.1.0",
     "postcss-css-variables": "^0.7.0",
     "postcss-custom-media": "^5.0.1",
