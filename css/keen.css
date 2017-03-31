@@ -6515,8 +6515,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: hsl(220,20%,4%);
+  background-color: hsl(220,20%,4%)
+}
+
+.k--button-black:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-dark-gray {
@@ -6525,8 +6531,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: hsl(220,20%,50%);
+  background-color: hsl(220,20%,50%)
+}
+
+.k--button-dark-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-light-gray {
@@ -6535,8 +6547,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: hsl(220,20%,14%);
-  background-color: hsl(220,20%,92%);
+  background-color: hsl(220,20%,92%)
+}
+
+.k--button-light-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-white {
@@ -6545,8 +6563,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: hsl(195, 100%, 46%);
-  background-color: #fff;
+  background-color: #fff
+}
+
+.k--button-white:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-red {
@@ -6555,8 +6579,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: #ff4d5b;
+  background-color: #ff4d5b
+}
+
+.k--button-red:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-orange {
@@ -6565,8 +6595,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: #ff6300;
+  background-color: #ff6300
+}
+
+.k--button-orange:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-yellow {
@@ -6575,8 +6611,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
-  color: #fff;
-  background-color: #ffd700;
+  transition: background-color .15s, color .15s;
+  color: hsl(220,20%,14%);
+  background-color: #ffd700
+}
+
+.k--button-yellow:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-purple {
@@ -6585,8 +6627,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: #676ee4;
+  background-color: #676ee4
+}
+
+.k--button-purple:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-pink {
@@ -6595,8 +6643,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: #ff80cc;
+  background-color: #ff80cc
+}
+
+.k--button-pink:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-green {
@@ -6605,8 +6659,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: #00d17d;
+  background-color: #00d17d
+}
+
+.k--button-green:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--button-blue {
@@ -6615,8 +6675,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem .5rem 1rem;
   border-radius: .125rem;
   border: none;
+  transition: background-color .15s, color .15s;
   color: #fff;
-  background-color: hsl(195, 100%, 46%);
+  background-color: hsl(195, 100%, 46%)
+}
+
+.k--button-blue:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
 }
 
 .k--bootstrap-reset {
