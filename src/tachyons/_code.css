@@ -7,5 +7,6 @@
 .pre {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow:   scroll;
+  /* Commenting this out - it seems to collide with the previous two rules */
+  /* overflow:   scroll; */
 }

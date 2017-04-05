@@ -1413,7 +1413,8 @@ img { max-width: 100%; }
 .pre {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow:   scroll;
+  /* Commenting this out - it seems to collide with the previous two rules */
+  /* overflow:   scroll; */
 }
 
 /*
@@ -6506,6 +6507,32 @@ h1, h2, h3, h4, h5, h6 {
   .mva-l {
     margin-top: auto;
     margin-bottom: auto;
+  }
+}
+
+.no-underline-hover:hover,
+.no-underline-hover:focus {
+  text-decoration: none;
+}
+
+@mediascreen and (min-width: 30em) {
+  .no-underline-hover-ns:hover,
+  .no-underline-hover-ns:focus {
+    text-decoration: none;
+  }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .no-underline-hover-m:hover,
+  .no-underline-hover-m:focus {
+    text-decoration: none;
+  }
+}
+
+@mediascreen and (min-width: 60em) {
+  .no-underline-hover-l:hover,
+  .no-underline-hover-l:focus {
+    text-decoration: none;
   }
 }
 
