@@ -1,0 +1,18 @@
+.w6 { width: 32rem; }
+.w7 { width: 48rem; }
+.w8 { width: 64rem; }
+@media(--breakpoint-not-small) {
+  .w6-ns { width: 32rem; }
+  .w7-ns { width: 48rem; }
+  .w8-ns { width: 64rem; }
+}
+@media(--breakpoint-medium) {
+  .w6-m { width: 32rem; }
+  .w7-m { width: 48rem; }
+  .w8-m { width: 64rem; }
+}
+@media(--breakpoint-large) {
+  .w6-l { width: 32rem; }
+  .w7-l { width: 48rem; }
+  .w8-l { width: 64rem; }
+}

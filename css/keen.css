@@ -1,3 +1,208 @@
+.k--button-black {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(220,20%,4%)
+}
+
+.k--button-black:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-dark-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(220,20%,50%)
+}
+
+.k--button-dark-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-light-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(220,20%,14%);
+  background-color: hsl(220,20%,92%)
+}
+
+.k--button-light-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-white {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(195, 100%, 46%);
+  background-color: #fff
+}
+
+.k--button-white:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-red {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff4d5b
+}
+
+.k--button-red:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-orange {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff6300
+}
+
+.k--button-orange:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-yellow {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(220,20%,14%);
+  background-color: #ffd700
+}
+
+.k--button-yellow:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-purple {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #676ee4
+}
+
+.k--button-purple:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-pink {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff80cc
+}
+
+.k--button-pink:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-green {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #00d17d
+}
+
+.k--button-green:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--button-blue {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(195, 100%, 46%)
+}
+
+.k--button-blue:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3)
+}
+
+.k--modal-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.k--modal-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(220,100%,4%,.8);
+}
+
+.k--modal-content {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )
+}
+
+.k--select {
+  background: #fff;
+  height: 40px;
+}
+
 /*! TACHYONS v4.6.1 | http://tachyons.io */
 
 /*
@@ -3233,875 +3438,875 @@ code, .code {
  */
 
 .hover-black:hover {
-  color: hsl(220,20%,4%);
+  color: hsl(220,20%,4%)
 }
 
 .hover-black:focus {
-  color: hsl(220,20%,4%);
+  color: hsl(220,20%,4%)
 }
 
 .hover-near-black:hover {
-  color: hsl(220,20%,14%);
+  color: hsl(220,20%,14%)
 }
 
 .hover-near-black:focus {
-  color: hsl(220,20%,14%);
+  color: hsl(220,20%,14%)
 }
 
 .hover-dark-gray:hover {
-  color: hsl(220,20%,20%);
+  color: hsl(220,20%,20%)
 }
 
 .hover-dark-gray:focus {
-  color: hsl(220,20%,20%);
+  color: hsl(220,20%,20%)
 }
 
 .hover-mid-gray:hover {
-  color: hsl(220,20%,35%);
+  color: hsl(220,20%,35%)
 }
 
 .hover-mid-gray:focus {
-  color: hsl(220,20%,35%);
+  color: hsl(220,20%,35%)
 }
 
 .hover-gray:hover {
-  color: hsl(220,20%,50%);
+  color: hsl(220,20%,50%)
 }
 
 .hover-gray:focus {
-  color: hsl(220,20%,50%);
+  color: hsl(220,20%,50%)
 }
 
 .hover-silver:hover {
-  color: hsl(220,20%,60%);
+  color: hsl(220,20%,60%)
 }
 
 .hover-silver:focus {
-  color: hsl(220,20%,60%);
+  color: hsl(220,20%,60%)
 }
 
 .hover-light-silver:hover {
-  color: hsl(220,20%,67%);
+  color: hsl(220,20%,67%)
 }
 
 .hover-light-silver:focus {
-  color: hsl(220,20%,67%);
+  color: hsl(220,20%,67%)
 }
 
 .hover-moon-gray:hover {
-  color: hsl(220,20%,80%);
+  color: hsl(220,20%,80%)
 }
 
 .hover-moon-gray:focus {
-  color: hsl(220,20%,80%);
+  color: hsl(220,20%,80%)
 }
 
 .hover-light-gray:hover {
-  color: hsl(220,20%,92%);
+  color: hsl(220,20%,92%)
 }
 
 .hover-light-gray:focus {
-  color: hsl(220,20%,92%);
+  color: hsl(220,20%,92%)
 }
 
 .hover-near-white:hover {
-  color: hsl(220,20%,96%);
+  color: hsl(220,20%,96%)
 }
 
 .hover-near-white:focus {
-  color: hsl(220,20%,96%);
+  color: hsl(220,20%,96%)
 }
 
 .hover-white:hover {
-  color: #fff;
+  color: #fff
 }
 
 .hover-white:focus {
-  color: #fff;
+  color: #fff
 }
 
 .hover-black-90:hover {
-  color: hsla(220,100%,4%,.9);
+  color: hsla(220,100%,4%,.9)
 }
 
 .hover-black-90:focus {
-  color: hsla(220,100%,4%,.9);
+  color: hsla(220,100%,4%,.9)
 }
 
 .hover-black-80:hover {
-  color: hsla(220,100%,4%,.8);
+  color: hsla(220,100%,4%,.8)
 }
 
 .hover-black-80:focus {
-  color: hsla(220,100%,4%,.8);
+  color: hsla(220,100%,4%,.8)
 }
 
 .hover-black-70:hover {
-  color: hsla(220,100%,4%,.7);
+  color: hsla(220,100%,4%,.7)
 }
 
 .hover-black-70:focus {
-  color: hsla(220,100%,4%,.7);
+  color: hsla(220,100%,4%,.7)
 }
 
 .hover-black-60:hover {
-  color: hsla(220,100%,4%,.6);
+  color: hsla(220,100%,4%,.6)
 }
 
 .hover-black-60:focus {
-  color: hsla(220,100%,4%,.6);
+  color: hsla(220,100%,4%,.6)
 }
 
 .hover-black-50:hover {
-  color: hsla(220,100%,4%,.5);
+  color: hsla(220,100%,4%,.5)
 }
 
 .hover-black-50:focus {
-  color: hsla(220,100%,4%,.5);
+  color: hsla(220,100%,4%,.5)
 }
 
 .hover-black-40:hover {
-  color: hsla(220,100%,4%,.4);
+  color: hsla(220,100%,4%,.4)
 }
 
 .hover-black-40:focus {
-  color: hsla(220,100%,4%,.4);
+  color: hsla(220,100%,4%,.4)
 }
 
 .hover-black-30:hover {
-  color: hsla(220,100%,4%,.3);
+  color: hsla(220,100%,4%,.3)
 }
 
 .hover-black-30:focus {
-  color: hsla(220,100%,4%,.3);
+  color: hsla(220,100%,4%,.3)
 }
 
 .hover-black-20:hover {
-  color: hsla(220,100%,4%,.2);
+  color: hsla(220,100%,4%,.2)
 }
 
 .hover-black-20:focus {
-  color: hsla(220,100%,4%,.2);
+  color: hsla(220,100%,4%,.2)
 }
 
 .hover-black-10:hover {
-  color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.1)
 }
 
 .hover-black-10:focus {
-  color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.1)
 }
 
 .hover-white-90:hover {
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.9)
 }
 
 .hover-white-90:focus {
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.9)
 }
 
 .hover-white-80:hover {
-  color: rgba(255,255,255,.8);
+  color: rgba(255,255,255,.8)
 }
 
 .hover-white-80:focus {
-  color: rgba(255,255,255,.8);
+  color: rgba(255,255,255,.8)
 }
 
 .hover-white-70:hover {
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.7)
 }
 
 .hover-white-70:focus {
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.7)
 }
 
 .hover-white-60:hover {
-  color: rgba(255,255,255,.6);
+  color: rgba(255,255,255,.6)
 }
 
 .hover-white-60:focus {
-  color: rgba(255,255,255,.6);
+  color: rgba(255,255,255,.6)
 }
 
 .hover-white-50:hover {
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.5)
 }
 
 .hover-white-50:focus {
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,.5)
 }
 
 .hover-white-40:hover {
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.4)
 }
 
 .hover-white-40:focus {
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.4)
 }
 
 .hover-white-30:hover {
-  color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.3)
 }
 
 .hover-white-30:focus {
-  color: rgba(255,255,255,.3);
+  color: rgba(255,255,255,.3)
 }
 
 .hover-white-20:hover {
-  color: rgba(255,255,255,.2);
+  color: rgba(255,255,255,.2)
 }
 
 .hover-white-20:focus {
-  color: rgba(255,255,255,.2);
+  color: rgba(255,255,255,.2)
 }
 
 .hover-white-10:hover {
-  color: rgba(255,255,255,.1);
+  color: rgba(255,255,255,.1)
 }
 
 .hover-white-10:focus {
-  color: rgba(255,255,255,.1);
+  color: rgba(255,255,255,.1)
 }
 
 .hover-bg-black:hover {
-  background-color: hsl(220,20%,4%);
+  background-color: hsl(220,20%,4%)
 }
 
 .hover-bg-black:focus {
-  background-color: hsl(220,20%,4%);
+  background-color: hsl(220,20%,4%)
 }
 
 .hover-bg-near-black:hover {
-  background-color: hsl(220,20%,14%);
+  background-color: hsl(220,20%,14%)
 }
 
 .hover-bg-near-black:focus {
-  background-color: hsl(220,20%,14%);
+  background-color: hsl(220,20%,14%)
 }
 
 .hover-bg-dark-gray:hover {
-  background-color: hsl(220,20%,20%);
+  background-color: hsl(220,20%,20%)
 }
 
 .hover-bg-dark-gray:focus {
-  background-color: hsl(220,20%,20%);
+  background-color: hsl(220,20%,20%)
 }
 
 .hover-bg-dark-gray:focus {
-  background-color: hsl(220,20%,35%);
+  background-color: hsl(220,20%,35%)
 }
 
 .hover-bg-mid-gray:hover {
-  background-color: hsl(220,20%,35%);
+  background-color: hsl(220,20%,35%)
 }
 
 .hover-bg-gray:hover {
-  background-color: hsl(220,20%,50%);
+  background-color: hsl(220,20%,50%)
 }
 
 .hover-bg-gray:focus {
-  background-color: hsl(220,20%,50%);
+  background-color: hsl(220,20%,50%)
 }
 
 .hover-bg-silver:hover {
-  background-color: hsl(220,20%,60%);
+  background-color: hsl(220,20%,60%)
 }
 
 .hover-bg-silver:focus {
-  background-color: hsl(220,20%,60%);
+  background-color: hsl(220,20%,60%)
 }
 
 .hover-bg-light-silver:hover {
-  background-color: hsl(220,20%,67%);
+  background-color: hsl(220,20%,67%)
 }
 
 .hover-bg-light-silver:focus {
-  background-color: hsl(220,20%,67%);
+  background-color: hsl(220,20%,67%)
 }
 
 .hover-bg-moon-gray:hover {
-  background-color: hsl(220,20%,80%);
+  background-color: hsl(220,20%,80%)
 }
 
 .hover-bg-moon-gray:focus {
-  background-color: hsl(220,20%,80%);
+  background-color: hsl(220,20%,80%)
 }
 
 .hover-bg-light-gray:hover {
-  background-color: hsl(220,20%,92%);
+  background-color: hsl(220,20%,92%)
 }
 
 .hover-bg-light-gray:focus {
-  background-color: hsl(220,20%,92%);
+  background-color: hsl(220,20%,92%)
 }
 
 .hover-bg-near-white:hover {
-  background-color: hsl(220,20%,96%);
+  background-color: hsl(220,20%,96%)
 }
 
 .hover-bg-near-white:focus {
-  background-color: hsl(220,20%,96%);
+  background-color: hsl(220,20%,96%)
 }
 
 .hover-bg-white:hover {
-  background-color: #fff;
+  background-color: #fff
 }
 
 .hover-bg-white:focus {
-  background-color: #fff;
+  background-color: #fff
 }
 
 .hover-bg-transparent:hover {
-  background-color: transparent;
+  background-color: transparent
 }
 
 .hover-bg-transparent:focus {
-  background-color: transparent;
+  background-color: transparent
 }
 
 .hover-bg-black-90:hover {
-  background-color: hsla(220,100%,4%,.9);
+  background-color: hsla(220,100%,4%,.9)
 }
 
 .hover-bg-black-90:focus {
-  background-color: hsla(220,100%,4%,.9);
+  background-color: hsla(220,100%,4%,.9)
 }
 
 .hover-bg-black-80:hover {
-  background-color: hsla(220,100%,4%,.8);
+  background-color: hsla(220,100%,4%,.8)
 }
 
 .hover-bg-black-80:focus {
-  background-color: hsla(220,100%,4%,.8);
+  background-color: hsla(220,100%,4%,.8)
 }
 
 .hover-bg-black-70:hover {
-  background-color: hsla(220,100%,4%,.7);
+  background-color: hsla(220,100%,4%,.7)
 }
 
 .hover-bg-black-70:focus {
-  background-color: hsla(220,100%,4%,.7);
+  background-color: hsla(220,100%,4%,.7)
 }
 
 .hover-bg-black-60:hover {
-  background-color: hsla(220,100%,4%,.6);
+  background-color: hsla(220,100%,4%,.6)
 }
 
 .hover-bg-black-60:focus {
-  background-color: hsla(220,100%,4%,.6);
+  background-color: hsla(220,100%,4%,.6)
 }
 
 .hover-bg-black-50:hover {
-  background-color: hsla(220,100%,4%,.5);
+  background-color: hsla(220,100%,4%,.5)
 }
 
 .hover-bg-black-50:focus {
-  background-color: hsla(220,100%,4%,.5);
+  background-color: hsla(220,100%,4%,.5)
 }
 
 .hover-bg-black-40:hover {
-  background-color: hsla(220,100%,4%,.4);
+  background-color: hsla(220,100%,4%,.4)
 }
 
 .hover-bg-black-40:focus {
-  background-color: hsla(220,100%,4%,.4);
+  background-color: hsla(220,100%,4%,.4)
 }
 
 .hover-bg-black-30:hover {
-  background-color: hsla(220,100%,4%,.3);
+  background-color: hsla(220,100%,4%,.3)
 }
 
 .hover-bg-black-30:focus {
-  background-color: hsla(220,100%,4%,.3);
+  background-color: hsla(220,100%,4%,.3)
 }
 
 .hover-bg-black-20:hover {
-  background-color: hsla(220,100%,4%,.2);
+  background-color: hsla(220,100%,4%,.2)
 }
 
 .hover-bg-black-20:focus {
-  background-color: hsla(220,100%,4%,.2);
+  background-color: hsla(220,100%,4%,.2)
 }
 
 .hover-bg-black-10:hover {
-  background-color: hsla(220,100%,4%,.1);
+  background-color: hsla(220,100%,4%,.1)
 }
 
 .hover-bg-black-10:focus {
-  background-color: hsla(220,100%,4%,.1);
+  background-color: hsla(220,100%,4%,.1)
 }
 
 .hover-bg-white-90:hover {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,.9)
 }
 
 .hover-bg-white-90:focus {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255,255,255,.9)
 }
 
 .hover-bg-white-80:hover {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.8)
 }
 
 .hover-bg-white-80:focus {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.8)
 }
 
 .hover-bg-white-70:hover {
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.7)
 }
 
 .hover-bg-white-70:focus {
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.7)
 }
 
 .hover-bg-white-60:hover {
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.6)
 }
 
 .hover-bg-white-60:focus {
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255,255,255,.6)
 }
 
 .hover-bg-white-50:hover {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.5)
 }
 
 .hover-bg-white-50:focus {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.5)
 }
 
 .hover-bg-white-40:hover {
-  background-color: rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,.4)
 }
 
 .hover-bg-white-40:focus {
-  background-color: rgba(255,255,255,.4);
+  background-color: rgba(255,255,255,.4)
 }
 
 .hover-bg-white-30:hover {
-  background-color: rgba(255,255,255,.3);
+  background-color: rgba(255,255,255,.3)
 }
 
 .hover-bg-white-30:focus {
-  background-color: rgba(255,255,255,.3);
+  background-color: rgba(255,255,255,.3)
 }
 
 .hover-bg-white-20:hover {
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255,255,255,.2)
 }
 
 .hover-bg-white-20:focus {
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255,255,255,.2)
 }
 
 .hover-bg-white-10:hover {
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,.1)
 }
 
 .hover-bg-white-10:focus {
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,.1)
 }
 
 .hover-dark-red:hover {
-  color: #e7040f;
+  color: #e7040f
 }
 
 .hover-dark-red:focus {
-  color: #e7040f;
+  color: #e7040f
 }
 
 .hover-red:hover {
-  color: #ff4d5b;
+  color: #ff4d5b
 }
 
 .hover-red:focus {
-  color: #ff4d5b;
+  color: #ff4d5b
 }
 
 .hover-light-red:hover {
-  color: #ff725c;
+  color: #ff725c
 }
 
 .hover-light-red:focus {
-  color: #ff725c;
+  color: #ff725c
 }
 
 .hover-orange:hover {
-  color: #ff6300;
+  color: #ff6300
 }
 
 .hover-orange:focus {
-  color: #ff6300;
+  color: #ff6300
 }
 
 .hover-gold:hover {
-  color: #ffaf00;
+  color: #ffaf00
 }
 
 .hover-gold:focus {
-  color: #ffaf00;
+  color: #ffaf00
 }
 
 .hover-yellow:hover {
-  color: #ffd700;
+  color: #ffd700
 }
 
 .hover-yellow:focus {
-  color: #ffd700;
+  color: #ffd700
 }
 
 .hover-light-yellow:hover {
-  color: #fbf1a9;
+  color: #fbf1a9
 }
 
 .hover-light-yellow:focus {
-  color: #fbf1a9;
+  color: #fbf1a9
 }
 
 .hover-purple:hover {
-  color: #676ee4;
+  color: #676ee4
 }
 
 .hover-purple:focus {
-  color: #676ee4;
+  color: #676ee4
 }
 
 .hover-light-purple:hover {
-  color: #a463f2;
+  color: #a463f2
 }
 
 .hover-light-purple:focus {
-  color: #a463f2;
+  color: #a463f2
 }
 
 .hover-dark-pink:hover {
-  color: #d5008f;
+  color: #d5008f
 }
 
 .hover-dark-pink:focus {
-  color: #d5008f;
+  color: #d5008f
 }
 
 .hover-hot-pink:hover {
-  color: #ff41b4;
+  color: #ff41b4
 }
 
 .hover-hot-pink:focus {
-  color: #ff41b4;
+  color: #ff41b4
 }
 
 .hover-pink:hover {
-  color: #ff80cc;
+  color: #ff80cc
 }
 
 .hover-pink:focus {
-  color: #ff80cc;
+  color: #ff80cc
 }
 
 .hover-light-pink:hover {
-  color: #ffa3d7;
+  color: #ffa3d7
 }
 
 .hover-light-pink:focus {
-  color: #ffa3d7;
+  color: #ffa3d7
 }
 
 .hover-dark-green:hover {
-  color: #137752;
+  color: #137752
 }
 
 .hover-dark-green:focus {
-  color: #137752;
+  color: #137752
 }
 
 .hover-green:hover {
-  color: #00d17d;
+  color: #00d17d
 }
 
 .hover-green:focus {
-  color: #00d17d;
+  color: #00d17d
 }
 
 .hover-light-green:hover {
-  color: #8cc823;
+  color: #8cc823
 }
 
 .hover-light-green:focus {
-  color: #8cc823;
+  color: #8cc823
 }
 
 .hover-navy:hover {
-  color: #001b44;
+  color: #001b44
 }
 
 .hover-navy:focus {
-  color: #001b44;
+  color: #001b44
 }
 
 .hover-dark-blue:hover {
-  color: #00449e;
+  color: #00449e
 }
 
 .hover-dark-blue:focus {
-  color: #00449e;
+  color: #00449e
 }
 
 .hover-blue:hover {
-  color: hsl(195, 100%, 46%);
+  color: hsl(195, 100%, 46%)
 }
 
 .hover-blue:focus {
-  color: hsl(195, 100%, 46%);
+  color: hsl(195, 100%, 46%)
 }
 
 .hover-light-blue:hover {
-  color: #96ccff;
+  color: #96ccff
 }
 
 .hover-light-blue:focus {
-  color: #96ccff;
+  color: #96ccff
 }
 
 .hover-lightest-blue:hover {
-  color: #cdecff;
+  color: #cdecff
 }
 
 .hover-lightest-blue:focus {
-  color: #cdecff;
+  color: #cdecff
 }
 
 .hover-washed-blue:hover {
-  color: #f6fffe;
+  color: #f6fffe
 }
 
 .hover-washed-blue:focus {
-  color: #f6fffe;
+  color: #f6fffe
 }
 
 .hover-washed-green:hover {
-  color: #e8fdf5;
+  color: #e8fdf5
 }
 
 .hover-washed-green:focus {
-  color: #e8fdf5;
+  color: #e8fdf5
 }
 
 .hover-washed-yellow:hover {
-  color: #fffceb;
+  color: #fffceb
 }
 
 .hover-washed-yellow:focus {
-  color: #fffceb;
+  color: #fffceb
 }
 
 .hover-washed-red:hover {
-  color: #ffdfdf;
+  color: #ffdfdf
 }
 
 .hover-washed-red:focus {
-  color: #ffdfdf;
+  color: #ffdfdf
 }
 
 .hover-bg-dark-red:hover {
-  background-color: #e7040f;
+  background-color: #e7040f
 }
 
 .hover-bg-dark-red:focus {
-  background-color: #e7040f;
+  background-color: #e7040f
 }
 
 .hover-bg-red:hover {
-  background-color: #ff4d5b;
+  background-color: #ff4d5b
 }
 
 .hover-bg-red:focus {
-  background-color: #ff4d5b;
+  background-color: #ff4d5b
 }
 
 .hover-bg-light-red:hover {
-  background-color: #ff725c;
+  background-color: #ff725c
 }
 
 .hover-bg-light-red:focus {
-  background-color: #ff725c;
+  background-color: #ff725c
 }
 
 .hover-bg-orange:hover {
-  background-color: #ff6300;
+  background-color: #ff6300
 }
 
 .hover-bg-orange:focus {
-  background-color: #ff6300;
+  background-color: #ff6300
 }
 
 .hover-bg-gold:hover {
-  background-color: #ffaf00;
+  background-color: #ffaf00
 }
 
 .hover-bg-gold:focus {
-  background-color: #ffaf00;
+  background-color: #ffaf00
 }
 
 .hover-bg-yellow:hover {
-  background-color: #ffd700;
+  background-color: #ffd700
 }
 
 .hover-bg-yellow:focus {
-  background-color: #ffd700;
+  background-color: #ffd700
 }
 
 .hover-bg-light-yellow:hover {
-  background-color: #fbf1a9;
+  background-color: #fbf1a9
 }
 
 .hover-bg-light-yellow:focus {
-  background-color: #fbf1a9;
+  background-color: #fbf1a9
 }
 
 .hover-bg-purple:hover {
-  background-color: #676ee4;
+  background-color: #676ee4
 }
 
 .hover-bg-purple:focus {
-  background-color: #676ee4;
+  background-color: #676ee4
 }
 
 .hover-bg-light-purple:hover {
-  background-color: #a463f2;
+  background-color: #a463f2
 }
 
 .hover-bg-light-purple:focus {
-  background-color: #a463f2;
+  background-color: #a463f2
 }
 
 .hover-bg-dark-pink:hover {
-  background-color: #d5008f;
+  background-color: #d5008f
 }
 
 .hover-bg-dark-pink:focus {
-  background-color: #d5008f;
+  background-color: #d5008f
 }
 
 .hover-bg-hot-pink:hover {
-  background-color: #ff41b4;
+  background-color: #ff41b4
 }
 
 .hover-bg-hot-pink:focus {
-  background-color: #ff41b4;
+  background-color: #ff41b4
 }
 
 .hover-bg-pink:hover {
-  background-color: #ff80cc;
+  background-color: #ff80cc
 }
 
 .hover-bg-pink:focus {
-  background-color: #ff80cc;
+  background-color: #ff80cc
 }
 
 .hover-bg-light-pink:hover {
-  background-color: #ffa3d7;
+  background-color: #ffa3d7
 }
 
 .hover-bg-light-pink:focus {
-  background-color: #ffa3d7;
+  background-color: #ffa3d7
 }
 
 .hover-bg-dark-green:hover {
-  background-color: #137752;
+  background-color: #137752
 }
 
 .hover-bg-dark-green:focus {
-  background-color: #137752;
+  background-color: #137752
 }
 
 .hover-bg-green:hover {
-  background-color: #00d17d;
+  background-color: #00d17d
 }
 
 .hover-bg-green:focus {
-  background-color: #00d17d;
+  background-color: #00d17d
 }
 
 .hover-bg-light-green:hover {
-  background-color: #8cc823;
+  background-color: #8cc823
 }
 
 .hover-bg-light-green:focus {
-  background-color: #8cc823;
+  background-color: #8cc823
 }
 
 .hover-bg-navy:hover {
-  background-color: #001b44;
+  background-color: #001b44
 }
 
 .hover-bg-navy:focus {
-  background-color: #001b44;
+  background-color: #001b44
 }
 
 .hover-bg-dark-blue:hover {
-  background-color: #00449e;
+  background-color: #00449e
 }
 
 .hover-bg-dark-blue:focus {
-  background-color: #00449e;
+  background-color: #00449e
 }
 
 .hover-bg-blue:hover {
-  background-color: hsl(195, 100%, 46%);
+  background-color: hsl(195, 100%, 46%)
 }
 
 .hover-bg-blue:focus {
-  background-color: hsl(195, 100%, 46%);
+  background-color: hsl(195, 100%, 46%)
 }
 
 .hover-bg-light-blue:hover {
-  background-color: #96ccff;
+  background-color: #96ccff
 }
 
 .hover-bg-light-blue:focus {
-  background-color: #96ccff;
+  background-color: #96ccff
 }
 
 .hover-bg-lightest-blue:hover {
-  background-color: #cdecff;
+  background-color: #cdecff
 }
 
 .hover-bg-lightest-blue:focus {
-  background-color: #cdecff;
+  background-color: #cdecff
 }
 
 .hover-bg-washed-blue:hover {
-  background-color: #f6fffe;
+  background-color: #f6fffe
 }
 
 .hover-bg-washed-blue:focus {
-  background-color: #f6fffe;
+  background-color: #f6fffe
 }
 
 .hover-bg-washed-green:hover {
-  background-color: #e8fdf5;
+  background-color: #e8fdf5
 }
 
 .hover-bg-washed-green:focus {
-  background-color: #e8fdf5;
+  background-color: #e8fdf5
 }
 
 .hover-bg-washed-yellow:hover {
-  background-color: #fffceb;
+  background-color: #fffceb
 }
 
 .hover-bg-washed-yellow:focus {
-  background-color: #fffceb;
+  background-color: #fffceb
 }
 
 .hover-bg-washed-red:hover {
-  background-color: #ffdfdf;
+  background-color: #ffdfdf
 }
 
 .hover-bg-washed-red:focus {
-  background-color: #ffdfdf;
+  background-color: #ffdfdf
 }
 
 /* Variables */
@@ -6174,12 +6379,12 @@ code, .code {
 
 .nested-links a:hover {
   color: #96ccff;
-  transition: color .15s ease-in;
+  transition: color .15s ease-in
 }
 
 .nested-links a:focus {
   color: #96ccff;
-  transition: color .15s ease-in;
+  transition: color .15s ease-in
 }
 
 /*
@@ -6400,6 +6605,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @import './_debug'; */
 
+/*****************
+ * Transition All
+ *****************/
+
 .ta { transition: all 0.3s; }
 
 @mediascreen and (min-width: 30em) {
@@ -6412,6 +6621,57 @@ h1, h2, h3, h4, h5, h6 {
 
 @mediascreen and (min-width: 60em) {
   .ta-l { transition: all 0.3s; }
+}
+
+/*****************
+ * Spin
+ ****************/
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin { animation: spin 2s linear infinite; }
+
+@mediascreen and (min-width: 30em) {
+  .spin-ns { animation: spin 2s linear infinite; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .spin-m { animation: spin 2s linear infinite; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .spin-l { animation: spin 2s linear infinite; }
+}
+
+.spin-slow { animation: spin 4s linear infinite; }
+
+@mediascreen and (min-width: 30em) {
+  .spin-slow-ns { animation: spin 4s linear infinite; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .spin-slow-m { animation: spin 4s linear infinite; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .spin-slow-l { animation: spin 4s linear infinite; }
+}
+
+.spin-fast { animation: spin 1s linear infinite; }
+
+@mediascreen and (min-width: 30em) {
+  .spin-fast-ns { animation: spin 1s linear infinite; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .spin-fast-m { animation: spin 1s linear infinite; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .spin-fast-l { animation: spin 1s linear infinite; }
 }
 
 .content-box { box-sizing: content-box; }
@@ -6510,6 +6770,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.w6 { width: 32rem; }
+
+.w7 { width: 48rem; }
+
+.w8 { width: 64rem; }
+
+@mediascreen and (min-width: 30em) {
+  .w6-ns { width: 32rem; }
+  .w7-ns { width: 48rem; }
+  .w8-ns { width: 64rem; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .w6-m { width: 32rem; }
+  .w7-m { width: 48rem; }
+  .w8-m { width: 64rem; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .w6-l { width: 32rem; }
+  .w7-l { width: 48rem; }
+  .w8-l { width: 64rem; }
+}
+
 .no-underline-hover:hover,
 .no-underline-hover:focus {
   text-decoration: none;
@@ -6536,182 +6820,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.k--button-black {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(220,20%,4%)
-}
-
-.k--button-black:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-dark-gray {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(220,20%,50%)
-}
-
-.k--button-dark-gray:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-light-gray {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(220,20%,14%);
-  background-color: hsl(220,20%,92%)
-}
-
-.k--button-light-gray:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-white {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(195, 100%, 46%);
-  background-color: #fff
-}
-
-.k--button-white:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-red {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff4d5b
-}
-
-.k--button-red:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-orange {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff6300
-}
-
-.k--button-orange:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-yellow {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(220,20%,14%);
-  background-color: #ffd700
-}
-
-.k--button-yellow:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-purple {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #676ee4
-}
-
-.k--button-purple:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-pink {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff80cc
-}
-
-.k--button-pink:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-green {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #00d17d
-}
-
-.k--button-green:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
-.k--button-blue {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(195, 100%, 46%)
-}
-
-.k--button-blue:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3);
-}
-
 .k--bootstrap-reset {
 }
 
@@ -6723,9 +6831,9 @@ h1, h2, h3, h4, h5, h6 {
   .k--bootstrap-reset .h2,
   .k--bootstrap-reset .h3,
   .k--bootstrap-reset .h4 {
-  letter-spacing: -.02em;
+  letter-spacing: -.02em
 }
 
 .k--bootstrap-reset label {
-  font-weight: inherit;
+  font-weight: inherit
 }
