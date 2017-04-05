@@ -1,3 +1,6 @@
+/*****************
+ * Transition All
+ *****************/
 .ta { transition: all 0.3s; }
 @media(--breakpoint-not-small) {
   .ta-ns { transition: all 0.3s; }
@@ -7,4 +10,45 @@
 }
 @media(--breakpoint-large) {
   .ta-l { transition: all 0.3s; }
+}
+
+/*****************
+ * Spin
+ ****************/
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spin { animation: spin 2s linear infinite; }
+@media(--breakpoint-not-small) {
+  .spin-ns { animation: spin 2s linear infinite; }
+}
+@media(--breakpoint-medium) {
+  .spin-m { animation: spin 2s linear infinite; }
+}
+@media(--breakpoint-large) {
+  .spin-l { animation: spin 2s linear infinite; }
+}
+
+.spin-slow { animation: spin 4s linear infinite; }
+@media(--breakpoint-not-small) {
+  .spin-slow-ns { animation: spin 4s linear infinite; }
+}
+@media(--breakpoint-medium) {
+  .spin-slow-m { animation: spin 4s linear infinite; }
+}
+@media(--breakpoint-large) {
+  .spin-slow-l { animation: spin 4s linear infinite; }
+}
+
+.spin-fast { animation: spin 1s linear infinite; }
+@media(--breakpoint-not-small) {
+  .spin-fast-ns { animation: spin 1s linear infinite; }
+}
+@media(--breakpoint-medium) {
+  .spin-fast-m { animation: spin 1s linear infinite; }
+}
+@media(--breakpoint-large) {
+  .spin-fast-l { animation: spin 1s linear infinite; }
 }
