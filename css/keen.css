@@ -6509,6 +6509,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.w6 { width: 32rem; }
+
+.w7 { width: 48rem; }
+
+.w8 { width: 64rem; }
+
+@mediascreen and (min-width: 30em) {
+  .w6-ns { width: 32rem; }
+  .w7-ns { width: 48rem; }
+  .w8-ns { width: 64rem; }
+}
+
+@mediascreen and (min-width: 30em) and (max-width: 60em) {
+  .w6-m { width: 32rem; }
+  .w7-m { width: 48rem; }
+  .w8-m { width: 64rem; }
+}
+
+@mediascreen and (min-width: 60em) {
+  .w6-l { width: 32rem; }
+  .w7-l { width: 48rem; }
+  .w8-l { width: 64rem; }
+}
+
 .k--button-black {
   border: none;
   font-weight: 300;
@@ -6683,6 +6707,31 @@ h1, h2, h3, h4, h5, h6 {
 .k--button-blue:disabled {
   background-color: hsla(220,100%,4%,.1);
   color: hsla(220,100%,4%,.3);
+}
+
+.k--modal-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.k--modal-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(220,100%,4%,.8);
+}
+
+.k--modal-content {
+  position: absolute;
+  background-color: #fff;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )
 }
 
 .k--bootstrap-reset {
