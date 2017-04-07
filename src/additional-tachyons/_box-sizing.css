@@ -1,10 +1,10 @@
 .content-box { box-sizing: content-box; }
-@media(--breakpoint-not-small) {
+@media (--breakpoint-not-small) {
   .content-box-ns { box-sizing: content-box; }
 }
-@media(--breakpoint-medium) {
+@media (--breakpoint-medium) {
   .content-box-m { box-sizing: content-box; }
 }
-@media(--breakpoint-large) {
+@media (--breakpoint-large) {
   .content-box-l { box-sizing: content-box; }
 }

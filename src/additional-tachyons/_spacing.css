@@ -12,7 +12,7 @@
   margin-bottom: auto;
 }
 
-@media(--breakpoint-not-small) {
+@media (--breakpoint-not-small) {
   .maa-ns { margin: auto; }
   .mla-ns { margin-left: auto; }
   .mra-ns { margin-left: auto; }
@@ -28,7 +28,7 @@
   }
 }
 
-@media(--breakpoint-medium) {
+@media (--breakpoint-medium) {
   .maa-m { margin: auto; }
   .mla-m { margin-left: auto; }
   .mra-m { margin-left: auto; }
@@ -44,7 +44,7 @@
   }
 }
 
-@media(--breakpoint-large) {
+@media (--breakpoint-large) {
   .maa-l { margin: auto; }
   .mla-l { margin-left: auto; }
   .mra-l { margin-left: auto; }

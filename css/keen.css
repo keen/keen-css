@@ -6611,15 +6611,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .ta { transition: all 0.3s; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .ta-ns { transition: all 0.3s; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .ta-m { transition: all 0.3s; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .ta-l { transition: all 0.3s; }
 }
 
@@ -6634,71 +6634,71 @@ h1, h2, h3, h4, h5, h6 {
 
 .spin { animation: spin 2s linear infinite; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .spin-ns { animation: spin 2s linear infinite; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .spin-m { animation: spin 2s linear infinite; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .spin-l { animation: spin 2s linear infinite; }
 }
 
 .spin-slow { animation: spin 4s linear infinite; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .spin-slow-ns { animation: spin 4s linear infinite; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .spin-slow-m { animation: spin 4s linear infinite; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .spin-slow-l { animation: spin 4s linear infinite; }
 }
 
 .spin-fast { animation: spin 1s linear infinite; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .spin-fast-ns { animation: spin 1s linear infinite; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .spin-fast-m { animation: spin 1s linear infinite; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .spin-fast-l { animation: spin 1s linear infinite; }
 }
 
 .content-box { box-sizing: content-box; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .content-box-ns { box-sizing: content-box; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .content-box-m { box-sizing: content-box; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .content-box-l { box-sizing: content-box; }
 }
 
 .on { outline: none; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .on-ns { outline: none; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .on-m { outline: none; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .on-l { outline: none; }
 }
 
@@ -6722,7 +6722,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: auto;
 }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .maa-ns { margin: auto; }
   .mla-ns { margin-left: auto; }
   .mra-ns { margin-left: auto; }
@@ -6738,7 +6738,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .maa-m { margin: auto; }
   .mla-m { margin-left: auto; }
   .mra-m { margin-left: auto; }
@@ -6754,7 +6754,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .maa-l { margin: auto; }
   .mla-l { margin-left: auto; }
   .mra-l { margin-left: auto; }
@@ -6776,19 +6776,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .w8 { width: 64rem; }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .w6-ns { width: 32rem; }
   .w7-ns { width: 48rem; }
   .w8-ns { width: 64rem; }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .w6-m { width: 32rem; }
   .w7-m { width: 48rem; }
   .w8-m { width: 64rem; }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .w6-l { width: 32rem; }
   .w7-l { width: 48rem; }
   .w8-l { width: 64rem; }
@@ -6799,21 +6799,21 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-@mediascreen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .no-underline-hover-ns:hover,
   .no-underline-hover-ns:focus {
     text-decoration: none;
   }
 }
 
-@mediascreen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .no-underline-hover-m:hover,
   .no-underline-hover-m:focus {
     text-decoration: none;
   }
 }
 
-@mediascreen and (min-width: 60em) {
+@media screen and (min-width: 60em) {
   .no-underline-hover-l:hover,
   .no-underline-hover-l:focus {
     text-decoration: none;
