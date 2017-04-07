@@ -2,19 +2,19 @@
 .no-underline-hover:focus {
   text-decoration: none;
 }
-@media(--breakpoint-not-small) {
+@media (--breakpoint-not-small) {
   .no-underline-hover-ns:hover,
   .no-underline-hover-ns:focus {
     text-decoration: none;
   }
 }
-@media(--breakpoint-medium) {
+@media (--breakpoint-medium) {
   .no-underline-hover-m:hover,
   .no-underline-hover-m:focus {
     text-decoration: none;
   }
 }
-@media(--breakpoint-large) {
+@media (--breakpoint-large) {
   .no-underline-hover-l:hover,
   .no-underline-hover-l:focus {
     text-decoration: none;
