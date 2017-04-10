@@ -6688,6 +6688,82 @@ h1, h2, h3, h4, h5, h6 {
   .content-box-l { box-sizing: content-box; }
 }
 
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hc {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+@media screen and (min-width: 30em) {
+  .vc-ns {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hc-ns {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bc-ns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .vc-m {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hc-m {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bc-m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .vc-l {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hc-l {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bc-l {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
 .on { outline: none; }
 
 @media screen and (min-width: 30em) {
