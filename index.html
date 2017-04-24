@@ -77,6 +77,9 @@
           <a class="white no-underline fw3 db pv2" href="#layout">Layout</a>
         </li>
         <li class="bb b--gray hover-bg-gray pl4">
+          <a class="white no-underline fw3 db pv2 f6" href="#responsive">Responsive</a>
+        </li>
+        <li class="bb b--gray hover-bg-gray pl4">
           <a class="white no-underline fw3 db pv2 f6" href="#positioning-methods">Positioning Methods</a>
         </li>
         <li class="bb b--gray hover-bg-gray pl4">
@@ -827,7 +830,23 @@
         </div>
 
         <h2 class="f1 mt5 mb0" id="layout">Layout</h2>
-        <h3 class="mt3 f2" id="positioning-methods">
+        <h3 class="mt3 f2" id="responsive">
+          Responsive
+          <span class="bg-light-gray code f7 pa1 b1">.relative</span>
+        </h3>
+        <p>Responsive layouts work by adding suffixes to the already existing Tachyons classes. <i>Every</i> tachyons class supports <i>all</i> of the responsive suffixes</p>
+
+        <ul class="list pl2 f6">
+          <li><b>-ns</b> (not small) applies when the screen is wider than 30em</li>
+          <li><b>-m</b> (medium) applies when the screen is wider than 30em and less than 60em</li>
+          <li><b>-l</b> (large) applies when the screen is wider than 60em</li>
+        </ul>
+
+        <p>You'll notice that these have a sort of cascade. <span class="bg-light-gray code f7 pa1 b1">-ns</span> attributes will collide with <span class="bg-light-gray code f7 pa1 b1">-m</span> attributes. This is by design, and allows you to easily set "default" styles.</p>
+
+        <p>For instance, if you want an element to be <span class="bg-light-gray code f7 pa1 b1">.w5</span>, but shrink to <span class="bg-light-gray code f7 pa1 b1">.w-100</span> on mobile (small) screens, you would apply the classes <span class="bg-light-gray code f7 pa1 b1">w-100 w5-ns</span>. <span class="bg-light-gray code f7 pa1 b1">.w-100</span> will apply by default, but it is overridden everywhere but mobile by <span class="bg-light-gray code f7 pa1 b1">.w5-ns</span></p>
+        
+        <h3 class="mt5 f2" id="positioning-methods">
           Positioning Methods
           <span class="bg-light-gray code f7 pa1 b1">.relative</span>
         </h3>
