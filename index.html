@@ -10,7 +10,7 @@
     <script src="./guide.js"></script>
   </head>
   <body class="gotham-rounded">
-    <div class="bg-mid-gray h-100 fixed top-0 left-0 w5 overflow-scroll">
+    <div class="bg-mid-gray h-100 fixed top-0 left-0 w5 overflow-scroll pb4">
       <ul class="list pl0 f5 ma0">
         <li class="white bb b--gray pv3 f4 fw4 tc">Keen CSS</li>
         <li class="bb b--gray hover-bg-gray pl3">
@@ -84,6 +84,9 @@
         </li>
         <li class="bb b--gray hover-bg-gray pl4">
           <a class="white no-underline fw3 db pv2 f6" href="#floating">Floating</a>
+        </li>
+        <li class="bb b--gray hover-bg-gray pl4">
+          <a class="white no-underline fw3 db pv2 f6" href="#whitespace">Whitespace</a>
         </li>
         <li class="bb b--gray hover-bg-gray pl3">
           <a class="white no-underline fw3 db pv2" href="#styling">Styling</a>
@@ -886,6 +889,42 @@
             <div class="bg-red pv2"></div>
             <div class="bg-blue white f7 code cn">.cn</div>
             <div class="bg-red pv2"></div>
+          </div>
+        </div>
+
+        <h3 class="mt5 f2" id="whitespace">
+          Whitespace
+          <span class="bg-light-gray code f7 pa1 b1">.nowrap</span>
+        </h3>
+
+        <div class="flex flex-row">
+          <div class="mr2">
+            <span class="bg-light-gray code f7 pa1 b1 dib">.ws-normal</span>
+            <!-- Crazy markup, to explain how normal works -->
+            <p class="w5 bw2 ba b--blue pa2 near-black">This class will be used by default,
+            
+              but you can apply it to override if needed.
+              It beheaves as text normally does in HTML - ignoring white-space in the actual markup, and logically inserting line-breaks into the layout where they make sense.</p>
+          </div>
+          <div class="mr2 pr6">
+            <span class="bg-light-gray code f7 pa1 b1 dib">.nowrap</span>
+            <p class="w5 bw2 ba b--blue pa2 near-black nowrap">nowrap is like normal, but with no line breaks.</p>
+          </div>
+          <div class="mr2">
+            <span class="bg-light-gray code f7 pa1 b1 dib">.pre</span>
+            <p class="w5 bw2 ba b--blue pa2 near-black pre">When using the pre class,
+your content will perfectly
+your the white-space in
+the markup.
+
+so
+you
+  have to be
+    careful.
+
+It is most often used for
+codeblocks that need
+specific tabbing.</p>
           </div>
         </div>
 
