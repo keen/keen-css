@@ -88,6 +88,9 @@
         <li class="bb b--gray hover-bg-gray pl4">
           <a class="white no-underline fw3 db pv2 f6" href="#whitespace">Whitespace</a>
         </li>
+        <li class="bb b--gray hover-bg-gray pl4">
+          <a class="white no-underline fw3 db pv2 f6" href="#z-index">Z-Index</a>
+        </li>
         <li class="bb b--gray hover-bg-gray pl3">
           <a class="white no-underline fw3 db pv2" href="#styling">Styling</a>
         </li>
@@ -896,7 +899,6 @@
           Whitespace
           <span class="bg-light-gray code f7 pa1 b1">.nowrap</span>
         </h3>
-
         <div class="flex flex-row">
           <div class="mr2">
             <span class="bg-light-gray code f7 pa1 b1 dib">.ws-normal</span>
@@ -927,6 +929,26 @@ codeblocks that need
 specific tabbing.</p>
           </div>
         </div>
+
+        <h3 class="mt5 f2" id="z-index">
+          Z-Index
+          <span class="bg-light-gray code f7 pa1 b1">.z-max</span>
+        </h3>
+        <p>Z-Index is used to tell the layout which element should be displayed <i>on top</i>. It does not apply to static elements</p>
+
+        <div class="relative h5 pv2 content-box">
+          <div class="w-100 h5 pa2 ba bw2 b--black bg-blue absolute top-0 left-0 color white f7 z-0 content-box">.z-0</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-red absolute color white f7 z-1 mt4 ml2 top-0 left-0">.z-1</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-green absolute  white f7 z-2 mt5 ml3 top-0 left-0">.z-2</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-yellow absolute f7 z-3 mt6 ml4 top-0 left-0">.z-3</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-mid-gray absolute white f7 z-4 mt5 ml5 top-2 left-1">.z-4</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-orange absolute white f7 z-5 mt4 ml6 top-0 left-0">.z-5</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-purple absolute white f7 z-999 mt2 ml7 top-0 left--2">.z-999</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-gold absolute  white f7 z-9999 mt4 ml7 top-1 left-1">.z-9999</div>
+          <div class="w4 h4 pa2 ba bw2 b--black bg-pink absolute f7 z-max mt5 ml7 top-1 left-2">.z-max</div>
+        </div>
+
+        <p>There are also three utility classes you can use for z-index: <span class="bg-light-gray code f7 pa1 b1 dib">.z-inherit</span>, <span class="bg-light-gray code f7 pa1 b1 dib">.z-initial</span>, and <span class="bg-light-gray code f7 pa1 b1 dib">.z-unset</span>
 
         <h2 class="f1 mt5" id="styling">Styling</h2>
         <h3 class="f2" id="display">
