@@ -1,0 +1,47 @@
+:root {
+}
+
+html {
+  line-height: 1.5; /* .lh-copy */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark-gray);
+  font-weight: 400;
+  line-height: 1.25; /* .lh-title */
+  margin: 0.75em 0;
+}
+
+h1 { font-size: 3rem;    } /* .f1 */
+h2 { font-size: 2.25rem; } /* .f2 */
+h3 { font-size: 1.5rem;  } /* .f3 */
+h4 { font-size: 1.25rem; } /* .f4 */
+h5 { font-size: 1rem;    } /* .f5 */
+h6 { font-size: .875rem; } /* .f6 */
+
+p {
+  /*color: var(--gray);*/
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid var(--light-gray);
+  margin: 2rem 0;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark-gray);
+}
+
+code {
+  background-color: var(--black-10);
+  padding: .125rem .25rem;
+  font-size: .875em;
+  border-radius: .125rem;
+}
