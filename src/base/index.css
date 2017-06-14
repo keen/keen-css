@@ -1,0 +1,28 @@
+@import './_normalize';
+@import './_type';
+@import './_tables';
+/*@import './_forms';*/
+@import './_buttons';
+
+
+/*
+
+Frames
+
+*/
+
+iframe {} /* Defines an inline frame */
+
+/*
+
+  IMAGES
+
+*/
+
+img {} /* Defines an image */
+map {} /* Defines a client-side image-map */
+area {} /* Defines an area inside an image-map */
+canvas {} /* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
+figcaption {} /* Defines a caption for a <figure> element */
+figure {} /* Specifies self-contained content */
+picture {} /* Defines a container for multiple image resources */

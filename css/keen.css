@@ -460,11 +460,15 @@ template {
   display: none;
 }
 
-:root {
-}
+/*
+
+  TYPE
+
+*/
 
 html {
   line-height: 1.5; /* .lh-copy */
+  font-weight: 200;
 }
 
 h1 {
@@ -537,6 +541,10 @@ p {
   /*color: var(--gray);*/
 }
 
+b, strong {
+  font-weight: 500;
+}
+
 hr {
   border: 0;
   height: 0;
@@ -553,285 +561,89 @@ a:hover {
   color: hsl(220,20%,20%);
 }
 
+address {
+  font-style: normal;
+}
+
+blockquote {
+  margin: 1em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted hsl(220,20%,60%);
+  text-decoration: none;
+  cursor: help;
+}
+
+acronym[title] {
+  border-bottom: 1px dotted hsl(220,20%,60%);
+  text-decoration: none;
+  cursor: help;
+}
+
+pre {
+  letter-spacing: normal;
+  font-size: .75em;
+  font-family: Menlo, Consolas, Monaco, monospace;
+}
+
 code {
-  background-color: hsla(220,100%,4%,.1);
+  letter-spacing: normal;
+  font-size: .75em;
+  font-family: Menlo, Consolas, Monaco, monospace;
+}
+
+kbd {
+  letter-spacing: normal;
+  font-size: .75em;
+  font-family: Menlo, Consolas, Monaco, monospace;
+}
+
+samp {
+  letter-spacing: normal;
+  font-size: .75em;
+  font-family: Menlo, Consolas, Monaco, monospace;
+}
+
+code {
+  background-color: hsl(220,20%,92%);
   padding: .125rem .25rem;
-  font-size: .875em;
   border-radius: .125rem;
 }
 
-/*
-
-  FORMATTING
-
-*/
-
-abbr {}
-
-/* Defines an abbreviation or an acronym */
-
-address {}
-
-/* Defines contact information for the author/owner of a document/article */
-
-b {}
-
-/* Defines bold text */
-
-blockquote {}
-
-/* Defines a section that is quoted from another source */
-
-cite {}
-
-/* Defines the title of a work */
-
-del {}
-
-/* Defines text that has been deleted from a document */
-
-dfn {}
-
-/* Represents the defining instance of a term */
-
-em {}
-
-/* Defines emphasized text */
-
-i {}
-
-/* Defines a part of text in an alternate voice or mood */
-
-ins {}
-
-/* Defines text that has been inserted into a document */
-
-kbd {}
-
-/* Defines keyboard input */
-
-mark {}
-
-/* Defines marked/highlighted text */
-
-meter {}
-
-/* Defines a scalar measurement within a known range (a gauge) */
-
-pre {}
-
-/* Defines preformatted text */
-
-progress {}
-
-/* Represents the progress of a task */
-
-q {}
-
-/* Defines a short quotation */
-
-s {}
-
-/* Defines text that is no longer correct */
-
-samp {}
-
-/* Defines sample output from a computer program */
-
-small {}
-
-/* Defines smaller text */
-
-strong {}
-
-/* Defines important text */
-
-sub {}
-
-/* Defines subscripted text */
-
-sup {}
-
-/* Defines superscripted text */
-
-time {}
-
-/* Defines a date/time */
-
-u {}
-
-/* Defines text that should be stylistically different from normal text */
-
-var {}
-
-/* Defines a variable */
-
-wbr {}
-
-/* Defines a possible line-break */
-
-/*
-
-  FORMS AND INPUTS
-
-*/
-
-Forms and Inputs
-form {}
-
-/* Defines an HTML form for user input */
-
-input {}
-
-/* Defines an input control */
-
-textarea {}
-
-/* Defines a multiline input control (text area) */
-
-button {}
-
-/* Defines a clickable button */
-
-select {}
-
-/* Defines a drop-down list */
-
-optgroup {}
-
-/* Defines a group of related options in a drop-down list */
-
-option {}
-
-/* Defines an option in a drop-down list */
-
-label {}
-
-/* Defines a label for an <input> element */
-
-fieldset {}
-
-/* Groups related elements in a form */
-
-legend {}
-
-/* Defines a caption for a <fieldset> element */
-
-datalist {}
-
-/* Specifies a list of pre-defined options for input controls */
-
-keygen {}
-
-/* Defines a key-pair generator field (for forms) */
-
-output {}
-
-/* Defines the result of a calculation */
-
-/*
-
-Frames
-
-*/
-
-iframe {}
-
-/* Defines an inline frame */
-
-/*
-
-  IMAGES
-
-*/
-
-img {}
-
-/* Defines an image */
-
-map {}
-
-/* Defines a client-side image-map */
-
-area {}
-
-/* Defines an area inside an image-map */
-
-canvas {}
-
-/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
-
-figcaption {}
-
-/* Defines a caption for a <figure> element */
-
-figure {}
-
-/* Specifies self-contained content */
-
-picture {}
-
-/* Defines a container for multiple image resources */
-
-/*
-
-  AUDIO / VIDEO
-
-*/
-
-audio {}
-
-/* Defines sound content */
-
-source {}
-
-/* Defines multiple media resources for media elements (<video>, <audio> and <picture>) */
-
-track {}
-
-/* Defines text tracks for media elements (<video> and <audio>) */
-
-video {}
-
-/* Defines a video or movie */
-
-/*
-
-  LISTS
-
-*/
-
-ul {}
-
-/* Defines an unordered list */
-
-ol {}
-
-/* Defines an ordered list */
-
-li {}
-
-/* Defines a list item */
-
-dl {}
-
-/* Defines a description list */
-
-dt {}
-
-/* Defines a term/name in a description list */
-
-dd {}
-
-/* Defines a description of a term/name in a description list */
-
-menu {}
-
-/* Defines a list/menu of commands */
-
-menuitem {}
-
-/* Defines a command/menu item that the user can invoke from a popup menu */
+kbd {
+  background-color: hsl(220,20%,92%);
+  padding: .125rem .25rem;
+  border-radius: .125rem;
+}
+
+samp {
+  background-color: hsl(220,20%,92%);
+  padding: .125rem .25rem;
+  border-radius: .125rem;
+}
+
+dt {
+  font-weight: 500;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 1em;
+}
+
+ol,
+ul,
+dl {
+  margin: 1em 0;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin: 0;
+}
 
 /*
 
@@ -839,67 +651,26 @@ menuitem {}
 
 */
 
-table {}
+table {
+  font-weight: 200;
+  border-collapse: collapse;
+}
 
-/* Defines a table */
+caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: .875rem;
+  color: hsl(220,20%,50%);
+  text-align: left;
+  caption-side: bottom;
+}
 
-caption {}
+th {
+  font-weight: 500;
+  text-align: left;
+}
 
-/* Defines a table caption */
-
-th {}
-
-/* Defines a header cell in a table */
-
-tr {}
-
-/* Defines a row in a table */
-
-td {}
-
-/* Defines a cell in a table */
-
-thead {}
-
-/* Groups the header content in a table */
-
-tbody {}
-
-/* Groups the body content in a table */
-
-tfoot {}
-
-/* Groups the footer content in a table */
-
-col {}
-
-/* Specifies column properties for each column within a <colgroup> element */
-
-colgroup {}
-
-/* Specifies a group of one or more columns in a table for formatting */
-
-/*
-
-  STYLE
-
-*/
-
-details {}
-
-/* Defines additional details that the user can view or hide */
-
-dialog {}
-
-/* Defines a dialog box or window */
-
-summary {}
-
-/* Defines a visible heading for a <details> element */
-
-data {}
-
-/* Links the given content with a machine-readable translation */
+/*@import './_forms';*/
 
 .k--button-black {
   border: none;
@@ -1076,6 +847,50 @@ data {}
   background-color: hsla(220,100%,4%,.1);
   color: hsla(220,100%,4%,.3);
 }
+
+/*
+
+Frames
+
+*/
+
+iframe {}
+
+/* Defines an inline frame */
+
+/*
+
+  IMAGES
+
+*/
+
+img {}
+
+/* Defines an image */
+
+map {}
+
+/* Defines a client-side image-map */
+
+area {}
+
+/* Defines an area inside an image-map */
+
+canvas {}
+
+/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
+
+figcaption {}
+
+/* Defines a caption for a <figure> element */
+
+figure {}
+
+/* Specifies self-contained content */
+
+picture {}
+
+/* Defines a container for multiple image resources */
 
 .k--modal-wrapper {
   position: absolute;
@@ -2715,8 +2530,9 @@ img { max-width: 100%; }
 
 /* From http://cssfontstack.com */
 
-code, .code {
-  font-family: Consolas,
+.code {
+  font-family: Menlo,
+               Consolas,
                monaco,
                monospace;
 }
@@ -6857,10 +6673,6 @@ iframe[name='google_conversion_frame'] {
 
 .link:focus {
   outline: 0;
-}
-
-strong {
-  font-weight: 500;
 }
 
 .mw-site {

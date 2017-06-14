@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
     <script src="./guide.js"></script>
   </head>
-  <body class="">
+  <body class="gotham-rounded">
     <main role="main" class="mw7 pa5 relative">
       <section>
         <h1>Example HTML</h1>
@@ -22,16 +22,16 @@
         <h2>This document shows various HTML elements</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit Lorem ipsum dolor sit amet, volutpat. </p>
-        <h2>This is 2nd level heading bh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi luptatum zzril delenit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam no</h2>
+        <h2>This is an h2 heading</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
 
-        <h3>This is 3rd level heading</h3>
+        <h3>This is an h3 heading</h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-        <h4>This is 4th level heading</h4>
+        <h4>This is an h4 heading</h4>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-        <h5>This is 5th level heading</h5>
+        <h5>This is an h5 heading</h5>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-        <h6>This is 6th level heading</h6>
+        <h6>This is an h6 heading</h6>
 
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
@@ -40,18 +40,24 @@
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim zzril delenit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
-        <address>This holds an address. Block level, but without margin or padding because they're often stacked.</address>
-
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim zzril delenit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
         <div>This is a <code>div</code> element. Lorem ipsum dolor sit amet, elit, sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. (End of <code>div</code>.)</div>
 
         <blockquote>
-          <p>This is a block quotation containing a <em>single</em> paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p></blockquote>
+          <p>This is a <code>blockquote</code> containing a <em>single</em> paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </blockquote>
 
 
-        <p>The following contains address information about the author, in an <code>address</code>
+        <p>The following contains address information in an <code>address</code>
         element.</p>
+
+        <address>
+          <strong>Keen Labs, Inc.</strong><br>
+          1458 Howard Street<br>
+          San Francisco, CA 94103<br>
+          <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
 
 
         <h2>Lists</h2>
@@ -62,7 +68,23 @@
           <li>One.</li>
           <li>Two.</li>
           <li>Three. Well, probably this list item should be longer. Note that for short items lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items.</li>
-          <li>Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it.</li>
+          <li>Four.</li>
+          <li>Five.</li>
+          <li>Six.
+            <ul>
+              <li>Nested List 1.</li>
+              <li>Nested List 2.</li>
+              <li>Nested List 3 with a <a href="#">link</a>.</li>
+            </ul>
+          </li>
+          <li>Seven.
+            <ol>
+              <li>Nested List 1.</li>
+              <li>Nested List 2.</li>
+              <li>Nested List 3 with a <a href="#">link</a>.</li>
+            </ol>
+          </li>
+          <li>Eight.</li>
         </ul>
 
         <p>This is a paragraph before a <strong>numbered</strong> list (<code>ol</code>). Note that the spacing between a paragraph and a list before or after that is hard to tune in a user style sheet. You can't guess which paragraphs are logically related to a list, e.g. as a "list header".</p>
@@ -71,13 +93,23 @@
           <li>One.</li>
           <li>Two.</li>
           <li>Three. Well, probably this list item should be longer. Note that if items are short, lists look better if they are compactly presented, whereas for long items, it would be better to have more vertical spacing between items.</li>
-          <li>Four. This is the last item in this list. Let us terminate the list now without making any more fuss about it.</li>
-          <li>Five</li>
-          <li>Six</li>
-          <li>Seven</li>
-          <li>Eight</li>
-          <li>Nine</li>
-          <li>Ten</li>
+          <li>Four.</li>
+          <li>Five.</li>
+          <li>Six.
+            <ul>
+              <li>Nested List 1.</li>
+              <li>Nested List 2.</li>
+              <li>Nested List 3 with a <a href="#">link</a>.</li>
+            </ul>
+          </li>
+          <li>Seven.
+            <ol>
+              <li>Nested List 1.</li>
+              <li>Nested List 2.</li>
+              <li>Nested List 3 with a <a href="#">link</a>.</li>
+            </ol>
+          </li>
+          <li>Eight.</li>
 
         </ol>
 
@@ -192,6 +224,85 @@
 
         <h2>Forms</h2>
 
+        <form>
+          <fieldset>
+            <legend>Example legend</legend>
+
+            <p>
+              <label for="input">Example input</label>
+              <input type="text" id="input" placeholder="Example input">
+            </p>
+
+            <p>
+              <label for="select">Example select</label>
+              <select id="select">
+                <option value="">Choose...</option>
+                <optgroup label="Option group 1">
+                  <option value="">Option 1</option>
+                  <option value="">Option 2</option>
+                  <option value="">Option 3</option>
+                </optgroup>
+                <optgroup label="Option group 2">
+                  <option value="">Option 4</option>
+                  <option value="">Option 5</option>
+                  <option value="">Option 6</option>
+                </optgroup>
+              </select>
+            </p>
+
+            <p>
+              <label>
+                <input type="checkbox" value="">
+                Check this checkbox
+              </label>
+            </p>
+
+            <p>
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                Option one is this and that
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Option two is something else that's also super long to demonstrate the wrapping of these fancy form controls.
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+                Option three is disabled
+              </label>
+            </p>
+
+            <p>
+              <label for="textarea">Example textarea</label>
+              <textarea id="textarea" rows="3"></textarea>
+            </p>
+
+            <p>
+              <label for="time">Example temporal</label>
+              <input type="datetime-local" id="time">
+            </p>
+
+            <p>
+              <label for="output">Example output</label>
+              <output name="result" id="output">100</output>
+            </p>
+
+            <p>
+              <button type="submit">Button submit</button>
+              <input type="submit" value="Input submit button">
+              <input type="button" value="Input button">
+            </p>
+
+            <p>
+              <button type="submit" disabled="">Button submit</button>
+              <input type="submit" value="Input submit button" disabled="">
+              <input type="button" value="Input button" disabled="">
+            </p>
+          </fieldset>
+        </form>
+
 
         <form class="form-horizontal" role="form">
           <h3>Contact form</h3>
@@ -210,7 +321,9 @@
           </label>
           <textarea id="message" placeholder="Message"></textarea>
           <br>
-          <input type="checkbox">&nbsp;Send me a monthly newsletter
+          <label for="newsletter">
+            <input type="checkbox" id="newsletter">&nbsp;Send me a monthly newsletter
+          </label>
           <br>
           <button type="submit">Send</button>
         </form>
@@ -243,13 +356,12 @@
           <fieldset>
             <legend>Check those that apply</legend>
             <div>
-              <label for="f5">Checkbox 1</label>
-
               <input id="f5" type="checkbox" name="checkbox">
+              <label for="f5">Checkbox 1</label>
             </div>
             <div>
-              <label for="f6">Checkbox 2 (initially checked)</label>
               <input id="f6" type="checkbox" name="checkbox2" checked="">
+              <label for="f6">Checkbox 2 (initially checked)</label>
             </div>
           </fieldset>
 
@@ -297,10 +409,8 @@
         </pre>
       </section>
       <p>This page is here to test our css against a variety of html elements in different situations.</p>
-      <p>Our typographical system is based on a modular scale. It started with Zurb foundation 3 but has branched off from there considerably over the years. Zurb based their modular scale on some stellar work by <a href="http://www.alistapart.com/articles/more-meaningful-typography/">Tim Brown</a> , the idea of a <a href="http://www.zurb.com/article/1000/foundation-30-typography-and-modular-scal">modular scale</a> is that the size and spacing of all of the typography in the framework is derived from an initial value, another arbitrary "important" value, and a particular ratio. We chose to use the golden ratio, but there are others available.</p>
       <hr>
       <h2>Header Styles</h2>
-      <p>Foundation 3 includes a number of different styles and treatments for typographic elements, such as subheaders or small header segments.</p>
       <section>
         <h3>Basic Headers</h3>
         <h1>h1 header</h1>
@@ -317,15 +427,6 @@
         <h4>Heading 4 with a <a href="#">link</a></h4>
         <h5>Heading 5 with a <a href="#">link</a></h5>
         <h6>Heading 6 with a <a href="#">link</a></h6>
-      </section>
-      <section>
-        <h3>Subheaders</h3>
-        <h1 class="subheader">h1.subheader header</h1>
-        <h2 class="subheader">h2.subheader header</h2>
-        <h3 class="subheader">h3.subheader header</h3>
-        <h4 class="subheader">h4.subheader header</h4>
-        <h5 class="subheader">h5.subheader header</h5>
-        <h6 class="subheader">h6.subheader header</h6>
       </section>
       <hr>
       <h2>Paragraphs</h2>

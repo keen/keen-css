@@ -1,4 +1,4 @@
-@import 'src/tachyons/_normalize';
+@import 'src/base/index';
 @import 'src/components/index';
 @import 'src/tachyons/tachyons';
 @import 'src/additional-tachyons/index';
