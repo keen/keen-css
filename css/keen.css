@@ -1,235 +1,3 @@
-.k--button-black {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(220,20%,4%)
-}
-
-.k--button-black:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-dark-gray {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(220,20%,50%)
-}
-
-.k--button-dark-gray:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-light-gray {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(220,20%,14%);
-  background-color: hsl(220,20%,92%)
-}
-
-.k--button-light-gray:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-white {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(195, 100%, 46%);
-  background-color: #fff
-}
-
-.k--button-white:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-red {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff4d5b
-}
-
-.k--button-red:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-orange {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff6300
-}
-
-.k--button-orange:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-yellow {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: hsl(220,20%,14%);
-  background-color: #ffd700
-}
-
-.k--button-yellow:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-purple {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #676ee4
-}
-
-.k--button-purple:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-pink {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #ff80cc
-}
-
-.k--button-pink:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-green {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: #00d17d
-}
-
-.k--button-green:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--button-blue {
-  border: none;
-  font-weight: 300;
-  padding: .5rem 1rem .5rem 1rem;
-  border-radius: .125rem;
-  border: none;
-  transition: background-color .15s, color .15s;
-  color: #fff;
-  background-color: hsl(195, 100%, 46%)
-}
-
-.k--button-blue:disabled {
-  background-color: hsla(220,100%,4%,.1);
-  color: hsla(220,100%,4%,.3)
-}
-
-.k--modal-wrapper {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.k--modal-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: hsla(220,100%,4%,.8);
-}
-
-.k--modal-content {
-  position: absolute;
-  display: inline-block;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )
-}
-
-.k--select {
-  background: #fff;
-  height: 40px;
-}
-
-/*! TACHYONS v4.6.1 | http://tachyons.io */
-
-/*
- *
- *      ________            ______
- *      ___  __/_____ _________  /______  ______________________
- *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
- *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
- *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
- *                                 /____/
- *
- *    TABLE OF CONTENTS
- *
- *    1. External Library Includes
- *       - Normalize.css | http://normalize.css.github.io
- *    2. Tachyons Modules
- *    3. Variables
- *       - Media Queries
- *       - Colors
- *    4. Debugging
- *       - Debug all
- *       - Debug children
- *
- */
-
-/* External Library Includes */
-
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -691,6 +459,681 @@ template {
 [hidden] {
   display: none;
 }
+
+:root {
+}
+
+html {
+  line-height: 1.5; /* .lh-copy */
+}
+
+h1 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h2 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h3 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h4 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h5 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h6 {
+  color: hsl(220,20%,20%);
+  font-weight: 400;
+  line-height: 1.25;/* .lh-title */
+  margin: 0.75em 0;
+}
+
+h1 { font-size: 3rem;    }
+
+/* .f1 */
+
+h2 { font-size: 2.25rem; }
+
+/* .f2 */
+
+h3 { font-size: 1.5rem;  }
+
+/* .f3 */
+
+h4 { font-size: 1.25rem; }
+
+/* .f4 */
+
+h5 { font-size: 1rem;    }
+
+/* .f5 */
+
+h6 { font-size: .875rem; }
+
+/* .f6 */
+
+p {
+  /*color: var(--gray);*/
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid hsl(220,20%,92%);
+  margin: 2rem 0;
+}
+
+a {
+  color: hsl(195, 100%, 46%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(220,20%,20%);
+}
+
+code {
+  background-color: hsla(220,100%,4%,.1);
+  padding: .125rem .25rem;
+  font-size: .875em;
+  border-radius: .125rem;
+}
+
+/*
+
+  FORMATTING
+
+*/
+
+abbr {}
+
+/* Defines an abbreviation or an acronym */
+
+address {}
+
+/* Defines contact information for the author/owner of a document/article */
+
+b {}
+
+/* Defines bold text */
+
+blockquote {}
+
+/* Defines a section that is quoted from another source */
+
+cite {}
+
+/* Defines the title of a work */
+
+del {}
+
+/* Defines text that has been deleted from a document */
+
+dfn {}
+
+/* Represents the defining instance of a term */
+
+em {}
+
+/* Defines emphasized text */
+
+i {}
+
+/* Defines a part of text in an alternate voice or mood */
+
+ins {}
+
+/* Defines text that has been inserted into a document */
+
+kbd {}
+
+/* Defines keyboard input */
+
+mark {}
+
+/* Defines marked/highlighted text */
+
+meter {}
+
+/* Defines a scalar measurement within a known range (a gauge) */
+
+pre {}
+
+/* Defines preformatted text */
+
+progress {}
+
+/* Represents the progress of a task */
+
+q {}
+
+/* Defines a short quotation */
+
+s {}
+
+/* Defines text that is no longer correct */
+
+samp {}
+
+/* Defines sample output from a computer program */
+
+small {}
+
+/* Defines smaller text */
+
+strong {}
+
+/* Defines important text */
+
+sub {}
+
+/* Defines subscripted text */
+
+sup {}
+
+/* Defines superscripted text */
+
+time {}
+
+/* Defines a date/time */
+
+u {}
+
+/* Defines text that should be stylistically different from normal text */
+
+var {}
+
+/* Defines a variable */
+
+wbr {}
+
+/* Defines a possible line-break */
+
+/*
+
+  FORMS AND INPUTS
+
+*/
+
+Forms and Inputs
+form {}
+
+/* Defines an HTML form for user input */
+
+input {}
+
+/* Defines an input control */
+
+textarea {}
+
+/* Defines a multiline input control (text area) */
+
+button {}
+
+/* Defines a clickable button */
+
+select {}
+
+/* Defines a drop-down list */
+
+optgroup {}
+
+/* Defines a group of related options in a drop-down list */
+
+option {}
+
+/* Defines an option in a drop-down list */
+
+label {}
+
+/* Defines a label for an <input> element */
+
+fieldset {}
+
+/* Groups related elements in a form */
+
+legend {}
+
+/* Defines a caption for a <fieldset> element */
+
+datalist {}
+
+/* Specifies a list of pre-defined options for input controls */
+
+keygen {}
+
+/* Defines a key-pair generator field (for forms) */
+
+output {}
+
+/* Defines the result of a calculation */
+
+/*
+
+Frames
+
+*/
+
+iframe {}
+
+/* Defines an inline frame */
+
+/*
+
+  IMAGES
+
+*/
+
+img {}
+
+/* Defines an image */
+
+map {}
+
+/* Defines a client-side image-map */
+
+area {}
+
+/* Defines an area inside an image-map */
+
+canvas {}
+
+/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
+
+figcaption {}
+
+/* Defines a caption for a <figure> element */
+
+figure {}
+
+/* Specifies self-contained content */
+
+picture {}
+
+/* Defines a container for multiple image resources */
+
+/*
+
+  AUDIO / VIDEO
+
+*/
+
+audio {}
+
+/* Defines sound content */
+
+source {}
+
+/* Defines multiple media resources for media elements (<video>, <audio> and <picture>) */
+
+track {}
+
+/* Defines text tracks for media elements (<video> and <audio>) */
+
+video {}
+
+/* Defines a video or movie */
+
+/*
+
+  LISTS
+
+*/
+
+ul {}
+
+/* Defines an unordered list */
+
+ol {}
+
+/* Defines an ordered list */
+
+li {}
+
+/* Defines a list item */
+
+dl {}
+
+/* Defines a description list */
+
+dt {}
+
+/* Defines a term/name in a description list */
+
+dd {}
+
+/* Defines a description of a term/name in a description list */
+
+menu {}
+
+/* Defines a list/menu of commands */
+
+menuitem {}
+
+/* Defines a command/menu item that the user can invoke from a popup menu */
+
+/*
+
+  TABLES
+
+*/
+
+table {}
+
+/* Defines a table */
+
+caption {}
+
+/* Defines a table caption */
+
+th {}
+
+/* Defines a header cell in a table */
+
+tr {}
+
+/* Defines a row in a table */
+
+td {}
+
+/* Defines a cell in a table */
+
+thead {}
+
+/* Groups the header content in a table */
+
+tbody {}
+
+/* Groups the body content in a table */
+
+tfoot {}
+
+/* Groups the footer content in a table */
+
+col {}
+
+/* Specifies column properties for each column within a <colgroup> element */
+
+colgroup {}
+
+/* Specifies a group of one or more columns in a table for formatting */
+
+/*
+
+  STYLE
+
+*/
+
+details {}
+
+/* Defines additional details that the user can view or hide */
+
+dialog {}
+
+/* Defines a dialog box or window */
+
+summary {}
+
+/* Defines a visible heading for a <details> element */
+
+data {}
+
+/* Links the given content with a machine-readable translation */
+
+.k--button-black {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(220,20%,4%)
+}
+
+.k--button-black:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-dark-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(220,20%,50%)
+}
+
+.k--button-dark-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-light-gray {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(220,20%,14%);
+  background-color: hsl(220,20%,92%)
+}
+
+.k--button-light-gray:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-white {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(195, 100%, 46%);
+  background-color: #fff
+}
+
+.k--button-white:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-red {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff4d5b
+}
+
+.k--button-red:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-orange {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff6300
+}
+
+.k--button-orange:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-yellow {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: hsl(220,20%,14%);
+  background-color: #ffd700
+}
+
+.k--button-yellow:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-purple {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #7e57c2
+}
+
+.k--button-purple:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-pink {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #ff80cc
+}
+
+.k--button-pink:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-green {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: #00d17d
+}
+
+.k--button-green:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--button-blue {
+  border: none;
+  font-weight: 300;
+  padding: .5rem 1rem .5rem 1rem;
+  border-radius: .125rem;
+  border: none;
+  transition: background-color .15s, color .15s;
+  color: #fff;
+  background-color: hsl(195, 100%, 46%)
+}
+
+.k--button-blue:disabled {
+  background-color: hsla(220,100%,4%,.1);
+  color: hsla(220,100%,4%,.3);
+}
+
+.k--modal-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.k--modal-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(220,100%,4%,.8);
+}
+
+.k--modal-content {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 )
+}
+
+.k--select {
+  background: #fff;
+  height: 40px;
+}
+
+/*! TACHYONS v4.6.1 | http://tachyons.io */
+
+/*
+ *
+ *      ________            ______
+ *      ___  __/_____ _________  /______  ______________________
+ *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
+ *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
+ *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
+ *                                 /____/
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Normalize.css | http://normalize.css.github.io
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
+
+/* External Library Includes */
+
+/*@import './_normalize';*/
 
 /* Modules */
 
@@ -1183,6 +1626,8 @@ img { max-width: 100%; }
 
 .b--light-silver { border-color: hsl(220,20%,67%); }
 
+.b--moon-gray {    border-color: hsl(220,20%,80%); }
+
 .b--light-gray {   border-color: hsl(220,20%,92%); }
 
 .b--near-white {   border-color: hsl(220,20%,96%); }
@@ -1237,11 +1682,11 @@ img { max-width: 100%; }
 
 .b--black-0125 {   border-color: hsla(220,100%,4%,.0125); }
 
-.b--dark-red { border-color: #e7040f; }
+.b--dark-red { border-color: #e21e2c; }
 
 .b--red { border-color: #ff4d5b; }
 
-.b--light-red { border-color: #ff725c; }
+.b--light-red { border-color: #ff8c95; }
 
 .b--orange { border-color: #ff6300; }
 
@@ -1251,9 +1696,9 @@ img { max-width: 100%; }
 
 .b--light-yellow { border-color: #fbf1a9; }
 
-.b--purple { border-color: #676ee4; }
+.b--purple { border-color: #7e57c2; }
 
-.b--light-purple { border-color: #a463f2; }
+.b--light-purple { border-color: #b39ddb; }
 
 .b--dark-pink { border-color: #d5008f; }
 
@@ -1267,7 +1712,7 @@ img { max-width: 100%; }
 
 .b--green { border-color: #00d17d; }
 
-.b--light-green { border-color: #8cc823; }
+.b--light-green { border-color: #3deca6; }
 
 .b--navy { border-color: #001b44; }
 
@@ -1275,11 +1720,11 @@ img { max-width: 100%; }
 
 .b--blue { border-color: hsl(195, 100%, 46%); }
 
-.b--light-blue { border-color: #96ccff; }
+.b--light-blue { border-color: #70dbff; }
 
-.b--lightest-blue { border-color: #cdecff; }
+.b--lightest-blue { border-color: #ccf2ff; }
 
-.b--washed-blue { border-color: #f6fffe; }
+.b--washed-blue { border-color: #eafaff; }
 
 .b--washed-green { border-color: #e8fdf5; }
 
@@ -3264,11 +3709,11 @@ code, .code {
 
 .white {         color: #fff; }
 
-.dark-red { color: #e7040f; }
+.dark-red { color: #e21e2c; }
 
 .red { color: #ff4d5b; }
 
-.light-red { color: #ff725c; }
+.light-red { color: #ff8c95; }
 
 .orange { color: #ff6300; }
 
@@ -3278,9 +3723,9 @@ code, .code {
 
 .light-yellow { color: #fbf1a9; }
 
-.purple { color: #676ee4; }
+.purple { color: #7e57c2; }
 
-.light-purple { color: #a463f2; }
+.light-purple { color: #b39ddb; }
 
 .dark-pink { color: #d5008f; }
 
@@ -3294,7 +3739,7 @@ code, .code {
 
 .green { color: #00d17d; }
 
-.light-green { color: #8cc823; }
+.light-green { color: #3deca6; }
 
 .navy { color: #001b44; }
 
@@ -3302,11 +3747,11 @@ code, .code {
 
 .blue { color: hsl(195, 100%, 46%); }
 
-.light-blue { color: #96ccff; }
+.light-blue { color: #70dbff; }
 
-.lightest-blue { color: #cdecff; }
+.lightest-blue { color: #ccf2ff; }
 
-.washed-blue { color: #f6fffe; }
+.washed-blue { color: #eafaff; }
 
 .washed-green { color: #e8fdf5; }
 
@@ -3378,11 +3823,11 @@ code, .code {
 
 .bg-transparent {   background-color: transparent; }
 
-.bg-dark-red { background-color: #e7040f; }
+.bg-dark-red { background-color: #e21e2c; }
 
 .bg-red { background-color: #ff4d5b; }
 
-.bg-light-red { background-color: #ff725c; }
+.bg-light-red { background-color: #ff8c95; }
 
 .bg-orange { background-color: #ff6300; }
 
@@ -3392,9 +3837,9 @@ code, .code {
 
 .bg-light-yellow { background-color: #fbf1a9; }
 
-.bg-purple { background-color: #676ee4; }
+.bg-purple { background-color: #7e57c2; }
 
-.bg-light-purple { background-color: #a463f2; }
+.bg-light-purple { background-color: #b39ddb; }
 
 .bg-dark-pink { background-color: #d5008f; }
 
@@ -3408,7 +3853,7 @@ code, .code {
 
 .bg-green { background-color: #00d17d; }
 
-.bg-light-green { background-color: #8cc823; }
+.bg-light-green { background-color: #3deca6; }
 
 .bg-navy { background-color: #001b44; }
 
@@ -3416,11 +3861,11 @@ code, .code {
 
 .bg-blue { background-color: hsl(195, 100%, 46%); }
 
-.bg-light-blue { background-color: #96ccff; }
+.bg-light-blue { background-color: #70dbff; }
 
-.bg-lightest-blue { background-color: #cdecff; }
+.bg-lightest-blue { background-color: #ccf2ff; }
 
-.bg-washed-blue { background-color: #f6fffe; }
+.bg-washed-blue { background-color: #eafaff; }
 
 .bg-washed-green { background-color: #e8fdf5; }
 
@@ -3438,875 +3883,875 @@ code, .code {
  */
 
 .hover-black:hover {
-  color: hsl(220,20%,4%)
+  color: hsl(220,20%,4%);
 }
 
 .hover-black:focus {
-  color: hsl(220,20%,4%)
+  color: hsl(220,20%,4%);
 }
 
 .hover-near-black:hover {
-  color: hsl(220,20%,14%)
+  color: hsl(220,20%,14%);
 }
 
 .hover-near-black:focus {
-  color: hsl(220,20%,14%)
+  color: hsl(220,20%,14%);
 }
 
 .hover-dark-gray:hover {
-  color: hsl(220,20%,20%)
+  color: hsl(220,20%,20%);
 }
 
 .hover-dark-gray:focus {
-  color: hsl(220,20%,20%)
+  color: hsl(220,20%,20%);
 }
 
 .hover-mid-gray:hover {
-  color: hsl(220,20%,35%)
+  color: hsl(220,20%,35%);
 }
 
 .hover-mid-gray:focus {
-  color: hsl(220,20%,35%)
+  color: hsl(220,20%,35%);
 }
 
 .hover-gray:hover {
-  color: hsl(220,20%,50%)
+  color: hsl(220,20%,50%);
 }
 
 .hover-gray:focus {
-  color: hsl(220,20%,50%)
+  color: hsl(220,20%,50%);
 }
 
 .hover-silver:hover {
-  color: hsl(220,20%,60%)
+  color: hsl(220,20%,60%);
 }
 
 .hover-silver:focus {
-  color: hsl(220,20%,60%)
+  color: hsl(220,20%,60%);
 }
 
 .hover-light-silver:hover {
-  color: hsl(220,20%,67%)
+  color: hsl(220,20%,67%);
 }
 
 .hover-light-silver:focus {
-  color: hsl(220,20%,67%)
+  color: hsl(220,20%,67%);
 }
 
 .hover-moon-gray:hover {
-  color: hsl(220,20%,80%)
+  color: hsl(220,20%,80%);
 }
 
 .hover-moon-gray:focus {
-  color: hsl(220,20%,80%)
+  color: hsl(220,20%,80%);
 }
 
 .hover-light-gray:hover {
-  color: hsl(220,20%,92%)
+  color: hsl(220,20%,92%);
 }
 
 .hover-light-gray:focus {
-  color: hsl(220,20%,92%)
+  color: hsl(220,20%,92%);
 }
 
 .hover-near-white:hover {
-  color: hsl(220,20%,96%)
+  color: hsl(220,20%,96%);
 }
 
 .hover-near-white:focus {
-  color: hsl(220,20%,96%)
+  color: hsl(220,20%,96%);
 }
 
 .hover-white:hover {
-  color: #fff
+  color: #fff;
 }
 
 .hover-white:focus {
-  color: #fff
+  color: #fff;
 }
 
 .hover-black-90:hover {
-  color: hsla(220,100%,4%,.9)
+  color: hsla(220,100%,4%,.9);
 }
 
 .hover-black-90:focus {
-  color: hsla(220,100%,4%,.9)
+  color: hsla(220,100%,4%,.9);
 }
 
 .hover-black-80:hover {
-  color: hsla(220,100%,4%,.8)
+  color: hsla(220,100%,4%,.8);
 }
 
 .hover-black-80:focus {
-  color: hsla(220,100%,4%,.8)
+  color: hsla(220,100%,4%,.8);
 }
 
 .hover-black-70:hover {
-  color: hsla(220,100%,4%,.7)
+  color: hsla(220,100%,4%,.7);
 }
 
 .hover-black-70:focus {
-  color: hsla(220,100%,4%,.7)
+  color: hsla(220,100%,4%,.7);
 }
 
 .hover-black-60:hover {
-  color: hsla(220,100%,4%,.6)
+  color: hsla(220,100%,4%,.6);
 }
 
 .hover-black-60:focus {
-  color: hsla(220,100%,4%,.6)
+  color: hsla(220,100%,4%,.6);
 }
 
 .hover-black-50:hover {
-  color: hsla(220,100%,4%,.5)
+  color: hsla(220,100%,4%,.5);
 }
 
 .hover-black-50:focus {
-  color: hsla(220,100%,4%,.5)
+  color: hsla(220,100%,4%,.5);
 }
 
 .hover-black-40:hover {
-  color: hsla(220,100%,4%,.4)
+  color: hsla(220,100%,4%,.4);
 }
 
 .hover-black-40:focus {
-  color: hsla(220,100%,4%,.4)
+  color: hsla(220,100%,4%,.4);
 }
 
 .hover-black-30:hover {
-  color: hsla(220,100%,4%,.3)
+  color: hsla(220,100%,4%,.3);
 }
 
 .hover-black-30:focus {
-  color: hsla(220,100%,4%,.3)
+  color: hsla(220,100%,4%,.3);
 }
 
 .hover-black-20:hover {
-  color: hsla(220,100%,4%,.2)
+  color: hsla(220,100%,4%,.2);
 }
 
 .hover-black-20:focus {
-  color: hsla(220,100%,4%,.2)
+  color: hsla(220,100%,4%,.2);
 }
 
 .hover-black-10:hover {
-  color: hsla(220,100%,4%,.1)
+  color: hsla(220,100%,4%,.1);
 }
 
 .hover-black-10:focus {
-  color: hsla(220,100%,4%,.1)
+  color: hsla(220,100%,4%,.1);
 }
 
 .hover-white-90:hover {
-  color: rgba(255,255,255,.9)
+  color: rgba(255,255,255,.9);
 }
 
 .hover-white-90:focus {
-  color: rgba(255,255,255,.9)
+  color: rgba(255,255,255,.9);
 }
 
 .hover-white-80:hover {
-  color: rgba(255,255,255,.8)
+  color: rgba(255,255,255,.8);
 }
 
 .hover-white-80:focus {
-  color: rgba(255,255,255,.8)
+  color: rgba(255,255,255,.8);
 }
 
 .hover-white-70:hover {
-  color: rgba(255,255,255,.7)
+  color: rgba(255,255,255,.7);
 }
 
 .hover-white-70:focus {
-  color: rgba(255,255,255,.7)
+  color: rgba(255,255,255,.7);
 }
 
 .hover-white-60:hover {
-  color: rgba(255,255,255,.6)
+  color: rgba(255,255,255,.6);
 }
 
 .hover-white-60:focus {
-  color: rgba(255,255,255,.6)
+  color: rgba(255,255,255,.6);
 }
 
 .hover-white-50:hover {
-  color: rgba(255,255,255,.5)
+  color: rgba(255,255,255,.5);
 }
 
 .hover-white-50:focus {
-  color: rgba(255,255,255,.5)
+  color: rgba(255,255,255,.5);
 }
 
 .hover-white-40:hover {
-  color: rgba(255,255,255,.4)
+  color: rgba(255,255,255,.4);
 }
 
 .hover-white-40:focus {
-  color: rgba(255,255,255,.4)
+  color: rgba(255,255,255,.4);
 }
 
 .hover-white-30:hover {
-  color: rgba(255,255,255,.3)
+  color: rgba(255,255,255,.3);
 }
 
 .hover-white-30:focus {
-  color: rgba(255,255,255,.3)
+  color: rgba(255,255,255,.3);
 }
 
 .hover-white-20:hover {
-  color: rgba(255,255,255,.2)
+  color: rgba(255,255,255,.2);
 }
 
 .hover-white-20:focus {
-  color: rgba(255,255,255,.2)
+  color: rgba(255,255,255,.2);
 }
 
 .hover-white-10:hover {
-  color: rgba(255,255,255,.1)
+  color: rgba(255,255,255,.1);
 }
 
 .hover-white-10:focus {
-  color: rgba(255,255,255,.1)
+  color: rgba(255,255,255,.1);
 }
 
 .hover-bg-black:hover {
-  background-color: hsl(220,20%,4%)
+  background-color: hsl(220,20%,4%);
 }
 
 .hover-bg-black:focus {
-  background-color: hsl(220,20%,4%)
+  background-color: hsl(220,20%,4%);
 }
 
 .hover-bg-near-black:hover {
-  background-color: hsl(220,20%,14%)
+  background-color: hsl(220,20%,14%);
 }
 
 .hover-bg-near-black:focus {
-  background-color: hsl(220,20%,14%)
+  background-color: hsl(220,20%,14%);
 }
 
 .hover-bg-dark-gray:hover {
-  background-color: hsl(220,20%,20%)
+  background-color: hsl(220,20%,20%);
 }
 
 .hover-bg-dark-gray:focus {
-  background-color: hsl(220,20%,20%)
+  background-color: hsl(220,20%,20%);
 }
 
 .hover-bg-dark-gray:focus {
-  background-color: hsl(220,20%,35%)
+  background-color: hsl(220,20%,35%);
 }
 
 .hover-bg-mid-gray:hover {
-  background-color: hsl(220,20%,35%)
+  background-color: hsl(220,20%,35%);
 }
 
 .hover-bg-gray:hover {
-  background-color: hsl(220,20%,50%)
+  background-color: hsl(220,20%,50%);
 }
 
 .hover-bg-gray:focus {
-  background-color: hsl(220,20%,50%)
+  background-color: hsl(220,20%,50%);
 }
 
 .hover-bg-silver:hover {
-  background-color: hsl(220,20%,60%)
+  background-color: hsl(220,20%,60%);
 }
 
 .hover-bg-silver:focus {
-  background-color: hsl(220,20%,60%)
+  background-color: hsl(220,20%,60%);
 }
 
 .hover-bg-light-silver:hover {
-  background-color: hsl(220,20%,67%)
+  background-color: hsl(220,20%,67%);
 }
 
 .hover-bg-light-silver:focus {
-  background-color: hsl(220,20%,67%)
+  background-color: hsl(220,20%,67%);
 }
 
 .hover-bg-moon-gray:hover {
-  background-color: hsl(220,20%,80%)
+  background-color: hsl(220,20%,80%);
 }
 
 .hover-bg-moon-gray:focus {
-  background-color: hsl(220,20%,80%)
+  background-color: hsl(220,20%,80%);
 }
 
 .hover-bg-light-gray:hover {
-  background-color: hsl(220,20%,92%)
+  background-color: hsl(220,20%,92%);
 }
 
 .hover-bg-light-gray:focus {
-  background-color: hsl(220,20%,92%)
+  background-color: hsl(220,20%,92%);
 }
 
 .hover-bg-near-white:hover {
-  background-color: hsl(220,20%,96%)
+  background-color: hsl(220,20%,96%);
 }
 
 .hover-bg-near-white:focus {
-  background-color: hsl(220,20%,96%)
+  background-color: hsl(220,20%,96%);
 }
 
 .hover-bg-white:hover {
-  background-color: #fff
+  background-color: #fff;
 }
 
 .hover-bg-white:focus {
-  background-color: #fff
+  background-color: #fff;
 }
 
 .hover-bg-transparent:hover {
-  background-color: transparent
+  background-color: transparent;
 }
 
 .hover-bg-transparent:focus {
-  background-color: transparent
+  background-color: transparent;
 }
 
 .hover-bg-black-90:hover {
-  background-color: hsla(220,100%,4%,.9)
+  background-color: hsla(220,100%,4%,.9);
 }
 
 .hover-bg-black-90:focus {
-  background-color: hsla(220,100%,4%,.9)
+  background-color: hsla(220,100%,4%,.9);
 }
 
 .hover-bg-black-80:hover {
-  background-color: hsla(220,100%,4%,.8)
+  background-color: hsla(220,100%,4%,.8);
 }
 
 .hover-bg-black-80:focus {
-  background-color: hsla(220,100%,4%,.8)
+  background-color: hsla(220,100%,4%,.8);
 }
 
 .hover-bg-black-70:hover {
-  background-color: hsla(220,100%,4%,.7)
+  background-color: hsla(220,100%,4%,.7);
 }
 
 .hover-bg-black-70:focus {
-  background-color: hsla(220,100%,4%,.7)
+  background-color: hsla(220,100%,4%,.7);
 }
 
 .hover-bg-black-60:hover {
-  background-color: hsla(220,100%,4%,.6)
+  background-color: hsla(220,100%,4%,.6);
 }
 
 .hover-bg-black-60:focus {
-  background-color: hsla(220,100%,4%,.6)
+  background-color: hsla(220,100%,4%,.6);
 }
 
 .hover-bg-black-50:hover {
-  background-color: hsla(220,100%,4%,.5)
+  background-color: hsla(220,100%,4%,.5);
 }
 
 .hover-bg-black-50:focus {
-  background-color: hsla(220,100%,4%,.5)
+  background-color: hsla(220,100%,4%,.5);
 }
 
 .hover-bg-black-40:hover {
-  background-color: hsla(220,100%,4%,.4)
+  background-color: hsla(220,100%,4%,.4);
 }
 
 .hover-bg-black-40:focus {
-  background-color: hsla(220,100%,4%,.4)
+  background-color: hsla(220,100%,4%,.4);
 }
 
 .hover-bg-black-30:hover {
-  background-color: hsla(220,100%,4%,.3)
+  background-color: hsla(220,100%,4%,.3);
 }
 
 .hover-bg-black-30:focus {
-  background-color: hsla(220,100%,4%,.3)
+  background-color: hsla(220,100%,4%,.3);
 }
 
 .hover-bg-black-20:hover {
-  background-color: hsla(220,100%,4%,.2)
+  background-color: hsla(220,100%,4%,.2);
 }
 
 .hover-bg-black-20:focus {
-  background-color: hsla(220,100%,4%,.2)
+  background-color: hsla(220,100%,4%,.2);
 }
 
 .hover-bg-black-10:hover {
-  background-color: hsla(220,100%,4%,.1)
+  background-color: hsla(220,100%,4%,.1);
 }
 
 .hover-bg-black-10:focus {
-  background-color: hsla(220,100%,4%,.1)
+  background-color: hsla(220,100%,4%,.1);
 }
 
 .hover-bg-white-90:hover {
-  background-color: rgba(255,255,255,.9)
+  background-color: rgba(255,255,255,.9);
 }
 
 .hover-bg-white-90:focus {
-  background-color: rgba(255,255,255,.9)
+  background-color: rgba(255,255,255,.9);
 }
 
 .hover-bg-white-80:hover {
-  background-color: rgba(255,255,255,.8)
+  background-color: rgba(255,255,255,.8);
 }
 
 .hover-bg-white-80:focus {
-  background-color: rgba(255,255,255,.8)
+  background-color: rgba(255,255,255,.8);
 }
 
 .hover-bg-white-70:hover {
-  background-color: rgba(255,255,255,.7)
+  background-color: rgba(255,255,255,.7);
 }
 
 .hover-bg-white-70:focus {
-  background-color: rgba(255,255,255,.7)
+  background-color: rgba(255,255,255,.7);
 }
 
 .hover-bg-white-60:hover {
-  background-color: rgba(255,255,255,.6)
+  background-color: rgba(255,255,255,.6);
 }
 
 .hover-bg-white-60:focus {
-  background-color: rgba(255,255,255,.6)
+  background-color: rgba(255,255,255,.6);
 }
 
 .hover-bg-white-50:hover {
-  background-color: rgba(255,255,255,.5)
+  background-color: rgba(255,255,255,.5);
 }
 
 .hover-bg-white-50:focus {
-  background-color: rgba(255,255,255,.5)
+  background-color: rgba(255,255,255,.5);
 }
 
 .hover-bg-white-40:hover {
-  background-color: rgba(255,255,255,.4)
+  background-color: rgba(255,255,255,.4);
 }
 
 .hover-bg-white-40:focus {
-  background-color: rgba(255,255,255,.4)
+  background-color: rgba(255,255,255,.4);
 }
 
 .hover-bg-white-30:hover {
-  background-color: rgba(255,255,255,.3)
+  background-color: rgba(255,255,255,.3);
 }
 
 .hover-bg-white-30:focus {
-  background-color: rgba(255,255,255,.3)
+  background-color: rgba(255,255,255,.3);
 }
 
 .hover-bg-white-20:hover {
-  background-color: rgba(255,255,255,.2)
+  background-color: rgba(255,255,255,.2);
 }
 
 .hover-bg-white-20:focus {
-  background-color: rgba(255,255,255,.2)
+  background-color: rgba(255,255,255,.2);
 }
 
 .hover-bg-white-10:hover {
-  background-color: rgba(255,255,255,.1)
+  background-color: rgba(255,255,255,.1);
 }
 
 .hover-bg-white-10:focus {
-  background-color: rgba(255,255,255,.1)
+  background-color: rgba(255,255,255,.1);
 }
 
 .hover-dark-red:hover {
-  color: #e7040f
+  color: #e21e2c;
 }
 
 .hover-dark-red:focus {
-  color: #e7040f
+  color: #e21e2c;
 }
 
 .hover-red:hover {
-  color: #ff4d5b
+  color: #ff4d5b;
 }
 
 .hover-red:focus {
-  color: #ff4d5b
+  color: #ff4d5b;
 }
 
 .hover-light-red:hover {
-  color: #ff725c
+  color: #ff8c95;
 }
 
 .hover-light-red:focus {
-  color: #ff725c
+  color: #ff8c95;
 }
 
 .hover-orange:hover {
-  color: #ff6300
+  color: #ff6300;
 }
 
 .hover-orange:focus {
-  color: #ff6300
+  color: #ff6300;
 }
 
 .hover-gold:hover {
-  color: #ffaf00
+  color: #ffaf00;
 }
 
 .hover-gold:focus {
-  color: #ffaf00
+  color: #ffaf00;
 }
 
 .hover-yellow:hover {
-  color: #ffd700
+  color: #ffd700;
 }
 
 .hover-yellow:focus {
-  color: #ffd700
+  color: #ffd700;
 }
 
 .hover-light-yellow:hover {
-  color: #fbf1a9
+  color: #fbf1a9;
 }
 
 .hover-light-yellow:focus {
-  color: #fbf1a9
+  color: #fbf1a9;
 }
 
 .hover-purple:hover {
-  color: #676ee4
+  color: #7e57c2;
 }
 
 .hover-purple:focus {
-  color: #676ee4
+  color: #7e57c2;
 }
 
 .hover-light-purple:hover {
-  color: #a463f2
+  color: #b39ddb;
 }
 
 .hover-light-purple:focus {
-  color: #a463f2
+  color: #b39ddb;
 }
 
 .hover-dark-pink:hover {
-  color: #d5008f
+  color: #d5008f;
 }
 
 .hover-dark-pink:focus {
-  color: #d5008f
+  color: #d5008f;
 }
 
 .hover-hot-pink:hover {
-  color: #ff41b4
+  color: #ff41b4;
 }
 
 .hover-hot-pink:focus {
-  color: #ff41b4
+  color: #ff41b4;
 }
 
 .hover-pink:hover {
-  color: #ff80cc
+  color: #ff80cc;
 }
 
 .hover-pink:focus {
-  color: #ff80cc
+  color: #ff80cc;
 }
 
 .hover-light-pink:hover {
-  color: #ffa3d7
+  color: #ffa3d7;
 }
 
 .hover-light-pink:focus {
-  color: #ffa3d7
+  color: #ffa3d7;
 }
 
 .hover-dark-green:hover {
-  color: #137752
+  color: #137752;
 }
 
 .hover-dark-green:focus {
-  color: #137752
+  color: #137752;
 }
 
 .hover-green:hover {
-  color: #00d17d
+  color: #00d17d;
 }
 
 .hover-green:focus {
-  color: #00d17d
+  color: #00d17d;
 }
 
 .hover-light-green:hover {
-  color: #8cc823
+  color: #3deca6;
 }
 
 .hover-light-green:focus {
-  color: #8cc823
+  color: #3deca6;
 }
 
 .hover-navy:hover {
-  color: #001b44
+  color: #001b44;
 }
 
 .hover-navy:focus {
-  color: #001b44
+  color: #001b44;
 }
 
 .hover-dark-blue:hover {
-  color: #00449e
+  color: #00449e;
 }
 
 .hover-dark-blue:focus {
-  color: #00449e
+  color: #00449e;
 }
 
 .hover-blue:hover {
-  color: hsl(195, 100%, 46%)
+  color: hsl(195, 100%, 46%);
 }
 
 .hover-blue:focus {
-  color: hsl(195, 100%, 46%)
+  color: hsl(195, 100%, 46%);
 }
 
 .hover-light-blue:hover {
-  color: #96ccff
+  color: #70dbff;
 }
 
 .hover-light-blue:focus {
-  color: #96ccff
+  color: #70dbff;
 }
 
 .hover-lightest-blue:hover {
-  color: #cdecff
+  color: #ccf2ff;
 }
 
 .hover-lightest-blue:focus {
-  color: #cdecff
+  color: #ccf2ff;
 }
 
 .hover-washed-blue:hover {
-  color: #f6fffe
+  color: #eafaff;
 }
 
 .hover-washed-blue:focus {
-  color: #f6fffe
+  color: #eafaff;
 }
 
 .hover-washed-green:hover {
-  color: #e8fdf5
+  color: #e8fdf5;
 }
 
 .hover-washed-green:focus {
-  color: #e8fdf5
+  color: #e8fdf5;
 }
 
 .hover-washed-yellow:hover {
-  color: #fffceb
+  color: #fffceb;
 }
 
 .hover-washed-yellow:focus {
-  color: #fffceb
+  color: #fffceb;
 }
 
 .hover-washed-red:hover {
-  color: #ffdfdf
+  color: #ffdfdf;
 }
 
 .hover-washed-red:focus {
-  color: #ffdfdf
+  color: #ffdfdf;
 }
 
 .hover-bg-dark-red:hover {
-  background-color: #e7040f
+  background-color: #e21e2c;
 }
 
 .hover-bg-dark-red:focus {
-  background-color: #e7040f
+  background-color: #e21e2c;
 }
 
 .hover-bg-red:hover {
-  background-color: #ff4d5b
+  background-color: #ff4d5b;
 }
 
 .hover-bg-red:focus {
-  background-color: #ff4d5b
+  background-color: #ff4d5b;
 }
 
 .hover-bg-light-red:hover {
-  background-color: #ff725c
+  background-color: #ff8c95;
 }
 
 .hover-bg-light-red:focus {
-  background-color: #ff725c
+  background-color: #ff8c95;
 }
 
 .hover-bg-orange:hover {
-  background-color: #ff6300
+  background-color: #ff6300;
 }
 
 .hover-bg-orange:focus {
-  background-color: #ff6300
+  background-color: #ff6300;
 }
 
 .hover-bg-gold:hover {
-  background-color: #ffaf00
+  background-color: #ffaf00;
 }
 
 .hover-bg-gold:focus {
-  background-color: #ffaf00
+  background-color: #ffaf00;
 }
 
 .hover-bg-yellow:hover {
-  background-color: #ffd700
+  background-color: #ffd700;
 }
 
 .hover-bg-yellow:focus {
-  background-color: #ffd700
+  background-color: #ffd700;
 }
 
 .hover-bg-light-yellow:hover {
-  background-color: #fbf1a9
+  background-color: #fbf1a9;
 }
 
 .hover-bg-light-yellow:focus {
-  background-color: #fbf1a9
+  background-color: #fbf1a9;
 }
 
 .hover-bg-purple:hover {
-  background-color: #676ee4
+  background-color: #7e57c2;
 }
 
 .hover-bg-purple:focus {
-  background-color: #676ee4
+  background-color: #7e57c2;
 }
 
 .hover-bg-light-purple:hover {
-  background-color: #a463f2
+  background-color: #b39ddb;
 }
 
 .hover-bg-light-purple:focus {
-  background-color: #a463f2
+  background-color: #b39ddb;
 }
 
 .hover-bg-dark-pink:hover {
-  background-color: #d5008f
+  background-color: #d5008f;
 }
 
 .hover-bg-dark-pink:focus {
-  background-color: #d5008f
+  background-color: #d5008f;
 }
 
 .hover-bg-hot-pink:hover {
-  background-color: #ff41b4
+  background-color: #ff41b4;
 }
 
 .hover-bg-hot-pink:focus {
-  background-color: #ff41b4
+  background-color: #ff41b4;
 }
 
 .hover-bg-pink:hover {
-  background-color: #ff80cc
+  background-color: #ff80cc;
 }
 
 .hover-bg-pink:focus {
-  background-color: #ff80cc
+  background-color: #ff80cc;
 }
 
 .hover-bg-light-pink:hover {
-  background-color: #ffa3d7
+  background-color: #ffa3d7;
 }
 
 .hover-bg-light-pink:focus {
-  background-color: #ffa3d7
+  background-color: #ffa3d7;
 }
 
 .hover-bg-dark-green:hover {
-  background-color: #137752
+  background-color: #137752;
 }
 
 .hover-bg-dark-green:focus {
-  background-color: #137752
+  background-color: #137752;
 }
 
 .hover-bg-green:hover {
-  background-color: #00d17d
+  background-color: #00d17d;
 }
 
 .hover-bg-green:focus {
-  background-color: #00d17d
+  background-color: #00d17d;
 }
 
 .hover-bg-light-green:hover {
-  background-color: #8cc823
+  background-color: #3deca6;
 }
 
 .hover-bg-light-green:focus {
-  background-color: #8cc823
+  background-color: #3deca6;
 }
 
 .hover-bg-navy:hover {
-  background-color: #001b44
+  background-color: #001b44;
 }
 
 .hover-bg-navy:focus {
-  background-color: #001b44
+  background-color: #001b44;
 }
 
 .hover-bg-dark-blue:hover {
-  background-color: #00449e
+  background-color: #00449e;
 }
 
 .hover-bg-dark-blue:focus {
-  background-color: #00449e
+  background-color: #00449e;
 }
 
 .hover-bg-blue:hover {
-  background-color: hsl(195, 100%, 46%)
+  background-color: hsl(195, 100%, 46%);
 }
 
 .hover-bg-blue:focus {
-  background-color: hsl(195, 100%, 46%)
+  background-color: hsl(195, 100%, 46%);
 }
 
 .hover-bg-light-blue:hover {
-  background-color: #96ccff
+  background-color: #70dbff;
 }
 
 .hover-bg-light-blue:focus {
-  background-color: #96ccff
+  background-color: #70dbff;
 }
 
 .hover-bg-lightest-blue:hover {
-  background-color: #cdecff
+  background-color: #ccf2ff;
 }
 
 .hover-bg-lightest-blue:focus {
-  background-color: #cdecff
+  background-color: #ccf2ff;
 }
 
 .hover-bg-washed-blue:hover {
-  background-color: #f6fffe
+  background-color: #eafaff;
 }
 
 .hover-bg-washed-blue:focus {
-  background-color: #f6fffe
+  background-color: #eafaff;
 }
 
 .hover-bg-washed-green:hover {
-  background-color: #e8fdf5
+  background-color: #e8fdf5;
 }
 
 .hover-bg-washed-green:focus {
-  background-color: #e8fdf5
+  background-color: #e8fdf5;
 }
 
 .hover-bg-washed-yellow:hover {
-  background-color: #fffceb
+  background-color: #fffceb;
 }
 
 .hover-bg-washed-yellow:focus {
-  background-color: #fffceb
+  background-color: #fffceb;
 }
 
 .hover-bg-washed-red:hover {
-  background-color: #ffdfdf
+  background-color: #ffdfdf;
 }
 
 .hover-bg-washed-red:focus {
-  background-color: #ffdfdf
+  background-color: #ffdfdf;
 }
 
 /* Variables */
@@ -6378,13 +6823,13 @@ code, .code {
 }
 
 .nested-links a:hover {
-  color: #96ccff;
-  transition: color .15s ease-in
+  color: #70dbff;
+  transition: color .15s ease-in;
 }
 
 .nested-links a:focus {
-  color: #96ccff;
-  transition: color .15s ease-in
+  color: #70dbff;
+  transition: color .15s ease-in;
 }
 
 /*
@@ -6416,10 +6861,6 @@ iframe[name='google_conversion_frame'] {
 
 strong {
   font-weight: 500;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
 }
 
 .mw-site {
@@ -6907,9 +7348,9 @@ h1, h2, h3, h4, h5, h6 {
   .k--bootstrap-reset .h2,
   .k--bootstrap-reset .h3,
   .k--bootstrap-reset .h4 {
-  letter-spacing: -.02em
+  letter-spacing: -.02em;
 }
 
 .k--bootstrap-reset label {
-  font-weight: inherit
+  font-weight: inherit;
 }
