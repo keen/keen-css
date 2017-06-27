@@ -7,30 +7,8 @@
 
 */
 
-/* google conversion frame */
-iframe[name='google_conversion_frame'] {
-  height: 0 !important;
-  width: 0 !important;
-  line-height: 0 !important;
-  font-size: 0 !important;
-  margin-top: -13px;
-  float: left;
-}
-
-/*a {
-  text-decoration: none;
-}*/
-
 .link:focus {
   outline: 0;
-}
-
-strong {
-  font-weight: 500;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
 }
 
 .mw-site {

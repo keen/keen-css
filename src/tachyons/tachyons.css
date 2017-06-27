@@ -24,10 +24,6 @@
  */
 
 
-/* External Library Includes */
-@import './_normalize';
-
-
 /* Modules */
 @import './_box-sizing';
 @import './_aspect-ratios';

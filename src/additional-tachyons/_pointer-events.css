@@ -1,0 +1,13 @@
+/*****************
+ * Pointer Events None
+ *****************/
+.pe-none { pointer-events: none; }
+@media (--breakpoint-not-small) {
+  .pe-none-ns { pointer-events: none; }
+}
+@media (--breakpoint-medium) {
+  .pe-none-m { pointer-events: none; }
+}
+@media (--breakpoint-large) {
+  .pe-none-l { pointer-events: none; }
+}

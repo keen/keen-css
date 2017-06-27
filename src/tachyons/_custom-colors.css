@@ -13,13 +13,13 @@
 :root {
   --black:        hsl(220,20%,4%);
   --near-black:   hsl(220,20%,14%);
-  --dark-gray:    hsl(220,20%,20%);
-  --mid-gray:     hsl(220,20%,35%);
-  --gray:         hsl(220,20%,50%);
+  --dark-gray:    #5f5f5f;
+  --mid-gray:     #a3a3a3;
+  --gray:         #e8e8e8;
   --silver:       hsl(220,20%,60%);
   --light-silver: hsl(220,20%,67%);
   --moon-gray:    hsl(220,20%,80%);
-  --light-gray:   hsl(220,20%,92%);
+  --light-gray:   #f4f4f4;
   --near-white:   hsl(220,20%,96%);
   --white: #fff;
 
@@ -79,11 +79,11 @@
  --white-0125: rgba(255,255,255,.0125);
 
   --dark-red:  #e7040f;
-  --red:  #ff4d5b;
+  --red:  #cf625b;
   --light-red:  #ff725c;
   --orange:  #ff6300;
   --gold:  #ffaf00;
-  --yellow:  #ffd700;
+  --yellow:  #ffb244;
   --light-yellow:  #fbf1a9;
   --purple:  #676ee4;
   --light-purple:  #a463f2;
@@ -92,19 +92,19 @@
   --pink:  #ff80cc;
   --light-pink:  #ffa3d7;
   --dark-green:  #137752;
-  --green:  #00d17d;
+  --green:  #71b157;
   /*--green:  #5ac846;*/
   --light-green:  #8cc823;
   /*--navy:  #32325d;*/
   --dark-blue:  #00449e;
-  --blue:  hsl(195, 100%, 46%); /* #00b0eb */
+  --blue:  #0082ca;
   /*--blue:  hsl(208, 100%, 50%);*/
   /*--blue:  hsl(200, 100%, 50%);*/
   /*--blue:  hsl(219, 95%,  59%);*/
   /*--blue:  hsl(230, 90%,  64%);*/
-  --light-blue:  #96ccff;
-  --lightest-blue:  #cdecff;
-  --washed-blue:  #f6fffe;
+  --light-blue:  #66b4df;
+  --lightest-blue:  #cce6f4;
+  --washed-blue:  #33abba;
   --washed-green:  #e8fdf5;
   --washed-yellow:  #fffceb;
   --washed-red:  #ffdfdf;

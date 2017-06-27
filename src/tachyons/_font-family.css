@@ -34,7 +34,7 @@
 /* Monospaced Typefaces (for code) */
 
 /* From http://cssfontstack.com */
-code, .code {
+.code {
   font-family: Consolas,
                monaco,
                monospace;
