@@ -16,7 +16,7 @@ const plugins = [
   require('postcss-conditionals')(),
   require('postcss-nesting')(),
   require('postcss-apply')(),
-  require('postcss-class-prefix')('keen-analytics--')
+  require('postcss-wrap')({ selector: '.keen-analytics' })
 ];
 
 const perfectionistOptions = {
