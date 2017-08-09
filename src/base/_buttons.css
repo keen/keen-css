@@ -166,6 +166,7 @@
 [class^='k--btn'][disabled]:hover,
 [class^='k--btn'][disabled]:focus {
   background-color: var(--light-gray);
+  box-shadow: none;
   border-color: transparent;
   color: var(--moon-gray);
   cursor: not-allowed;
