@@ -36,7 +36,6 @@
   color: var(--white);
   cursor: pointer;
   display: inline-block;
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: .875rem;
   font-weight: 400;
   letter-spacing: -.02em;
@@ -52,7 +51,6 @@
 .k--btn-sm {
   font-size: .75rem;
   padding: .25rem .5rem;
-  letter-spacing: normal;
 }
 
 .k--btn-lg {
