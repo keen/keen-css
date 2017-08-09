@@ -9,7 +9,7 @@ label, .k--label {
   display: block;
   font-size: .875rem;
   font-weight: 400;
-  margin: 0 0 .5rem 0;
+  margin: .5rem 0;
 }
 
 button:focus {
