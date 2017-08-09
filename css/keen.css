@@ -1114,17 +1114,6 @@ select.k--input, .k--select {
     outline: none;
 }
 
-.k--badge {
-    background-color: hsl(220, 20%, 67%);
-    border-radius: 9999px;
-    color: white;
-    display: inline-block;
-    font-size: .75rem;
-    font-weight: 500;
-    line-height: 1;
-    padding: .25rem .5rem;
-}
-
 [class^='k--btn'].k--disabled {
     background-color: hsl(220, 20%, 96%);
     box-shadow: none;
@@ -1450,6 +1439,26 @@ picture {
 }
 
 /* Defines a container for multiple image resources */
+
+/*
+
+  BADGE
+
+  Simple pill shaped badge as a base for various badges and notificaitons.
+  Use atomic Tachyons classes to style at will.
+
+*/
+
+.k--badge {
+    background-color: hsl(220, 20%, 67%);
+    border-radius: 9999px;
+    color: white;
+    display: inline-block;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: .25rem .5rem;
+}
 
 .k--modal-wrapper {
     position: absolute;
