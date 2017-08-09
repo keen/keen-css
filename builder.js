@@ -7,12 +7,13 @@ const cssnano = require('cssnano');
 const rmComments = require('postcss-discard-comments');
 
 const plugins = [
+  require('postcss-devtools')(),
+  require('postcss-import')(),
+  require('postcss-css-variables')(),
   require('css-mqpacker')(),
   require('perfectionist')(),
   require('autoprefixer')(),
-  require('postcss-import')(),
   require('postcss-custom-media')(),
-  require('postcss-css-variables')(),
   require('postcss-conditionals')(),
   require('postcss-nesting')(),
   require('postcss-apply')()
