@@ -126,3 +126,38 @@ summary {
 template {
   display: none;
 }
+
+.k--input, .k--select {
+  background-image: none;
+  background-clip: padding-box;
+  background-color: var(--white);
+  border: 1px solid var(--moon-gray);
+  border-radius: .25rem;
+  color: var(--gray);
+  display: block;
+  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 200;
+  letter-spacing: -.02em;
+  line-height: 1.5;
+  padding: .5rem .75rem;
+  transition: all .15s ease-in-out;
+  width: 100%;
+}
+
+select.k--input, .k--select {
+  cursor: pointer;
+  height: calc(1.5 * 0.875rem + 1rem + 2px);
+}
+
+.k--input::placeholder {
+  color: var(--moon-gray);
+}
+
+.k--input:focus, .k--select:focus {
+  background-color: var(--white);
+  border-color: var(--blue);
+  outline: none;
+  box-shadow: 0 0 0 0.125rem rgba(5, 176, 235, 0.3);
+}
+
