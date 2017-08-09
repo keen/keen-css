@@ -163,11 +163,12 @@
 [class^='k--btn'][disabled],
 [class^='k--btn'][disabled]:hover,
 [class^='k--btn'][disabled]:focus {
-  background-color: var(--light-gray);
+  background-color: var(--near-white);
   box-shadow: none;
-  border-color: transparent;
+  border-color: var(--light-gray);
   color: var(--moon-gray);
   cursor: not-allowed;
+  opacity: 1;
 }
 
 .k--btn-group {
