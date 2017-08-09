@@ -16,11 +16,9 @@ html {
 }
 
 body {
-  color: var(--dark-gray);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--near-black);
   font-weight: var(--font-weight-headings);
   line-height: 1.25; /* .lh-title */
   margin: 0.75em 0;
@@ -74,19 +72,23 @@ abbr[title], acronym[title] {
 pre,
 code,
 kbd,
+tt,
 samp {
   letter-spacing: normal;
-  font-size: .75em;
+  font-size: .875em;
   font-family: var(--font-family-monospace);
   font-weight: normal;
 }
 
 code,
 kbd,
+tt,
 samp {
-  background-color: var(--black-10);
-  padding: .125rem .25rem;
-  border-radius: .125rem;
+  display: inline-block;
+  background-color: var(--black-05);
+  border: 1px solid var(--black-05);
+  padding: 0 .25rem;
+  border-radius: .25rem;
 }
 
 pre {
@@ -108,6 +110,11 @@ ol,
 ul,
 dl {
   margin: 1em 0;
+}
+
+ol,
+ul {
+  padding-left: 2em;
 }
 
 ol ol,

@@ -14,7 +14,6 @@ caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: .875rem;
-  color: var(--gray);
   text-align: left;
   caption-side: bottom;
 }
