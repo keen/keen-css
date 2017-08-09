@@ -145,6 +145,13 @@ template {
   width: 100%;
 }
 
+.k--form-help {
+  color: var(--light-silver);
+  display: block;
+  font-size: .75rem;
+  margin: .5rem 0;
+}
+
 select.k--input, .k--select {
   cursor: pointer;
   height: calc(1.5 * 0.875rem + 1rem + 2px);
@@ -161,3 +168,15 @@ select.k--input, .k--select {
   box-shadow: 0 0 0 0.125rem rgba(5, 176, 235, 0.3);
 }
 
+.k--radio, .k--checkbox {
+  cursor: pointer;
+  color: var(--gray);
+  font-weight: 200;
+  padding-left: 1.25rem;
+}
+
+.k--radio input[type="radio"], .k--checkbox input[type="checkbox"] {
+  cursor: pointer;
+  margin-left: -1.25rem;
+  margin-right: .25rem;
+}
