@@ -15,8 +15,12 @@ html {
   font-weight: var(--font-weight-body);
 }
 
-h1, h2, h3, h4, h5, h6 {
+body {
   color: var(--dark-gray);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--near-black);
   font-weight: var(--font-weight-headings);
   line-height: 1.25; /* .lh-title */
   margin: 0.75em 0;
@@ -26,7 +30,7 @@ h1 { font-size: 3rem;    } /* .f1 */
 h2 { font-size: 2.25rem; } /* .f2 */
 h3 { font-size: 1.5rem;  } /* .f3 */
 h4 { font-size: 1.25rem; } /* .f4 */
-h5 { font-size: 1rem;    } /* .f5 */
+h5 { font-size: 1rem; } /* .f5 */
 h6 { font-size: .875rem; } /* .f6 */
 
 p {
@@ -74,14 +78,21 @@ samp {
   letter-spacing: normal;
   font-size: .75em;
   font-family: var(--font-family-monospace);
+  font-weight: normal;
 }
 
 code,
 kbd,
 samp {
-  background-color: var(--light-gray);
+  background-color: var(--black-10);
   padding: .125rem .25rem;
   border-radius: .125rem;
+}
+
+pre {
+  background-color: var(--near-white);
+  border-radius: .25rem;
+  padding: var(--spacing-medium);
 }
 
 dt {
