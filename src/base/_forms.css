@@ -9,7 +9,7 @@ label, .k--label {
   display: block;
   font-size: .875rem;
   font-weight: 400;
-  margin: .5rem 0;
+  margin: 0 0 .5rem 0;
 }
 
 button:focus {
@@ -156,14 +156,14 @@ template {
   background-color: var(--near-white);
   border-color: var(--light-gray);
   &:focus {
-    border-color: var(--moon-gray);
-    box-shadow: 0 0 0 0.125rem hsla(220, 100%, 4%, .05);
-    background-color: var(--near-white);
+    border-color: var(--read-only);
+    box-shadow: 0 0 0 0.125rem var(--focus-read-only);
+    background-color: var(--washed-read-only);
   }
 }
 
 .k--form-help {
-  color: var(--light-silver);
+  color: var(--silver);
   display: block;
   font-size: .75rem;
   margin: .5rem 0;

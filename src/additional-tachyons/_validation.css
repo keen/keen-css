@@ -1,0 +1,88 @@
+/*
+
+  VALIDATION STYLES
+
+*/
+
+:root {
+
+  --primary: var(--blue);
+  --success: var(--green);
+  --warning: var(--gold);
+  --danger: var(--red);
+  --read-only: var(--moon-gray);
+
+  --washed-primary: var(--washed-blue);
+  --washed-success: var(--washed-green);
+  --washed-warning: var(--washed-yellow);
+  --washed-danger: var(--washed-red);
+  --washed-read-only: var(--near-white);
+
+  --focus-primary: rgba(5, 176, 235, 0.3);
+  --focus-success: rgba(0, 209, 125, 0.3);
+  --focus-warning: rgba(255, 175, 0, .3);
+  --focus-danger: rgba(255, 77, 91, 0.3);
+  --focus-read-only: var(--black-05);
+
+}
+
+.k--primary {
+  color: var(--primary);
+}
+
+.k--success {
+  color: var(--success);
+}
+
+.k--warning {
+  color: var(--warning);
+}
+
+.k--danger {
+  color: var(--danger);
+}
+
+.k--focus-primary {
+  border-color: var(--primary);
+  &:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 .125rem var(--focus-primary);
+    outline: none;
+  }
+}
+
+.k--focus-success {
+  border-color: var(--success);
+  &:focus {
+    border-color: var(--success);
+    box-shadow: 0 0 0 .125rem var(--focus-success);
+    outline: none;
+  }
+}
+
+.k--focus-warning {
+  border-color: var(--warning);
+  &:focus {
+    border-color: var(--warning);
+    box-shadow: 0 0 0 .125rem var(--focus-warning);
+    outline: none;
+  }
+}
+
+.k--focus-danger {
+  border-color: var(--danger);
+  &:focus {
+    border-color: var(--danger);
+    box-shadow: 0 0 0 .125rem var(--focus-danger);
+    outline: none;
+  }
+}
+
+.k--focus-read-only {
+  border-color: var(--read-only);
+  &:focus {
+    border-color: var(--read-only);
+    box-shadow: 0 0 0 .125rem var(--focus-read-only);
+    outline: none;
+  }
+}
