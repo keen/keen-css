@@ -22,6 +22,22 @@
   color: var(--danger);
 }
 
+.k--bg-primary {
+  background-color: var(--primary);
+}
+
+.k--bg-success {
+  background-color: var(--success);
+}
+
+.k--bg-warning {
+  background-color: var(--warning);
+}
+
+.k--bg-danger {
+  background-color: var(--danger);
+}
+
 .k--focus-primary {
   border-color: var(--primary);
   &:focus {

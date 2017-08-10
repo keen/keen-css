@@ -660,6 +660,11 @@ ol ol, ul ul, ol ul, ul ol {
     margin: 0;
 }
 
+mark {
+    background-color: #ffe96b;
+    color: inherit;
+}
+
 /*
 
   TABLES
@@ -853,7 +858,7 @@ template {
 
 .k--btn-lg {
     font-size: 1rem;
-    line-height: 1.25;
+    line-height: 1;
     padding: 1rem 2rem;
 }
 
@@ -1486,6 +1491,22 @@ select.k--input, .k--select {
 
 .k--danger {
     color: #ff4d5b;
+}
+
+.k--bg-primary {
+    background-color: hsl(195, 100%, 46%);
+}
+
+.k--bg-success {
+    background-color: #00d17d;
+}
+
+.k--bg-warning {
+    background-color: #ffaf00;
+}
+
+.k--bg-danger {
+    background-color: #ff4d5b;
 }
 
 .k--focus-primary {
