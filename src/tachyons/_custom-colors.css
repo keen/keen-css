@@ -1,12 +1,15 @@
 /*
 
-   Tachyons
-   COLOR VARIABLES
+  Tachyons
+  COLOR VARIABLES
 
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
+  Grayscale
+  - Solids
+  - Transparencies
+  Colors
+  - Base Set
+  - Validation Colors
+
 
 */
 
@@ -22,7 +25,6 @@
   --light-gray:   hsl(220,20%,92%);
   --near-white:   hsl(220,20%,96%);
   --white: #fff;
-
 
 /*from chrome dev tools (material grayscale)*/
   /*--black:        #263238;
@@ -103,5 +105,23 @@
   --washed-green:  #D9fff0;
   --washed-yellow:  #fffadb;
   --washed-red:  #ffdfdf;
+
+  --primary: var(--blue);
+  --success: var(--green);
+  --warning: var(--gold);
+  --danger: var(--red);
+  --read-only: var(--moon-gray);
+
+  --washed-primary: var(--washed-blue);
+  --washed-success: var(--washed-green);
+  --washed-warning: var(--washed-yellow);
+  --washed-danger: var(--washed-red);
+  --washed-read-only: var(--near-white);
+
+  --focus-primary: rgba(5, 176, 235, 0.3);
+  --focus-success: rgba(0, 209, 125, 0.3);
+  --focus-warning: rgba(255, 175, 0, .3);
+  --focus-danger: rgba(255, 77, 91, 0.3);
+  --focus-read-only: var(--black-05);
 
 }

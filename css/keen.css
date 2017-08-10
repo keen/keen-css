@@ -797,58 +797,6 @@ template {
 
 /*
 
-Frames
-
-*/
-
-iframe {
-}
-
-/* Defines an inline frame */
-
-/*
-
-  IMAGES
-
-*/
-
-img {
-}
-
-/* Defines an image */
-
-map {
-}
-
-/* Defines a client-side image-map */
-
-area {
-}
-
-/* Defines an area inside an image-map */
-
-canvas {
-}
-
-/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
-
-figcaption {
-}
-
-/* Defines a caption for a <figure> element */
-
-figure {
-}
-
-/* Specifies self-contained content */
-
-picture {
-}
-
-/* Defines a container for multiple image resources */
-
-/*
-
   BADGE
 
   Simple pill shaped badge as a base for various badges and notificaitons.
@@ -1514,6 +1462,80 @@ select.k--input, .k--select {
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+}
+
+/*
+
+  VALIDATION STYLES
+
+  see tachyons/_custom-colors.css for variables.
+
+*/
+
+.k--primary {
+    color: hsl(195, 100%, 46%);
+}
+
+.k--success {
+    color: #00d17d;
+}
+
+.k--warning {
+    color: #ffaf00;
+}
+
+.k--danger {
+    color: #ff4d5b;
+}
+
+.k--focus-primary {
+    border-color: hsl(195, 100%, 46%);
+}
+
+.k--focus-primary:focus {
+    border-color: hsl(195, 100%, 46%);
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+    outline: none;
+}
+
+.k--focus-success {
+    border-color: #00d17d;
+}
+
+.k--focus-success:focus {
+    border-color: #00d17d;
+    box-shadow: 0 0 0 .125rem rgba(0, 209, 125, .3);
+    outline: none;
+}
+
+.k--focus-warning {
+    border-color: #ffaf00;
+}
+
+.k--focus-warning:focus {
+    border-color: #ffaf00;
+    box-shadow: 0 0 0 .125rem rgba(255, 175, 0, .3);
+    outline: none;
+}
+
+.k--focus-danger {
+    border-color: #ff4d5b;
+}
+
+.k--focus-danger:focus {
+    border-color: #ff4d5b;
+    box-shadow: 0 0 0 .125rem rgba(255, 77, 91, .3);
+    outline: none;
+}
+
+.k--focus-read-only {
+    border-color: hsl(220, 20%, 80%);
+}
+
+.k--focus-read-only:focus {
+    border-color: hsl(220, 20%, 80%);
+    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
+    outline: none;
 }
 
 /*! TACHYONS v4.6.1 | http://tachyons.io */
@@ -6356,13 +6378,16 @@ iframe[name='google_conversion_frame'] {
 
 /*
 
-   Tachyons
-   COLOR VARIABLES
+  Tachyons
+  COLOR VARIABLES
 
-   Grayscale
-   - Solids
-   - Transparencies
-   Colors
+  Grayscale
+  - Solids
+  - Transparencies
+  Colors
+  - Base Set
+  - Validation Colors
+
 
 */
 
@@ -6557,78 +6582,6 @@ iframe[name='google_conversion_frame'] {
     left: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
             transform: translateY(-50%) translateX(-50%);
-}
-
-/*
-
-  VALIDATION STYLES
-
-*/
-
-.k--primary {
-    color: hsl(195, 100%, 46%);
-}
-
-.k--success {
-    color: #00d17d;
-}
-
-.k--warning {
-    color: #ffaf00;
-}
-
-.k--danger {
-    color: #ff4d5b;
-}
-
-.k--focus-primary {
-    border-color: hsl(195, 100%, 46%);
-}
-
-.k--focus-primary:focus {
-    border-color: hsl(195, 100%, 46%);
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
-    outline: none;
-}
-
-.k--focus-success {
-    border-color: #00d17d;
-}
-
-.k--focus-success:focus {
-    border-color: #00d17d;
-    box-shadow: 0 0 0 .125rem rgba(0, 209, 125, .3);
-    outline: none;
-}
-
-.k--focus-warning {
-    border-color: #ffaf00;
-}
-
-.k--focus-warning:focus {
-    border-color: #ffaf00;
-    box-shadow: 0 0 0 .125rem rgba(255, 175, 0, .3);
-    outline: none;
-}
-
-.k--focus-danger {
-    border-color: #ff4d5b;
-}
-
-.k--focus-danger:focus {
-    border-color: #ff4d5b;
-    box-shadow: 0 0 0 .125rem rgba(255, 77, 91, .3);
-    outline: none;
-}
-
-.k--focus-read-only {
-    border-color: hsl(220, 20%, 80%);
-}
-
-.k--focus-read-only:focus {
-    border-color: hsl(220, 20%, 80%);
-    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
-    outline: none;
 }
 
 .on {

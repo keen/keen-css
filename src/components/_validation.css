@@ -2,29 +2,9 @@
 
   VALIDATION STYLES
 
+  see tachyons/_custom-colors.css for variables.
+
 */
-
-:root {
-
-  --primary: var(--blue);
-  --success: var(--green);
-  --warning: var(--gold);
-  --danger: var(--red);
-  --read-only: var(--moon-gray);
-
-  --washed-primary: var(--washed-blue);
-  --washed-success: var(--washed-green);
-  --washed-warning: var(--washed-yellow);
-  --washed-danger: var(--washed-red);
-  --washed-read-only: var(--near-white);
-
-  --focus-primary: rgba(5, 176, 235, 0.3);
-  --focus-success: rgba(0, 209, 125, 0.3);
-  --focus-warning: rgba(255, 175, 0, .3);
-  --focus-danger: rgba(255, 77, 91, 0.3);
-  --focus-read-only: var(--black-05);
-
-}
 
 .k--primary {
   color: var(--primary);
