@@ -123,12 +123,12 @@
   }
 }
 
-[class^='k--btn'].k--disabled,
-[class^='k--btn'].k--disabled:hover,
-[class^='k--btn'].k--disabled:focus,
-[class^='k--btn'][disabled],
-[class^='k--btn'][disabled]:hover,
-[class^='k--btn'][disabled]:focus {
+[class^="k--btn"].k--disabled,
+[class^="k--btn"].k--disabled:hover,
+[class^="k--btn"].k--disabled:focus,
+[class^="k--btn"][disabled],
+[class^="k--btn"][disabled]:hover,
+[class^="k--btn"][disabled]:focus {
   background-color: var(--near-white);
   box-shadow: none;
   border-color: var(--light-gray);

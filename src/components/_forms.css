@@ -6,13 +6,6 @@
 
 */
 
-[class^="k--label"] {
-  display: block;
-  font-size: .875rem;
-  font-weight: 400;
-  margin-bottom: .5rem;
-}
-
 .k--input, .k--select {
   background-image: none;
   background-clip: padding-box;
@@ -31,37 +24,9 @@
   width: 100%;
 }
 
-.k--input:disabled, .k--select:disabled {
-  background-color: var(--near-white);
-  border-color: var(--light-gray);
-  color: var(--moon-gray);
-  cursor: not-allowed;
-}
-
-.k--input[readonly] {
-  background-color: var(--near-white);
-  border-color: var(--light-gray);
-  &:focus {
-    border-color: var(--read-only);
-    box-shadow: 0 0 0 0.125rem var(--focus-read-only);
-    background-color: var(--washed-read-only);
-  }
-}
-
-.k--form-help {
-  color: var(--silver);
-  display: block;
-  font-size: .75rem;
-  margin: .5rem 0;
-}
-
 select.k--input, .k--select {
   cursor: pointer;
   height: calc(1.5 * 0.875rem + 1rem + 2px);
-}
-
-.k--input::placeholder {
-  color: var(--moon-gray);
 }
 
 .k--input:focus, .k--select:focus {
@@ -69,6 +34,13 @@ select.k--input, .k--select {
   border-color: var(--blue);
   outline: none;
   box-shadow: 0 0 0 0.125rem rgba(5, 176, 235, 0.3);
+}
+
+.k--input:disabled, .k--select:disabled {
+  background-color: var(--near-white);
+  border-color: var(--light-gray);
+  color: var(--moon-gray);
+  cursor: not-allowed;
 }
 
 .k--label-radio, .k--label-checkbox {
@@ -90,4 +62,32 @@ select.k--input, .k--select {
   & input {
     cursor: not-allowed;
   }
+}
+
+.k--input::placeholder {
+  color: var(--moon-gray);
+}
+
+.k--input[readonly] {
+  background-color: var(--near-white);
+  border-color: var(--light-gray);
+  &:focus {
+    border-color: var(--read-only);
+    box-shadow: 0 0 0 0.125rem var(--focus-read-only);
+    background-color: var(--washed-read-only);
+  }
+}
+
+[class^="k--label"] {
+  display: block;
+  font-size: .875rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.k--form-help {
+  color: var(--silver);
+  display: block;
+  font-size: .75rem;
+  margin: .5rem 0;
 }
