@@ -1,33 +1,10 @@
-:root {
-  --button-base: {
-    border: none;
-    font-weight: 300;
-    padding: .5rem 1rem .5rem 1rem;
-    border-radius: .125rem;
-    border: none;
-    transition: background-color .15s, color .15s;
-  }
+/*
 
-  --white-text-button-base {
-    @apply --button-base;
-    color: var(--white);
-  }
+  BUTTONS
 
-  --blue-text-button-base {
-    @apply --button-base;
-    color: var(--blue);
-  }
+  Classes for building on-brand, consistent buttons.
 
-  --black-text-button-base {
-    @apply --button-base;
-    color: var(--near-black);
-  }
-
-  --disabled-button-base {
-    background-color: var(--black-10);
-    color: var(--black-30);
-  }
-}
+*/
 
 [class^="k--btn"] {
   background-color: transparent;
@@ -158,119 +135,4 @@
   color: var(--moon-gray);
   cursor: not-allowed;
   opacity: 1;
-}
-
-.k--btn-group {
-  display: inline-flex;
-}
-
-.k--btn-group [class^='k--btn'] {
-  position: relative;
-  z-index: 0;
-  &:active, &:focus {
-    z-index: 2;
-  }
-  &:first-child {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-  }
-  &:last-child {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-  }
-  &:not(:first-child) {
-    margin-left: -1px;
-  }
-  &:not(:first-child):not(:last-child) {
-    border-radius: 0;
-  }
-}
-
-
-.k--button-black {
-  @apply --white-text-button-base;
-  background-color: var(--black);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-dark-gray {
-  @apply --white-text-button-base;
-  background-color: var(--gray);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-light-gray {
-  @apply --black-text-button-base;
-  background-color: var(--light-gray);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-white {
-  @apply --blue-text-button-base;
-  background-color: var(--white);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-red {
-  @apply --white-text-button-base;
-  background-color: var(--red);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-orange {
-  @apply --white-text-button-base;
-  background-color: var(--orange);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-yellow {
-  @apply --black-text-button-base;
-  background-color: var(--yellow);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-purple {
-  @apply --white-text-button-base;
-  background-color: var(--purple);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-pink {
-  @apply --white-text-button-base;
-  background-color: var(--pink);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-green {
-  @apply --white-text-button-base;
-  background-color: var(--green);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
-}
-
-.k--button-blue {
-  @apply --white-text-button-base;
-  background-color: var(--blue);
-  &:disabled {
-    @apply --disabled-button-base;
-  }
 }

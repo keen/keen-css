@@ -18,10 +18,12 @@
         <input class="k--btn" type="submit" name="" value="Input">
         <span class="k--badge">Badge</span>
       </div>
-      <div class="mv3 k--btn-group">
-        <a class="k--btn" href="#">Anchor</a>
-        <button class="k--btn" type="button" name="button">Button</button>
-        <input class="k--btn" type="submit" name="" value="Input">
+      <div class="mv3">
+        <div class="k--button-group">
+          <a class="k--btn" href="#">Anchor</a>
+          <button class="k--btn" type="button" name="button">Button</button>
+          <input class="k--btn" type="submit" name="" value="Input">
+        </div>
       </div>
 
       <div class="mv3">
@@ -50,29 +52,29 @@
 
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 w-70-ns">
-          <label for="placeholder">Label</label>
+          <label class="k--label" for="placeholder">Label</label>
           <input class="k--input db w-100" type="text" name="placeholder" value="" placeholder="placeholder">
           <p class="k--form-help">
             Some helpful text.
           </p>
         </div>
         <div class="w-100 w-30-ns mt3 mt0-ns pl2-ns">
-          <label for="text">Label</label>
+          <label class="k--label" for="text">Label</label>
           <input class="k--input db w-100" type="text" name="text" value="text">
         </div>
       </div>
 
       <div class="mv3">
         <p class="k--label">Which option would you like? (paragraph with <code>k--label</code> class)</p>
-        <label class="k--radio">
+        <label class="k--label-radio">
           <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
           Option one.
         </label>
-        <label class="k--radio">
+        <label class="k--label-radio">
           <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
           Option two. This one is really long to show what text wrapping is like on such a fancy form input.
         </label>
-        <label class="k--radio k--disabled">
+        <label class="k--label-radio k--disabled">
           <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" disabled>
           Disabled radio button
         </label>
@@ -80,15 +82,15 @@
 
       <fieldset class="mv3">
         <legend class="k--label">Legend (with <code>k--label</code> class)</legend>
-        <label class="k--checkbox">
+        <label class="k--label-checkbox">
           <input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
           Option one.
         </label>
-        <label class="k--checkbox">
+        <label class="k--label-checkbox">
           <input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2">
           Option two. This one is really long to show what text wrapping is like on such a fancy form input.
         </label>
-        <label class="k--checkbox k--disabled">
+        <label class="k--label-checkbox k--disabled">
           <input type="checkbox" name="optionsRadios" id="optionsRadios2" value="option2" disabled>
           Disabled checkbox
         </label>

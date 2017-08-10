@@ -1,2 +1,6 @@
 @import './_badge';
+@import './_buttons';
+@import './_old-buttons'; /* remove this soon */
+@import './_button-group';
+@import './_forms';
 @import './_modal';

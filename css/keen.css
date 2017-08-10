@@ -686,15 +686,13 @@ th {
 
 /*
 
-  FORMS AND INPUTS
+  FORMS, INPUTS, AND BUTTON RESETS
 
 */
 
-label, .k--label {
-    display: block;
-    font-size: .875rem;
-    font-weight: 400;
-    margin: 0 0 .5rem 0;
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
 }
 
 button:focus {
@@ -797,154 +795,85 @@ template {
     display: none;
 }
 
-.k--input {
-    background-image: none;
-    background-clip: padding-box;
-    background-color: #fff;
-    border: 1px solid hsl(220, 20%, 80%);
-    border-radius: .25rem;
-    color: hsl(220, 20%, 50%);
-    display: block;
-    font-family: "Gotham Rounded SSm A",
-                 "Gotham Rounded SSm B",
-                 "Helvetica Neue",
-                 Helvetica,
-                 Arial,
-                 sans-serif;
-    font-size: .875rem;
-    font-weight: 200;
-    letter-spacing: -.02em;
-    line-height: 1.5;
-    padding: .5rem .75rem;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    width: 100%;
+/*
+
+Frames
+
+*/
+
+iframe {
 }
 
-.k--select {
-    background-image: none;
-    background-clip: padding-box;
-    background-color: #fff;
-    border: 1px solid hsl(220, 20%, 80%);
-    border-radius: .25rem;
-    color: hsl(220, 20%, 50%);
-    display: block;
-    font-family: "Gotham Rounded SSm A",
-                 "Gotham Rounded SSm B",
-                 "Helvetica Neue",
-                 Helvetica,
-                 Arial,
-                 sans-serif;
-    font-size: .875rem;
-    font-weight: 200;
-    letter-spacing: -.02em;
-    line-height: 1.5;
-    padding: .5rem .75rem;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    width: 100%;
+/* Defines an inline frame */
+
+/*
+
+  IMAGES
+
+*/
+
+img {
 }
 
-.k--input:disabled {
-    background-color: hsl(220, 20%, 96%);
-    border-color: hsl(220, 20%, 92%);
-    color: hsl(220, 20%, 80%);
-    cursor: not-allowed;
+/* Defines an image */
+
+map {
 }
 
-.k--select:disabled {
-    background-color: hsl(220, 20%, 96%);
-    border-color: hsl(220, 20%, 92%);
-    color: hsl(220, 20%, 80%);
-    cursor: not-allowed;
+/* Defines a client-side image-map */
+
+area {
 }
 
-.k--input[readonly] {
-    background-color: hsl(220, 20%, 96%);
-    border-color: hsl(220, 20%, 92%);
+/* Defines an area inside an image-map */
+
+canvas {
 }
 
-.k--input[readonly]:focus {
-    border-color: hsl(220, 20%, 80%);
-    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
-    background-color: hsl(220, 20%, 96%);
+/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
+
+figcaption {
 }
 
-.k--form-help {
-    color: hsl(220, 20%, 60%);
-    display: block;
+/* Defines a caption for a <figure> element */
+
+figure {
+}
+
+/* Specifies self-contained content */
+
+picture {
+}
+
+/* Defines a container for multiple image resources */
+
+/*
+
+  BADGE
+
+  Simple pill shaped badge as a base for various badges and notificaitons.
+  Use atomic Tachyons classes to style at will.
+
+*/
+
+.k--badge {
+    background-color: hsl(220, 20%, 67%);
+    border-radius: 9999px;
+    color: white;
+    display: inline-block;
     font-size: .75rem;
-    margin: .5rem 0;
+    font-weight: 500;
+    line-height: 1;
+    padding: .25rem .5rem;
 }
 
-select.k--input, .k--select {
-    cursor: pointer;
-    height: calc(1.5 * .875rem + 1rem + 2px);
-}
+/*
 
-.k--input::-webkit-input-placeholder {
-    color: hsl(220, 20%, 80%);
-}
+  BUTTONS
 
-.k--input:-ms-input-placeholder {
-    color: hsl(220, 20%, 80%);
-}
+  Classes for building on-brand, consistent buttons.
 
-.k--input::placeholder {
-    color: hsl(220, 20%, 80%);
-}
-
-.k--input:focus {
-    background-color: #fff;
-    border-color: hsl(195, 100%, 46%);
-    outline: none;
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
-}
-
-.k--select:focus {
-    background-color: #fff;
-    border-color: hsl(195, 100%, 46%);
-    outline: none;
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
-}
-
-.k--radio {
-    cursor: pointer;
-    color: hsl(220, 20%, 50%);
-    font-weight: 200;
-    padding-left: 1.25rem;
-}
-
-.k--checkbox {
-    cursor: pointer;
-    color: hsl(220, 20%, 50%);
-    font-weight: 200;
-    padding-left: 1.25rem;
-}
-
-.k--radio input, .k--checkbox input {
-    cursor: pointer;
-    margin-left: -1.25rem;
-    margin-right: .25rem;
-}
-
-.k--radio.k--disabled {
-    color: hsl(220, 20%, 80%);
-    cursor: not-allowed;
-}
-
-.k--radio.k--disabled input {
-    cursor: not-allowed;
-}
-
-.k--checkbox.k--disabled {
-    color: hsl(220, 20%, 80%);
-    cursor: not-allowed;
-}
-
-.k--checkbox.k--disabled input {
-    cursor: not-allowed;
-}
+*/
 
 [class^="k--btn"] {
     background-color: transparent;
@@ -1168,39 +1097,6 @@ select.k--input, .k--select {
     opacity: 1;
 }
 
-.k--btn-group {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-}
-
-.k--btn-group [class^='k--btn'] {
-    position: relative;
-    z-index: 0;
-}
-
-.k--btn-group [class^='k--btn']:active, .k--btn-group [class^='k--btn']:focus {
-    z-index: 2;
-}
-
-.k--btn-group [class^='k--btn']:first-child {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-}
-
-.k--btn-group [class^='k--btn']:last-child {
-    border-bottom-left-radius: 0;
-    border-top-left-radius: 0;
-}
-
-.k--btn-group [class^='k--btn']:not(:first-child) {
-    margin-left: -1px;
-}
-
-.k--btn-group [class^='k--btn']:not(:first-child):not(:last-child) {
-    border-radius: 0;
-}
-
 .k--button-black {
     border: none;
     font-weight: 300;
@@ -1388,76 +1284,211 @@ select.k--input, .k--select {
     color: hsla(220, 100%, 4%, .3);
 }
 
-/*
-
-Frames
-
-*/
-
-iframe {
-}
-
-/* Defines an inline frame */
+/* remove this soon */
 
 /*
 
-  IMAGES
+  BUTTON GROUP
+
+  To combine buttons into a grouped button utility.
 
 */
 
-img {
+.k--button-group {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
 }
 
-/* Defines an image */
-
-map {
+.k--button-group [class^='k--btn'] {
+    position: relative;
+    z-index: 0;
 }
 
-/* Defines a client-side image-map */
-
-area {
+.k--button-group [class^='k--btn']:active, .k--button-group [class^='k--btn']:focus {
+    z-index: 2;
 }
 
-/* Defines an area inside an image-map */
-
-canvas {
+.k--button-group [class^='k--btn']:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 
-/* Used to draw graphics, on the fly, via scripting (usually JavaScript) */
-
-figcaption {
+.k--button-group [class^='k--btn']:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }
 
-/* Defines a caption for a <figure> element */
-
-figure {
+.k--button-group [class^='k--btn']:not(:first-child) {
+    margin-left: -1px;
 }
 
-/* Specifies self-contained content */
-
-picture {
+.k--button-group [class^='k--btn']:not(:first-child):not(:last-child) {
+    border-radius: 0;
 }
-
-/* Defines a container for multiple image resources */
 
 /*
 
-  BADGE
+  FORMS
 
-  Simple pill shaped badge as a base for various badges and notificaitons.
-  Use atomic Tachyons classes to style at will.
+  Classes for building on-brand, consistent forms.
 
 */
 
-.k--badge {
-    background-color: hsl(220, 20%, 67%);
-    border-radius: 9999px;
-    color: white;
-    display: inline-block;
+[class^="k--label"] {
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.k--input {
+    background-image: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid hsl(220, 20%, 80%);
+    border-radius: .25rem;
+    color: hsl(220, 20%, 50%);
+    display: block;
+    font-family: "Gotham Rounded SSm A",
+                 "Gotham Rounded SSm B",
+                 "Helvetica Neue",
+                 Helvetica,
+                 Arial,
+                 sans-serif;
+    font-size: .875rem;
+    font-weight: 200;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    width: 100%;
+}
+
+.k--select {
+    background-image: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid hsl(220, 20%, 80%);
+    border-radius: .25rem;
+    color: hsl(220, 20%, 50%);
+    display: block;
+    font-family: "Gotham Rounded SSm A",
+                 "Gotham Rounded SSm B",
+                 "Helvetica Neue",
+                 Helvetica,
+                 Arial,
+                 sans-serif;
+    font-size: .875rem;
+    font-weight: 200;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+    padding: .5rem .75rem;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    width: 100%;
+}
+
+.k--input:disabled {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+    color: hsl(220, 20%, 80%);
+    cursor: not-allowed;
+}
+
+.k--select:disabled {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+    color: hsl(220, 20%, 80%);
+    cursor: not-allowed;
+}
+
+.k--input[readonly] {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+}
+
+.k--input[readonly]:focus {
+    border-color: hsl(220, 20%, 80%);
+    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
+    background-color: hsl(220, 20%, 96%);
+}
+
+.k--form-help {
+    color: hsl(220, 20%, 60%);
+    display: block;
     font-size: .75rem;
-    font-weight: 500;
-    line-height: 1;
-    padding: .25rem .5rem;
+    margin: .5rem 0;
+}
+
+select.k--input, .k--select {
+    cursor: pointer;
+    height: calc(1.5 * .875rem + 1rem + 2px);
+}
+
+.k--input::-webkit-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input:-ms-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input::placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input:focus {
+    background-color: #fff;
+    border-color: hsl(195, 100%, 46%);
+    outline: none;
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+}
+
+.k--select:focus {
+    background-color: #fff;
+    border-color: hsl(195, 100%, 46%);
+    outline: none;
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+}
+
+.k--label-radio {
+    cursor: pointer;
+    color: hsl(220, 20%, 50%);
+    font-weight: 200;
+    padding-left: 1.25rem;
+}
+
+.k--label-checkbox {
+    cursor: pointer;
+    color: hsl(220, 20%, 50%);
+    font-weight: 200;
+    padding-left: 1.25rem;
+}
+
+.k--label-radio input, .k--label-checkbox input {
+    cursor: pointer;
+    margin-left: -1.25rem;
+    margin-right: .25rem;
+}
+
+.k--label-radio.k--disabled {
+    color: hsl(220, 20%, 80%);
+    cursor: not-allowed;
+}
+
+.k--label-radio.k--disabled input {
+    cursor: not-allowed;
+}
+
+.k--label-checkbox.k--disabled {
+    color: hsl(220, 20%, 80%);
+    cursor: not-allowed;
+}
+
+.k--label-checkbox.k--disabled input {
+    cursor: not-allowed;
 }
 
 .k--modal-wrapper {

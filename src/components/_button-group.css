@@ -1,0 +1,33 @@
+/*
+
+  BUTTON GROUP
+
+  To combine buttons into a grouped button utility.
+
+*/
+
+.k--button-group {
+  display: inline-flex;
+}
+
+.k--button-group [class^='k--btn'] {
+  position: relative;
+  z-index: 0;
+  &:active, &:focus {
+    z-index: 2;
+  }
+  &:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  &:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  &:not(:first-child) {
+    margin-left: -1px;
+  }
+  &:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+}
