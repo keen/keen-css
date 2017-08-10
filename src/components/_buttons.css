@@ -66,6 +66,35 @@
   }
 }
 
+.k--btn-primary-danger {
+  border-color: var(--danger);
+  background-color: var(--danger);
+  color: var(--white);
+  &:hover, &:active, &.k--active {
+    color: var(--white);
+    opacity: 0.8;
+  }
+  &:focus {
+    border-color: var(--dark-red);
+    box-shadow: 0 0 0 0.125rem var(--focus-danger);
+    outline: none;
+  }
+}
+
+.k--btn-primary-warning {
+  background-color: var(--warning);
+  color: var(--white);
+  &:hover, &:active, &.k--active {
+    color: var(--white);
+    opacity: 0.8;
+  }
+  &:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 0 0.125rem var(--focus-warning);
+    outline: none;
+  }
+}
+
 .k--btn-secondary {
   border-color: var(--primary);
   color: var(--primary);

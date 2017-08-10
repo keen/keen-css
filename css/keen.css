@@ -633,10 +633,11 @@ samp {
     border-radius: .25rem;
 }
 
-pre {
-    background-color: hsl(220, 20%, 96%);
-    border-radius: .25rem;
-    padding: 1rem;
+pre code {
+    background-color: transparent;
+    border: none;
+    display: block;
+    padding: 0;
 }
 
 dt {
@@ -841,6 +842,7 @@ template {
     line-height: 1.5;
     padding: .5rem 1rem;
     text-align: center;
+    -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -879,6 +881,12 @@ template {
     opacity: 1;
 }
 
+.k--btn.k--active {
+    background-color: hsl(220, 20%, 92%);
+    color: hsl(220, 20%, 20%);
+    opacity: 1;
+}
+
 .k--btn:focus {
     box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
     outline: none;
@@ -900,9 +908,67 @@ template {
     opacity: .8;
 }
 
+.k--btn-primary.k--active {
+    color: #fff;
+    opacity: .8;
+}
+
 .k--btn-primary:focus {
     border-color: #006ec2;
     box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+    outline: none;
+}
+
+.k--btn-primary-danger {
+    border-color: #ff4d5b;
+    background-color: #ff4d5b;
+    color: #fff;
+}
+
+.k--btn-primary-danger:hover {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-danger:active {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-danger.k--active {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-danger:focus {
+    border-color: #e21e2c;
+    box-shadow: 0 0 0 .125rem rgba(255, 77, 91, .3);
+    outline: none;
+}
+
+.k--btn-primary-warning {
+    background-color: #ffaf00;
+    color: #fff;
+}
+
+.k--btn-primary-warning:hover {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-warning:active {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-warning.k--active {
+    color: #fff;
+    opacity: .8;
+}
+
+.k--btn-primary-warning:focus {
+    border-color: #ff6300;
+    box-shadow: 0 0 0 .125rem rgba(255, 175, 0, .3);
     outline: none;
 }
 
@@ -918,6 +984,12 @@ template {
 }
 
 .k--btn-secondary:active {
+    background-color: #d4f4ff;
+    color: hsl(195, 100%, 46%);
+    opacity: 1;
+}
+
+.k--btn-secondary.k--active {
     background-color: #d4f4ff;
     color: hsl(195, 100%, 46%);
     opacity: 1;
@@ -940,6 +1012,12 @@ template {
 }
 
 .k--btn-link:active {
+    background-color: #d4f4ff;
+    color: hsl(195, 100%, 46%);
+    opacity: 1;
+}
+
+.k--btn-link.k--active {
     background-color: #d4f4ff;
     color: hsl(195, 100%, 46%);
     opacity: 1;
@@ -968,6 +1046,12 @@ template {
     opacity: 1;
 }
 
+.k--btn-warning.k--active {
+    background-color: #fffadb;
+    color: #ffaf00;
+    opacity: 1;
+}
+
 .k--btn-warning:focus {
     box-shadow: 0 0 0 .125rem rgba(255, 175, 0, .3);
     outline: none;
@@ -985,6 +1069,12 @@ template {
 }
 
 .k--btn-danger:active {
+    background-color: #ffdfdf;
+    color: #ff4d5b;
+    opacity: 1;
+}
+
+.k--btn-danger.k--active {
     background-color: #ffdfdf;
     color: #ff4d5b;
     opacity: 1;
@@ -1055,6 +1145,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: hsl(220, 20%, 4%);
@@ -1071,6 +1162,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: hsl(220, 20%, 50%);
@@ -1087,6 +1179,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: hsl(220, 20%, 14%);
     background-color: hsl(220, 20%, 92%);
@@ -1103,6 +1196,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: hsl(195, 100%, 46%);
     background-color: #fff;
@@ -1119,6 +1213,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: #ff4d5b;
@@ -1135,6 +1230,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: #ff6300;
@@ -1151,6 +1247,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: hsl(220, 20%, 14%);
     background-color: #ffd700;
@@ -1167,6 +1264,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: #6262d9;
@@ -1183,6 +1281,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: #ff80cc;
@@ -1199,6 +1298,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: #00d17d;
@@ -1215,6 +1315,7 @@ template {
     padding: .5rem 1rem .5rem 1rem;
     border-radius: .125rem;
     border: none;
+    -webkit-transition: background-color .15s, color .15s;
     transition: background-color .15s, color .15s;
     color: #fff;
     background-color: hsl(195, 100%, 46%);
@@ -1276,6 +1377,13 @@ template {
 
 */
 
+[class^="k--label"] {
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
 .k--input {
     background-image: none;
     background-clip: padding-box;
@@ -1295,6 +1403,7 @@ template {
     letter-spacing: -.02em;
     line-height: 1.5;
     padding: .5rem .75rem;
+    -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     width: 100%;
 }
@@ -1318,27 +1427,9 @@ template {
     letter-spacing: -.02em;
     line-height: 1.5;
     padding: .5rem .75rem;
+    -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     width: 100%;
-}
-
-select.k--input, .k--select {
-    cursor: pointer;
-    height: calc(1.5 * .875rem + 1rem + 2px);
-}
-
-.k--input:focus {
-    background-color: #fff;
-    border-color: hsl(195, 100%, 46%);
-    outline: none;
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
-}
-
-.k--select:focus {
-    background-color: #fff;
-    border-color: hsl(195, 100%, 46%);
-    outline: none;
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
 }
 
 .k--input:disabled {
@@ -1353,6 +1444,55 @@ select.k--input, .k--select {
     border-color: hsl(220, 20%, 92%);
     color: hsl(220, 20%, 80%);
     cursor: not-allowed;
+}
+
+.k--input[readonly] {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+}
+
+.k--input[readonly]:focus {
+    border-color: hsl(220, 20%, 80%);
+    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
+    background-color: hsl(220, 20%, 96%);
+}
+
+.k--form-help {
+    color: hsl(220, 20%, 60%);
+    display: block;
+    font-size: .75rem;
+    margin: .5rem 0;
+}
+
+select.k--input, .k--select {
+    cursor: pointer;
+    height: calc(1.5 * .875rem + 1rem + 2px);
+}
+
+.k--input::-webkit-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input:-ms-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input::placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input:focus {
+    background-color: #fff;
+    border-color: hsl(195, 100%, 46%);
+    outline: none;
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+}
+
+.k--select:focus {
+    background-color: #fff;
+    border-color: hsl(195, 100%, 46%);
+    outline: none;
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
 }
 
 .k--label-radio {
@@ -1391,43 +1531,6 @@ select.k--input, .k--select {
 
 .k--label-checkbox.k--disabled input {
     cursor: not-allowed;
-}
-
-.k--input::-webkit-input-placeholder {
-    color: hsl(220, 20%, 80%);
-}
-
-.k--input:-ms-input-placeholder {
-    color: hsl(220, 20%, 80%);
-}
-
-.k--input::placeholder {
-    color: hsl(220, 20%, 80%);
-}
-
-.k--input[readonly] {
-    background-color: hsl(220, 20%, 96%);
-    border-color: hsl(220, 20%, 92%);
-}
-
-.k--input[readonly]:focus {
-    border-color: hsl(220, 20%, 80%);
-    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
-    background-color: hsl(220, 20%, 96%);
-}
-
-[class^="k--label"] {
-    display: block;
-    font-size: .875rem;
-    font-weight: 400;
-    margin-bottom: .5rem;
-}
-
-.k--form-help {
-    color: hsl(220, 20%, 60%);
-    display: block;
-    font-size: .75rem;
-    margin: .5rem 0;
 }
 
 .k--modal-wrapper {
@@ -3196,22 +3299,27 @@ img {
 
 .link {
     text-decoration: none;
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .link:link, .link:visited {
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .link:hover {
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .link:active {
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .link:focus {
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
     outline: 1px dotted currentColor;
 }
@@ -6007,16 +6115,19 @@ img {
 
 .dim {
     opacity: 1;
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
 .dim:hover, .dim:focus {
     opacity: .5;
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
 .dim:active {
     opacity: .8;
+    -webkit-transition: opacity .15s ease-out;
     transition: opacity .15s ease-out;
 }
 
@@ -6027,11 +6138,13 @@ img {
 */
 
 .glow {
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
 .glow:hover, .glow:focus {
     opacity: 1;
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
@@ -6052,11 +6165,13 @@ img {
 
 .hide-child .child {
     opacity: 0;
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
 .hide-child:hover  .child, .hide-child:focus  .child, .hide-child:active .child {
     opacity: 1;
+    -webkit-transition: opacity .15s ease-in;
     transition: opacity .15s ease-in;
 }
 
@@ -6073,6 +6188,7 @@ img {
             backface-visibility: hidden;
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
+    -webkit-transition: -webkit-transform .25s ease-out;
     transition: -webkit-transform .25s ease-out;
     transition: transform .25s ease-out;
     transition: transform .25s ease-out, -webkit-transform .25s ease-out;
@@ -6094,6 +6210,7 @@ img {
             backface-visibility: hidden;
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
+    -webkit-transition: -webkit-transform .25s ease-in-out;
     transition: -webkit-transform .25s ease-in-out;
     transition: transform .25s ease-in-out;
     transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
@@ -6125,6 +6242,7 @@ img {
 .shadow-hover {
     cursor: pointer;
     position: relative;
+    -webkit-transition: all .5s cubic-bezier(.165, .84, .44, 1);
     transition: all .5s cubic-bezier(.165, .84, .44, 1);
 }
 
@@ -6138,6 +6256,7 @@ img {
     width: 100%;
     height: 100%;
     z-index: -1;
+    -webkit-transition: opacity .5s cubic-bezier(.165, .84, .44, 1);
     transition: opacity .5s cubic-bezier(.165, .84, .44, 1);
 }
 
@@ -6149,6 +6268,7 @@ img {
  * many different transition possibilities. */
 
 .bg-animate, .bg-animate:hover, .bg-animate:focus {
+    -webkit-transition: background-color .15s ease-in-out;
     transition: background-color .15s ease-in-out;
 }
 
@@ -6278,16 +6398,19 @@ img {
 
 .nested-links a {
     color: hsl(195, 100%, 46%);
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .nested-links a:hover {
     color: #70dbff;
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
 .nested-links a:focus {
     color: #70dbff;
+    -webkit-transition: color .15s ease-in;
     transition: color .15s ease-in;
 }
 
@@ -6338,6 +6461,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 .rise, .rise:link, .rise:visited {
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
     transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
     transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
     transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
@@ -6349,6 +6473,7 @@ iframe[name='google_conversion_frame'] {
 .rise:hover {
     -webkit-transform: translateY(-1px);
             transform: translateY(-1px);
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
     transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
     transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
     transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
@@ -6512,6 +6637,7 @@ iframe[name='google_conversion_frame'] {
  *****************/
 
 .ta {
+    -webkit-transition: all .3s;
     transition: all .3s;
 }
 
@@ -8427,6 +8553,7 @@ iframe[name='google_conversion_frame'] {
     }
 
     .ta-ns {
+        -webkit-transition: all .3s;
         transition: all .3s;
     }
 
@@ -10316,6 +10443,7 @@ iframe[name='google_conversion_frame'] {
     }
 
     .ta-m {
+        -webkit-transition: all .3s;
         transition: all .3s;
     }
 
@@ -12181,6 +12309,7 @@ iframe[name='google_conversion_frame'] {
     }
 
     .ta-l {
+        -webkit-transition: all .3s;
         transition: all .3s;
     }
 
