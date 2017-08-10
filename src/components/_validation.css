@@ -6,37 +6,20 @@
 
 */
 
-.k--primary {
-  color: var(--primary);
-}
+.k--primary { color: var(--primary); }
+.k--success { color: var(--success); }
+.k--warning { color: var(--warning); }
+.k--danger  { color: var(--danger); }
 
-.k--success {
-  color: var(--success);
-}
+.k--bg-primary { background-color: var(--primary); }
+.k--bg-success { background-color: var(--success); }
+.k--bg-warning { background-color: var(--warning); }
+.k--bg-danger  { background-color: var(--danger); }
 
-.k--warning {
-  color: var(--warning);
-}
-
-.k--danger {
-  color: var(--danger);
-}
-
-.k--bg-primary {
-  background-color: var(--primary);
-}
-
-.k--bg-success {
-  background-color: var(--success);
-}
-
-.k--bg-warning {
-  background-color: var(--warning);
-}
-
-.k--bg-danger {
-  background-color: var(--danger);
-}
+.k--b--primary { border-color: var(--primary); }
+.k--b--success { border-color: var(--success); }
+.k--b--warning { border-color: var(--warning); }
+.k--b--danger  { border-color: var(--danger); }
 
 .k--focus-primary {
   border-color: var(--primary);

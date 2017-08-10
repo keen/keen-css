@@ -1495,6 +1495,22 @@ select.k--input, .k--select {
     background-color: #ff4d5b;
 }
 
+.k--b--primary {
+    border-color: hsl(195, 100%, 46%);
+}
+
+.k--b--success {
+    border-color: #00d17d;
+}
+
+.k--b--warning {
+    border-color: #ffaf00;
+}
+
+.k--b--danger {
+    border-color: #ff4d5b;
+}
+
 .k--focus-primary {
     border-color: hsl(195, 100%, 46%);
 }
