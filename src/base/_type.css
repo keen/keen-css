@@ -91,10 +91,11 @@ samp {
   border-radius: .25rem;
 }
 
-pre {
-  background-color: var(--near-white);
-  border-radius: .25rem;
-  padding: var(--spacing-medium);
+pre code {
+  background-color: transparent;
+  border: none;
+  display: block;
+  padding: 0;
 }
 
 dt {

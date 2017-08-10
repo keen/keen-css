@@ -64,9 +64,7 @@ select.k--input, .k--select {
   }
 }
 
-.k--input::placeholder {
-  color: var(--moon-gray);
-}
+.k--input::placeholder { color: var(--moon-gray); }
 
 .k--input[readonly] {
   background-color: var(--near-white);
@@ -81,9 +79,10 @@ select.k--input, .k--select {
 [class^="k--label"] {
   display: block;
   font-size: .875rem;
-  font-weight: 400;
   margin-bottom: .5rem;
 }
+
+.k--label { font-weight: 400; }
 
 .k--form-help {
   color: var(--silver);

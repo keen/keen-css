@@ -40,7 +40,7 @@
   background-color: var(--white);
   color: var(--dark-gray);
   border-color: var(--moon-gray);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     background-color: var(--light-gray);
     color: var(--dark-gray);
     opacity: 1;
@@ -55,7 +55,7 @@
 .k--btn-primary {
   background-color: var(--primary);
   color: var(--white);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     color: var(--white);
     opacity: 0.8;
   }
@@ -69,7 +69,7 @@
 .k--btn-secondary {
   border-color: var(--primary);
   color: var(--primary);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     background-color: var(--washed-primary);
     color: var(--primary);
     opacity: 1;
@@ -83,7 +83,7 @@
 .k--btn-link {
   border-color: transparent;
   color: var(--primary);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     background-color: var(--washed-primary);
     color: var(--primary);
     opacity: 1;
@@ -98,7 +98,7 @@
 .k--btn-warning {
   border-color: var(--warning);
   color: var(--warning);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     background-color: var(--washed-warning);
     color: var(--warning);
     opacity: 1;
@@ -112,7 +112,7 @@
 .k--btn-danger {
   border-color: var(--danger);
   color: var(--danger);
-  &:hover, &:active {
+  &:hover, &:active, &.k--active {
     background-color: var(--washed-danger);
     color: var(--danger);
     opacity: 1;
