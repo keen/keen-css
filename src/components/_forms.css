@@ -42,9 +42,9 @@
   background-color: var(--near-white);
   border-color: var(--light-gray);
   &:focus {
-    border-color: var(--read-only);
-    box-shadow: 0 0 0 0.125rem var(--focus-read-only);
-    background-color: var(--washed-read-only);
+    border-color: var(--moon-gray);
+    box-shadow: 0 0 0 0.125rem var(--black-05);
+    background-color: var(--near-white);
   }
 }
 

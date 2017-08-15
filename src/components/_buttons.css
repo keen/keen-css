@@ -6,7 +6,12 @@
 
 */
 
-[class^="k--btn"] {
+.k--button,
+.k--button-primary,
+.k--button-secondary,
+.k--button-link,
+.k--button-danger,
+.k--button-danger-primary {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: .25rem;
@@ -25,18 +30,18 @@
   white-space: nowrap;
 }
 
-.k--btn-sm {
+.k--button-sm {
   font-size: .75rem;
   padding: .25rem .5rem;
 }
 
-.k--btn-lg {
+.k--button-lg {
   font-size: 1rem;
   line-height: 1;
   padding: 1rem 2rem;
 }
 
-.k--btn {
+.k--button {
   background-color: var(--white);
   color: var(--dark-gray);
   border-color: var(--moon-gray);
@@ -46,118 +51,90 @@
     opacity: 1;
   }
   &:focus {
-    box-shadow: 0 0 0 0.125rem var(--focus-primary);
+    box-shadow: 0 0 0 0.125rem var(--focus-blue);
     outline: none;
-    border-color: var(--primary);
+    border-color: var(--blue);
   }
 }
 
-.k--btn-primary {
-  background-color: var(--primary);
+.k--button-primary {
+  background-color: var(--blue);
   color: var(--white);
   &:hover, &:active, &.k--active {
     color: var(--white);
     opacity: 0.8;
   }
   &:focus {
-    border-color: var(--dark-blue);
-    box-shadow: 0 0 0 0.125rem var(--focus-primary);
+    border-color: var(--black-20);
+    box-shadow: 0 0 0 0.125rem var(--focus-blue);
     outline: none;
   }
 }
 
-.k--btn-primary-danger {
-  border-color: var(--danger);
-  background-color: var(--danger);
+.k--button-danger-primary {
+  border-color: var(--red);
+  background-color: var(--red);
   color: var(--white);
   &:hover, &:active, &.k--active {
     color: var(--white);
-    opacity: 0.8;
+    opacity: 0.85;
   }
   &:focus {
-    border-color: var(--dark-red);
-    box-shadow: 0 0 0 0.125rem var(--focus-danger);
+    border-color: var(--black-20);
+    box-shadow: 0 0 0 0.125rem var(--focus-red);
     outline: none;
   }
 }
 
-.k--btn-primary-warning {
-  background-color: var(--warning);
-  color: var(--white);
+.k--button-danger {
+  border-color: var(--red);
+  color: var(--red);
   &:hover, &:active, &.k--active {
-    color: var(--white);
-    opacity: 0.8;
+    background-color: var(--washed-red);
+    color: var(--red);
+    opacity: 1;
   }
   &:focus {
-    border-color: var(--orange);
-    box-shadow: 0 0 0 0.125rem var(--focus-warning);
+    box-shadow: 0 0 0 0.125rem var(--focus-red);
     outline: none;
   }
 }
 
-.k--btn-secondary {
-  border-color: var(--primary);
-  color: var(--primary);
+.k--button-secondary {
+  border-color: var(--blue);
+  color: var(--blue);
   &:hover, &:active, &.k--active {
-    background-color: var(--washed-primary);
+    background-color: var(--washed-blue);
     color: var(--primary);
     opacity: 1;
   }
   &:focus {
-    box-shadow: 0 0 0 0.125rem var(--focus-primary);
+    box-shadow: 0 0 0 0.125rem var(--focus-blue);
     outline: none;
   }
 }
 
-.k--btn-link {
+.k--button-link {
   border-color: transparent;
-  color: var(--primary);
+  color: var(--blue);
   &:hover, &:active, &.k--active {
-    background-color: var(--washed-primary);
-    color: var(--primary);
+    background-color: var(--washed-blue);
+    color: var(--blue);
     opacity: 1;
   }
   &:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 0.125rem var(--focus-primary);
+    border-color: var(--blue);
+    box-shadow: 0 0 0 0.125rem var(--focus-blue);
     outline: none;
   }
 }
 
-.k--btn-warning {
-  border-color: var(--warning);
-  color: var(--warning);
-  &:hover, &:active, &.k--active {
-    background-color: var(--washed-warning);
-    color: var(--warning);
-    opacity: 1;
-  }
-  &:focus {
-    box-shadow: 0 0 0 0.125rem var(--focus-warning);
-    outline: none;
-  }
-}
-
-.k--btn-danger {
-  border-color: var(--danger);
-  color: var(--danger);
-  &:hover, &:active, &.k--active {
-    background-color: var(--washed-danger);
-    color: var(--danger);
-    opacity: 1;
-  }
-  &:focus {
-    box-shadow: 0 0 0 0.125rem var(--focus-danger);
-    outline: none;
-  }
-}
-
-[class^="k--btn"].k--disabled,
-[class^="k--btn"].k--disabled:hover,
-[class^="k--btn"].k--disabled:focus,
-[class^="k--btn"][disabled],
-[class^="k--btn"][disabled]:hover,
-[class^="k--btn"][disabled]:focus {
+[class^="k--button"].k--disabled,
+[class^="k--button"].k--disabled:hover,
+[class^="k--button"].k--disabled:focus,
+[class^="k--button"][disabled],
+[class^="k--button"][disabled]:hover,
+[class^="k--button"][disabled]:focus {
   background-color: var(--near-white);
   box-shadow: none;
   border-color: var(--light-gray);

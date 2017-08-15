@@ -150,10 +150,10 @@
 
         <section id="section-buttons" class="bb b--light-gray pv0 pv3-m pv4-l">
 
-          <h3 class="f4 f3-ns mv3">
+          <h3 class="f3 f2-ns mv3">
             Buttons
           </h3>
-          <p class="measure lh-copy f6 f5-ns mv3">
+          <p class="measure-wide lh-copy f6 f5-ns mv3">
             Buttons are a major player in any user interface. Always prioritize using the <code>button</code> element, though <code>anchor</code> and <code>submit</code> <code>input</code>s will also be styled appropriately when using the following classes.
           </p>
 
@@ -163,136 +163,132 @@
             </h4>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Default Button
                 </h5>
                 <p class="gray mv1 measure">
                   Basic button style for general use and subtle controls.
                 </p>
                 <code>
-                  button.k--btn
+                  k--button
                 </code>
               </div>
               <div>
-                <button class="k--btn" type="button" name="button">Default</button>
+                <button class="k--button" type="button">Default</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Primary Button
                 </h5>
                 <p class="gray mv1 measure">
                   To call attention to primary actions.
                 </p>
                 <code>
-                  button.k--btn-primary
+                  k--button-primary
                 </code>
               </div>
               <div>
-                <button class="k--btn-primary" type="button" name="button">Primary</button>
+                <button class="k--button-primary" type="button">Primary</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Secondary Button
                 </h5>
                 <p class="gray mv1 measure">
-                  For secondary or less used actions, or to call less attention to a primary action.
-                </p>
+                  For secondary or less used actions, or to call less attention to a primary action, or more attention than a default button.</p>
                 <code>
-                  button.k--btn-secondary
+                  k--button-secondary
                 </code>
               </div>
               <div>
-                <button class="k--btn-secondary" type="button" name="button">Secondary</button>
+                <button class="k--button-secondary" type="button">Secondary</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
-                  Warning Button
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Link Button
                 </h5>
                 <p class="gray mv1 measure">
-                  For potentially problematic situations.
-                </p>
+                  For subtle buttons to be displayed as a link. These are usually only used when next to another button.</p>
                 <code>
-                  button.k--btn-warning
+                  k--button-link
                 </code>
               </div>
               <div>
-                <button class="k--btn-warning" type="button" name="button">Warning</button>
+                <button class="k--button-link" type="button">Link</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Danger Button
                 </h5>
                 <p class="gray mv1 measure">
                   For destructive  and irreversable actions.
                 </p>
                 <code>
-                  button.k--btn-danger
+                  k--button-danger
                 </code>
               </div>
               <div>
-                <button class="k--btn-danger" type="button" name="button">Danger</button>
+                <button class="k--button-danger" type="button">Danger</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
-                  Link Button
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Danger Button (primary)
                 </h5>
                 <p class="gray mv1 measure">
-                  For subtle buttons to be displayed as a link. These are usually only used when next to another button.
+                  For destructive and irreversable actions. Only use this style when it is the sole primary action. This will primarily be the case on a confirmation step.
                 </p>
                 <code>
-                  button.k--btn-link
+                  k--button-danger-primary
                 </code>
               </div>
               <div>
-                <button class="k--btn-link" type="button" name="button">Link</button>
+                <button class="k--button" type="button">Cancel</button>
+                <button class="k--button-danger-primary" type="button">Danger</button>
               </div>
             </div>
           </div>
-
           <div class="w-100 mt4-ns pt1">
             <h4 class="f7 lh-title tracked ttu fw7 mv3 lh-solid moon-gray">
               Button Sizes
             </h4>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Small Buttons
                 </h5>
                 <p class="gray mv1 measure">
                   For small buttons to fit in small places or subtler controls.
                 </p>
-                <code>
-                  button.k--btn-primary.k--btn-sm
-                </code>
+                <code>k--button-primary</code>
+                <code>k--button-sm</code>
               </div>
               <div>
-                <button class="k--btn-primary k--btn-sm" type="button" name="button">Small</button>
+                <button class="k--button-primary k--button-sm" type="button">Small</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Large Buttons
                 </h5>
                 <p class="gray mv1 measure">
                   For big buttons used mainly on marketing pages. Combine with any button class.
                 </p>
-                <code>
-                  button.k--btn-primary.k--btn-lg
-                </code>
+                <code>k--button-primary</code>
+                <code>k--button-lg</code>
               </div>
               <div>
-                <button class="k--btn-primary k--btn-lg" type="button" name="button">Large</button>
+                <button class="k--button-primary k--button-lg" type="button">Large</button>
               </div>
             </div>
           </div>
@@ -303,34 +299,33 @@
             </h4>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Disabled Buttons
                 </h5>
                 <p class="gray mv1 measure">
-                  This state is achieved when <code>disabled</code> is set on <code>button</code> and <code>input</code> elements. To force the disabled state with a class, apply <code>k--disabled</code> to any button, including <code>a</code> elements.
+                  This state is achieved when <code>disabled</code> is set on <code>button</code> and <code>input</code> elements. To apply the disabled state with a class, apply <code>k--disabled</code> to any button, including <code>a</code> elements.
                 </p>
               </div>
               <div>
-                <button class="k--btn-primary" type="button" name="button" disabled>Disabled</button>
+                <button class="k--button-primary" type="button" disabled>Disabled</button>
               </div>
             </div>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Active Buttons
                 </h5>
                 <p class="gray mv1 measure">
                   For buttons that are active. These are commonly used to depict a selected button within a button group.
                 </p>
-                <code>
-                  button.k--active
-                </code>
+                <code>k--button</code>
+                <code>k--active</code>
               </div>
               <div>
                 <div class="k--button-group">
-                  <button class="k--btn" type="button">Left</button>
-                  <button class="k--btn" type="button">Middle</button>
-                  <button class="k--btn k--active" type="button">Right</button>
+                  <button class="k--button" type="button">Left</button>
+                  <button class="k--button" type="button">Middle</button>
+                  <button class="k--button k--active" type="button">Right</button>
                 </div>
               </div>
             </div>
@@ -342,30 +337,359 @@
             </h4>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
               <div class="f6 pr3-ns mb3 mb0-ns gray">
-                <h5 class="dark-gray f6 fw4 mv0">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
                   Button Group
                 </h5>
                 <p class="gray mv1 measure">
-                  Buttons are a major player in any user interface. Always prioritize using the <code>button</code> element, though <code>anchor</code> and <code>submit</code> <code>input</code>s will also be styled appropriately when using the following classes.
+                  For grouping a set buttons. These are mainly used when a set of toggles are required in an interactive application. Simply surround a group of buttons in a <code>div</code> with the class <code>k--button-group</code>
                 </p>
               </div>
               <div class="">
                 <div class="k--button-group">
-                  <button class="k--btn" type="button">Left</button>
-                  <button class="k--btn" type="button">Middle</button>
-                  <button class="k--btn" type="button">Right</button>
+                  <button class="k--button" type="button">Left</button>
+                  <button class="k--button" type="button">Middle</button>
+                  <button class="k--button" type="button">Right</button>
                 </div>
               </div>
             </div>
-            <pre class="w-100 overflow-x-auto">
-              <code>
-                Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-                Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna,
-                vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
-                Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              </code>
-            </pre>
+            <div class="bg-near-white pa4 br2 ba b--light-gray tc code gray f6">
+              TBD Code Sample (inspect the source for now)
+            </div>
+
+        </section>
+
+        <section id="section-forms" class="bb b--light-gray pv0 pv3-m pv4-l">
+
+          <h3 class="f3 f2-ns mv3">
+            Forms
+          </h3>
+          <p class="measure-wide lh-copy f6 f5-ns mv3">
+            Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.
+          </p>
+
+          <div class="w-100 mt4-ns pt1">
+            <h4 class="f7 lh-title tracked ttu fw7 mv3 lh-solid moon-gray">
+              Inputs
+            </h4>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Standard
+                </h5>
+                <p class="gray mv1 measure">
+                  Use this class on every input.
+                </p>
+                <code>k--input</code>
+              </div>
+              <div>
+                <input type="text" class="k--input" placeholder="Placeholder">
+                <input type="text" class="k--input mt2" value="Lorem Ipsum">
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Read-only
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>readonly</code> is set on the <code>input</code> element with the <code>k--input</code> class.
+                </p>
+              </div>
+              <div>
+                <input type="text" class="k--input" value="Lorem Ipsum" readonly>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Disabled
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>disabled</code> is set on the <code>input</code> element with the <code>k--input</code> class.
+                </p>
+              </div>
+              <div>
+                <input type="text" class="k--input" value="Lorem Ipsum" disabled>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 mt4-ns pt1">
+            <h4 class="f7 lh-title tracked ttu fw7 mv3 lh-solid moon-gray">
+              Validation States
+            </h4>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Invalid
+                </h5>
+                <code>k--input</code>
+                <code>b--red</code>
+                <code>focus-red</code>
+              </div>
+              <div>
+                <input type="text" class="k--input b--red focus-red" value="Lorem Ipsum">
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Valid
+                </h5>
+                <code>k--input</code>
+                <code>b--green</code>
+                <code>focus-green</code>
+              </div>
+              <div>
+                <input type="text" class="k--input b--green focus-green" value="Lorem Ipsum">
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 mt4-ns pt1">
+            <h4 class="f7 lh-title tracked ttu fw7 mv3 lh-solid moon-gray">
+              Selects
+            </h4>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Standard
+                </h5>
+                <code>k--select</code>
+              </div>
+              <div>
+                <select class="k--select">
+                  <option>Select an Option...</option>
+                  <optgroup label="Options">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Disabled
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>disabled</code> is set on the <code>select</code> element with the <code>k--select</code> class.
+                </p>
+              </div>
+              <div>
+                <select class="k--select" disabled>
+                  <option>Select an Option...</option>
+                  <optgroup label="Options">
+                    <option selected>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 mt4-ns pt1">
+            <h4 class="f7 lh-title tracked ttu fw7 mv3 lh-solid moon-gray">
+              Label, Radio, and Checkbox
+            </h4>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Label
+                </h5>
+                <p class="gray mv1 measure">
+                  To label form elements. This class can be applied to <code>label</code> elements, or other elements like <code>legend</code> or <code>p</code> when appropriate.
+                </p>
+                <code>k--label</code>
+              </div>
+              <div>
+                <label for="label-example" class="k--label">This is a label</label>
+                <input type="text" name="label-example" class="k--input" placeholder="Placeholder">
+              </div>
+            </div>
+
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Radio Buttons
+                </h5>
+                <p class="gray mv1 measure">
+                  For better usability, put <code>radio</code> <code>input</code>s inside a corresponding <code>label</code> with the <code>k--label-radio</code> class.
+                </p>
+              </div>
+              <div>
+                <label class="k--label-radio">
+                  <input type="radio" name="option-radios" id="option-radios-1" value="option-1" checked>
+                  Option One
+                </label>
+                <label class="k--label-radio">
+                  <input type="radio" name="option-radios" id="option-radios-2" value="option-1">
+                  Option Two
+                </label>
+
+              </div>
+            </div>
+            <div class="bg-near-white pa4 br2 ba b--light-gray tc code gray f6">
+              TBD Code Sample (inspect the source for now)
+            </div>
+
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Disabled Radio Button
+                </h5>
+                <p class="gray mv1 measure">
+                  For better usability, put <code>radio</code> <code>input</code>s inside a corresponding <code>label</code> with the <code>k--label-radio</code> class.
+                </p>
+              </div>
+              <div>
+                <label class="k--label-radio">
+                  <input type="radio" name="option-radios" id="option-radios-3" value="option-1">
+                  Option One
+                </label>
+                <label class="k--label-radio k--disabled">
+                  <input type="radio" name="option-radios" id="option-radios-4" value="option-1" disabled>
+                  Disabled Radio
+                </label>
+
+              </div>
+            </div>
+            <div class="bg-near-white pa4 br2 ba b--light-gray tc code gray f6">
+              TBD Code Sample (inspect the source for now)
+            </div>
+
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Checkboxes
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>disabled</code> is set on the <code>radio</code> <code>input</code>.
+                  Add a <code>k--disabled</code> class to the <code>label</code> to give the text a disabled appearance as well.
+                </p>
+              </div>
+              <div>
+                <label class="k--label-checkbox">
+                  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-1" value="option-1" checked>
+                  Option One
+                </label>
+                <label class="k--label-checkbox">
+                  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-2" value="option-1">
+                  Option Two
+                </label>
+
+              </div>
+            </div>
+            <div class="bg-near-white pa4 br2 ba b--light-gray tc code gray f6">
+              TBD Code Sample (inspect the source for now)
+            </div>
+
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Disabled Checkboxes
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>disabled</code> is set on the <code>checkbox</code> <code>input</code>.
+                  Add a <code>k--disabled</code> class to the <code>label</code> to give the text a disabled appearance as well.
+                </p>
+              </div>
+              <div>
+                <label class="k--label-checkbox">
+                  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-3" value="option-1">
+                  Option One
+                </label>
+                <label class="k--label-checkbox k--disabled">
+                  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-4" value="option-1" disabled>
+                  Disabled checkbox
+                </label>
+
+              </div>
+            </div>
+            <div class="bg-near-white pa4 br2 ba b--light-gray tc code gray f6">
+              TBD Code Sample (inspect the source for now)
+            </div>
+
+          </div>
+
+        </section>
+
+        <section id="section-forms" class="bb b--light-gray pv0 pv3-m pv4-l">
+
+          <h3 class="f3 f2-ns mv3">
+            Badges
+          </h3>
+          <p class="measure-wide lh-copy f6 f5-ns mv3">
+            Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.
+          </p>
+
+          <div class="w-100 mt4-ns pt1">
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Basic Badge
+                </h5>
+                <p class="gray mv1 measure">
+                  This is a basic badge, and can be easily styled by adding a class to change the background color.
+                </p>
+                <code>k--badge</code>
+              </div>
+              <div>
+                <span class="k--badge">Badge</span>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Blue Variant
+                </h5>
+                <code>k--badge</code>
+                <code>bg-blue</code>
+              </div>
+              <div>
+                <span class="k--badge bg-blue">3 Updates</span>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Green Variant
+                </h5>
+                <code>k--badge</code>
+                <code>bg-green</code>
+              </div>
+              <div>
+                <span class="k--badge bg-green">New Feature</span>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Gold Variant
+                </h5>
+                <code>k--badge</code>
+                <code>bg-gold</code>
+              </div>
+              <div>
+                <span class="k--badge bg-gold">Required</span>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mt0 mb1">
+                  Red Variant
+                </h5>
+                <code>k--badge</code>
+                <code>bg-red</code>
+              </div>
+              <div>
+                <span class="k--badge bg-red">5 Errors</span>
+              </div>
+            </div>
+
+          </div>
 
         </section>
 

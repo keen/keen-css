@@ -10,7 +10,7 @@
   display: inline-flex;
 }
 
-.k--button-group [class^='k--btn'] {
+.k--button-group [class^='k--button'] {
   position: relative;
   z-index: 0;
   &:active, &:focus {
