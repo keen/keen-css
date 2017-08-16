@@ -31,10 +31,6 @@ h4 { font-size: 1.25rem; } /* .f4 */
 h5 { font-size: 1rem; }    /* .f5 */
 h6 { font-size: .875rem; } /* .f6 */
 
-p {
-  /*color: var(--gray);*/
-}
-
 b, strong {
   font-weight: 500;
 }

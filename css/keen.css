@@ -522,10 +522,6 @@ h6 {
 
 /* .f6 */
 
-p {
-    /*color: var(--gray);*/
-}
-
 b, strong {
     font-weight: 500;
 }
