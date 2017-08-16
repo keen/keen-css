@@ -22,7 +22,7 @@
   color: var(--gray);
   display: block;
   font-size: .875rem;
-  font-weight: 200;
+  font-weight: var(--font-weight-body);
   letter-spacing: -.02em;
   line-height: 1.5;
   padding: .5rem .75rem;
@@ -73,7 +73,7 @@ select.k--input, .k--select {
 .k--label-radio, .k--label-checkbox {
   cursor: pointer;
   color: var(--gray);
-  font-weight: 200;
+  font-weight: var(--font-weight-body);
   padding-left: 1.25rem;
 }
 
