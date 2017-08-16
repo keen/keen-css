@@ -1,0 +1,1441 @@
+<html>
+  <head>
+    <title>Keen CSS</title>
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/737368/747986/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/keen.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
+    <script src="./guide.js"></script>
+  </head>
+  <body class="gotham-rounded fw2">
+    <main role="main" class="mw9 center relative">
+      <div class="h-100 w-20 fl ph5 pt5 dn db-ns overflow-visible">
+        <nav class="fixed h-100 overflow-scroll overflow-visible lh-solid f7 pr5">
+          <h1 class="f3 fw4 f3 ttu fw7 tracked lh-solid mt0 mb4">Keen CSS</h1>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#colors">Colors</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#backgrounds">Backgrounds</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#text-colors">Text Colors</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#opacity">Opacity</a>
+            </li>
+          </ul>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#spacing">Spacing</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#padding">Padding</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#margin">Margin</a>
+            </li>
+          </ul>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#text">Text</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#font-family">Font Family</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#font-size">Font Size</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#font-weight">Font Weight</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#letter-spacing">Letter Spacing</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#line-height">Line Height</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#decoration">Decoration</a>
+            </li>
+          </ul>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#sizing">Sizing</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#width">Width</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#height">Height</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#flexbox">Flexbox</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#aspect-ratio">Aspect Ratio</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#background-images">Background Images</a>
+            </li>
+          </ul>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#layout">Layout</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#responsive">Responsive</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#positioning-methods">Positioning Methods</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#positioning-locations">Positioning Locations</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#vertical-alignment">Vertical Alignment</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#centering">Centering</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#floating">Floating</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#whitespace">Whitespace</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#z-index">Z-Index</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#overflow">Overflow</a>
+            </li>
+          </ul>
+          <ul class="list pl0">
+            <li class="f6 mb1">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#styling">Styling</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#display">Display</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#outline">Outline</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#borders">Borders</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#shadows">Shadows</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#rotation">Rotation</a>
+            </li>
+            <li class="pl3">
+              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#hover-effects">Hover Effects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="w-80 fl pa3 pa4-m pa5-l">
+        <section class="bb b--light-gray pb0 pb3-m pb4-l">
+          <h1 class="f-subheadline mv0 lh-solid">
+            Hello, World.
+          </h1>
+          <p class="f3 measure fw2 lh-copy">
+            I'm Keen CSS. I'm built on top of Tachyons, giving you a flexible framework for building a more legibile, pleasant, and beautiful visual experience.
+          </p>
+        </section>
+        <section class="bb b--light-gray pv0 pv3-m pv4-l">
+          <h2 id="colors">Colors</h3>
+          <div data-component="color-picker" class="w-100 black-60 f7 sans-serif tc fw4">
+
+            <div class="flex flex-row">
+              <!-- grayscale -->
+
+              <div class="dn flex-column w-100 bg-white white-60">
+                <div class="pv3 mv0 pointer bg-white black-60">white</div>
+                <div class="pv3 mv0 pointer bg-near-white black-60">near-white</div>
+                <div class="pv3 mv0 pointer bg-light-gray black-60">light-gray</div>
+                <div class="pv3 mv0 pointer bg-moon-gray black-60">moon-gray</div>
+                <div class="pv3 mv0 pointer bg-light-silver">light-silver</div>
+                <div class="pv3 mv0 pointer bg-silver">silver</div>
+                <div class="pv3 mv0 pointer bg-gray">gray</div>
+                <div class="pv3 mv0 pointer bg-mid-gray">mid-gray</div>
+                <div class="pv3 mv0 pointer bg-dark-gray">dark-gray</div>
+                <div class="pv3 mv0 pointer bg-near-black">near-black</div>
+                <div class="pv3 mv0 pointer bg-black">black</div>
+              </div>
+
+              <!-- blue -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-blue">washed-blue</div>
+                <div class="pv3 mv0 pointer bg-lightest-blue">lightest-blue</div>
+                <div class="pv3 mv0 pointer bg-light-blue">light-blue</div>
+                <div class="pv3 mv0 pointer bg-blue">blue</div>
+                <div class="pv3 mv0 pointer bg-dark-blue white-80">dark-blue</div>
+                <div class="pv3 mv0 pointer bg-navy white-80">navy</div>
+              </div>
+
+              <!-- green -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-green">washed-green</div>
+                <div class="pv3 mv0 pointer bg-lightest-green">lightest-green</div>
+                <div class="pv3 mv0 pointer bg-light-green">light-green</div>
+                <div class="pv3 mv0 pointer bg-green">green</div>
+                <div class="pv3 mv0 pointer bg-dark-green white-80">dark-green</div>
+                <div class="pv3 mv0 pointer bg-forest bg-white">forest</div>
+              </div>
+
+              <!-- yellow & orange -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-yellow">washed-yellow</div>
+                <div class="pv3 mv0 pointer bg-lightest-yellow">lightest-yellow</div>
+                <div class="pv3 mv0 pointer bg-light-yellow">light-yellow</div>
+                <div class="pv3 mv0 pointer bg-yellow">yellow</div>
+                <div class="pv3 mv0 pointer bg-gold white-90">gold</div>
+                <div class="pv3 mv0 pointer bg-orange white-80">orange</div>
+              </div>
+
+              <!-- red -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-red">washed-red</div>
+                <div class="pv3 mv0 pointer bg-lightest-red">lightest-red</div>
+                <div class="pv3 mv0 pointer bg-light-red">light-red</div>
+                <div class="pv3 mv0 pointer bg-red">red</div>
+                <div class="pv3 mv0 pointer bg-dark-red white-80">dark-red</div>
+                <div class="pv3 mv0 pointer bg-burgundy bg-white">burgundy</div>
+              </div>
+
+              <!-- pink -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-pink">washed-pink</div>
+                <div class="pv3 mv0 pointer bg-lightest-pink">lightest-pink</div>
+                <div class="pv3 mv0 pointer bg-light-pink">light-pink</div>
+                <div class="pv3 mv0 pointer bg-pink">pink</div>
+                <div class="pv3 mv0 pointer bg-hot-pink white-80">hot-pink</div>
+                <div class="pv3 mv0 pointer bg-dark-pink white-80">dark-pink</div>
+                <div class="pv3 mv0 pointer bg-white white-80"></div>
+              </div>
+
+              <!-- purple -->
+
+              <div class="flex flex-column w-100 bg-white">
+                <div class="pv3 mv0 pointer bg-washed-purple">washed-purple</div>
+                <div class="pv3 mv0 pointer bg-lightest-purple">lightest-purple</div>
+                <div class="pv3 mv0 pointer bg-light-purple">light-purple</div>
+                <div class="pv3 mv0 pointer bg-purple">purple</div>
+                <div class="pv3 mv0 pointer bg-dark-purple">dark-purple</div>
+                <div class="pv3 mv0 pointer bg-eggplant">eggplant</div>
+              </div>
+
+            </div>
+
+
+            <!-- transparent -->
+
+            <div class="w-100 flex flex-row black sans-serif"
+            style="background-color: white; background-size: 4px 4px; background-position: 0 0, 50px 50px; background-image: linear-gradient(45deg, #aaa 25%, transparent 25%, transparent 75%, #aaa 75%, #aaa),
+            linear-gradient(45deg, #aaa 25%, transparent 25%, transparent 75%, #aaa 75%, #aaa);">
+
+              <div class="w-90">
+                <div class="w-100 flex flex-row white-60">
+                  <div class="w-10 pv3 mv0 pointer bg-black">black</div>
+                  <div class="w-10 pv3 mv0 pointer bg-near-black">near-black</div>
+                  <div class="w-10 pv3 mv0 pointer bg-dark-gray">dark-gray</div>
+                  <div class="w-10 pv3 mv0 pointer bg-mid-gray">mid-gray</div>
+                  <div class="w-10 pv3 mv0 pointer bg-gray">gray</div>
+                  <div class="w-10 pv3 mv0 pointer bg-silver">silver</div>
+                  <div class="w-10 pv3 mv0 pointer bg-light-silver">light-silver</div>
+                  <div class="w-10 pv3 mv0 pointer bg-moon-gray black-60">moon-gray</div>
+                  <div class="w-10 pv3 mv0 pointer bg-light-gray black-60">light-gray</div>
+                  <div class="w-10 pv3 mv0 pointer bg-near-white black-60">near-white</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white black-60">white</div>
+                </div>
+                <div class="w-100 flex flex-row">
+                  <div class="w-10 pv3 mv0 pointer bg-black white">black</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-90 white">black-90</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-80 white">black-80</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-70 white">black-70</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-60 white">black-60</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-50 white">black-50</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-40 white">black-40</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-30 white">black-30</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-20 white">black-20</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-10 white">black-10</div>
+                  <div class="w-10 pv3 mv0 pointer bg-black-05 white">black-05</div>
+                </div>
+                <div class="w-100 flex flex-row">
+                  <div class="w-10 pv3 mv0 pointer bg-white">white</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-90">white-90</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-80">white-80</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-70">white-70</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-60">white-60</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-50">white-50</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-40">white-40</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-30">white-30</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-20">white-20</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-10">white-10</div>
+                  <div class="w-10 pv3 mv0 pointer bg-white-05">white-05</div>
+                </div>
+              </div>
+              <div class="w-10 pv3 mv0 pointer bg-transparent">transparent</div>
+            </div>
+
+          </div>
+
+
+          <div data-component="color-pane" class="w-third bg-blue f6 pl2"></div>
+
+          <h3 id="backgrounds">
+            Backgrounds
+            <span class="bg-light-gray code f7 pa1 b1">.bg-blue</span>
+          </h3>
+          <div class="fl w-60 h3 mr2 white pa2 f7 b1 content-box ph2 mb2" data-color-bg>
+            .bg-<span data-color-name></span>
+          </div>
+          <div class="cf"></div>
+          <div class="fl w-20 h3 mr2 bg-blue pa2 f7 b1">.bg-blue</div>
+          <div class="fl w-20 h3 mr2 bg-red pa2 f7 b1">.bg-red</div>
+          <div class="fl w-20 h3 mr2 bg-green pa2 f7 b1">.bg-green</div>
+          <div class="cf"></div>
+          <p>You can apply a background of any color by adding a class of <span class="bg-light-gray code f7 pa1 b1">.bg-&lt;color name&gt;</span>.</p>
+
+          <h3 id="text-colors">
+            Text Colors
+            <span class="bg-light-gray code f7 pa1 b1">.blue</span>
+          </h3>
+          <p data-color class="f6 mb4">This text has the color you chose in <a href="#colors">Colors</a>, and a class of .<span data-color-name></span></p>
+          <p class="orange mv2">A playful <span class="bg-light-gray black code f7 pa1 b1">.orange</span> fox</p>
+          <p class="green mv2">Ran through a lush <span class="bg-light-gray black code f7 pa1 b1">.green</span> forest</p>
+          <p class="gold mv2">Under the gleaming <span class="bg-light-gray black code f7 pa1 b1">.gold</span> sun.</p>
+
+          <h3 id="opacity">
+            Opacity
+            <span class="bg-light-gray code f7 pa1 b1">.o-50</span>
+          </h3>
+
+          <div class="flex flex-row flex-wrap">
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-100"></div>
+              <span class="bc pv3 f7 white code tc">.o-100</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-90"></div>
+              <span class="bc pv3 f7 white code tc">.o-90</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-80"></div>
+              <span class="bc pv3 f7 white code tc">.o-80</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-70"></div>
+              <span class="bc pv3 f7 white code tc">.o-70</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-60"></div>
+              <span class="bc pv3 f7 white code tc">.o-60</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-50"></div>
+              <span class="bc pv3 f7 white code tc">.o-50</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-40"></div>
+              <span class="bc pv3 f7 code tc">.o-40</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-30"></div>
+              <span class="bc pv3 f7 code tc">.o-30</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-20"></div>
+              <span class="bc pv3 f7 code tc">.o-20</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-10"></div>
+              <span class="bc pv3 f7 code tc">.o-10</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-05"></div>
+              <span class="bc pv3 f7 code tc">.o-05</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-025"></div>
+              <span class="bc pv3 f7 code tc">.o-02</span>
+            </div>
+            <div class="w-20 pa2 relative">
+              <div class="h2 bg-blue o-0"></div>
+              <span class="bc pv3 f7 code tc">.o-0</span>
+            </div>
+          </div>
+
+        </section>
+
+          <h2 id="spacing">Spacing</h2>
+          <p>All spacing classes can be applied to the exact facets you desire. The following codes will indicate which facet to apply the spacing to:<p>
+            <p><div class="code pv1 ph2 dib ba bw2 bg-blue white b--black">a</div> Applies to <b>all</b> facets</p>
+            <p><div class="code pv1 ph2 dib bt bb bw2 bg-blue white b--black mh1">v</div> Applies to <b>vertical</b> (top & bottom) facets</p>
+            <p><div class="code pv1 ph2 dib bl br bw2 bg-blue white b--black">h</div> Applies to <b>horizontal</b> (left & right) facets</p>
+            <p><div class="code pv1 ph2 dib bl bw2 bg-blue white b--black mr1">l</div> Applies to the <b>left</b> facet</p>
+            <p><div class="code pv1 ph2 dib bt bw2 bg-blue white b--black mh1">t</div> Applies to the <b>top</b> facet</p>
+            <p><div class="code pv1 ph2 dib br bw2 bg-blue white b--black ml1">r</div> Applies to the <b>right</b> facet</p>
+            <p><div class="code pv1 ph2 dib bb bw2 bg-blue white b--black mh1">b</div> Applies to the <b>bottom</b> facet</p>
+
+            <p>You apply these codes in the class name. For instance, <i>padding vertical 2</i> translates to <span class="bg-light-gray code f7 pa1 b1">.pv2</span>.</p>
+
+            <h3 id="padding">
+              Padding
+              <span class="bg-light-gray code f7 pa1 b1">.pa2</span>
+            </h3>
+            <span class="bg-blue white pa7 dib mv1">.pa7</span>
+            <span class="bg-blue white pa6 dib mv1">.pa6</span>
+            <span class="bg-blue white pa5 dib mv1">.pa5</span>
+            <span class="bg-blue white pa4 dib mv1">.pa4</span>
+            <span class="bg-blue white pa3 dib mv1">.pa3</span>
+            <span class="bg-blue white pa2 dib mv1">.pa2</span>
+            <span class="bg-blue white pa1 dib mv1">.pa1</span>
+            <span class="bg-blue white pa0 dib mv1">.pa0</span>
+
+            <h3 id="margin">
+              Margin
+              <span class="bg-light-gray code f7 pa1 b1">.ma2</span>
+            </h3>
+            <div class="bg-blue">
+              <p class="mv0 ml0 white pv2">.ml0</p>
+              <p class="mv0 ml1 white pv2">.ml1</p>
+              <p class="mv0 ml2 white pv2">.ml2</p>
+              <p class="mv0 ml3 white pv2">.ml3</p>
+              <p class="mv0 ml4 white pv2">.ml4</p>
+              <p class="mv0 ml5 white pv2">.ml5</p>
+              <p class="mv0 ml6 white pv2">.ml6</p>
+              <p class="mv0 ml7 white pv2">.ml7</p>
+            </div>
+
+            <h2 id="text">Text</h3>
+              <h3 id="font-family">
+                Font Family
+                <span class="bg-light-gray code f7 pa1 b1">.gotham</span>
+              </h3>
+              <p class="gotham-rounded">Use <span class="bg-light-gray code f7 pa1 b1">.gotham-rounded</span> for Gotham Rounded</p>
+              <p class="gotham">Use <span class="bg-light-gray code f7 pa1 b1">.gotham</span> for Gotham</p>
+              <p class="sans-serif">Use <span class="bg-light-gray code f7 pa1 b1">.sans-serif</span> for Sans Serif</p>
+              <p class="serif">Use <span class="bg-light-gray code f7 pa1 b1">.serif</span> for Serif</p>
+              <p class="system-sans-serif">Use <span class="bg-light-gray code f7 pa1 b1">.system-sans-serif</span> for Sans Serif (system)</p>
+              <p class="system-serif">Use <span class="bg-light-gray code f7 pa1 b1">.system-serif</span> for Serif (system)</p>
+              <p class="code">Use <span class="bg-light-gray code f7 pa1 b1">.code</span> for a Monospace font</p>
+
+              <p class="bg-lightest-blue pa3 tc">The following fonts are <i>NOT</i> included in our normal font pack. Use them at your own risk - they will rely on the fonts installed on the user's computer.</p>
+              <p class="courier">Use <span class="bg-light-gray code f7 pa1 b1">.courier</span> for Courier</p>
+              <p class="helvetica">Use <span class="bg-light-gray code f7 pa1 b1">.helvetica</span> for Helvetica</p>
+              <p class="avenir">Use <span class="bg-light-gray code f7 pa1 b1">.avenir</span> for Avenir</p>
+              <p class="athelas">Use <span class="bg-light-gray code f7 pa1 b1">.athelas</span> for Athelam</p>
+              <p class="georgia">Use <span class="bg-light-gray code f7 pa1 b1">.georgia</span> for Georgia</p>
+              <p class="times">Use <span class="bg-light-gray code f7 pa1 b1">.times</span> for Times</p>
+              <p class="bodoni">Use <span class="bg-light-gray code f7 pa1 b1">.bodoni</span> for Bodoni</p>
+              <p class="calisto">Use <span class="bg-light-gray code f7 pa1 b1">.calisto</span> for Calisto</p>
+              <p class="garamond">Use <span class="bg-light-gray code f7 pa1 b1">.garamond</span> for Garamond</p>
+              <p class="baskerville">Use <span class="bg-light-gray code f7 pa1 b1">.baskerville</span> for Baskerville</p>
+              <h3 id="font-size">
+                Font Size
+                <span class="bg-light-gray code f7 pa1 b1">.f1</span>
+              </h3>
+              <p class="f1">Font Size 1, .f1</p>
+              <p class="f2">Font Size 2, .f2</p>
+              <p class="f3">Font Size 3, .f3</p>
+              <p class="f4">Font Size 4, .f4</p>
+              <p class="f5">Font Size 5, .f5</p>
+              <p class="f6">Font Size 6, .f6</p>
+              <p class="f7">Font Size 7, .f7</p>
+
+              <h3 id="font-weight">
+                Font Weight
+                <span class="bg-light-gray code f7 pa1 b1">.fw3</span>
+              </h3>
+              <p class="normal">Font weight <span class="bg-light-gray code f7 pa1 b1">.normal</span></p>
+              <p class="b">Font weight <span class="bg-light-gray code f7 pa1 b1">.b</span></p>
+              <p class="fw1">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw1</span></p>
+              <p class="fw2">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw2</span></p>
+              <p class="fw3">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw3</span></p>
+              <p class="fw4">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw4</span></p>
+              <p class="fw5">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw5</span></p>
+              <p class="fw6">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw6</span></p>
+              <p class="fw7">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw7</span></p>
+              <p class="fw8">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw8</span></p>
+              <p class="fw9">Font weight <span class="bg-light-gray code f7 pa1 b1">.fw9</span></p>
+
+              <h3 id="letter-spacing">
+                Letter Spacing
+                <span class="bg-light-gray code f7 pa1 b1">.tracked</span>
+              </h3>
+              <p class="tracked">Letter Spacing here is <span class="bg-light-gray code f7 pa1 b1">.tracked</span></p>
+              <p class="tracked-tight">Letter Spacing here is <span class="bg-light-gray code f7 pa1 b1">.tracked-tight</span></p>
+              <p class="tracked-mega">Letter Spacing here is <span class="bg-light-gray code f7 pa1 b1">.tracked-mega</span></p>
+
+              <h3 id="line-height">
+                Line Height
+                <span class="bg-light-gray code f7 pa1 b1">.lh-solid</span>
+              </h3>
+              <p class="lh-solid bg-blue white dib ph2">Line Height here is <span class="mid-gray code f7">.tracked</span></p>
+              <br>
+              <p class="lh-title bg-blue white dib ph2">Line Height here is <span class="mid-gray code f7">.tracked-tight</span></p>
+              <br>
+              <p class="lh-copy bg-blue white dib ph2">Line Height here is <span class="mid-gray code f7">.tracked-mega</span></p>
+
+              <h3 id="decoration">
+                Decoration
+                <span class="bg-light-gray code f7 pa1 b1">.no-underline</span>
+              </h3>
+
+              <p class="bg-light-gray code f7 pa1 b1 dib mb0">.no-underline</p>
+              <p class="mt2 mb3"><a href="" class="no-underline">Links are normally underlined</a></p>
+
+              <p class="bg-light-gray code f7 pa1 b1 dib mb0">.underline</p>
+              <p class="mt2 mb3 underline">Regular text is not usually underlined.</p>
+
+              <p class="bg-light-gray code f7 pa1 b1 dib mb0">.strike</p>
+              <p class="mt2 mb3 strike">And nothing is usually striked through!</p>
+
+              <h2 id="sizing">Sizing</h3>
+                <h3 id="width">
+                  Width
+                  <span class="bg-light-gray code f7 pa1 b1">.w-100</span>
+                </h3>
+                <p>Widths can either be applied on a percentage basis (<span class="bg-light-gray code f7 pa1 b1">.w-25</span>) or on a fixed REM basis (<span class="bg-light-gray code f7 pa1 b1">.w3</span>)</p>
+                <div class="pv1 w1 mb1  bg-blue overflow-visible">.w1</div>
+                <div class="pv1 w2 mb1 bg-blue overflow-visible">.w2</div>
+                <div class="pv1 w3 mb1 bg-blue overflow-visible">.w3</div>
+                <div class="pv1 w4 mb1 bg-blue overflow-visible">.w4</div>
+                <div class="pv1 w5 mb3 bg-blue overflow-visible">.w5</div>
+
+                <div class="pv1 w-10 mb1 bg-blue overflow-visible">.w-10</div>
+                <div class="pv1 w-20 mb1 bg-blue overflow-visible">.w-20</div>
+                <div class="pv1 w-25 mb1 bg-blue overflow-visible">.w-25</div>
+                <div class="pv1 w-30 mb1 bg-blue overflow-visible">.w-30</div>
+                <div class="pv1 w-33 mb1 bg-blue overflow-visible">.w-33</div>
+                <div class="pv1 w-34 mb1 bg-blue overflow-visible">.w-34</div>
+                <div class="pv1 w-40 mb1 bg-blue overflow-visible">.w-40</div>
+                <div class="pv1 w-50 mb1 bg-blue overflow-visible">.w-50</div>
+                <div class="pv1 w-60 mb1 bg-blue overflow-visible">.w-60</div>
+                <div class="pv1 w-70 mb1 bg-blue overflow-visible">.w-70</div>
+                <div class="pv1 w-75 mb1 bg-blue overflow-visible">.w-75</div>
+                <div class="pv1 w-80 mb1 bg-blue overflow-visible">.w-80</div>
+                <div class="pv1 w-90 mb1 bg-blue overflow-visible">.w-90</div>
+                <div class="pv1 w-100 mb1 bg-blue overflow-visible">.w-100</div>
+                <div class="pv1 w-third mb1 bg-blue overflow-visible">.w-third</div>
+                <div class="pv1 w-two-thirds mb1 bg-blue overflow-visible">.w-two-thirds</div>
+                <div class="pv1 w-auto mb1 bg-blue overflow-visible">.w-auto</div>
+
+                <p>There are also a few max-width entries you can use for larger containers</p>
+                <p class="f6">As a note, these are <i>max-width</i>, so if your window is not wide enough, the container will shrink</p>
+                <div class="pv3 mb2 tc bg-blue white code f7 measure-narrow">.measure-narrow</div>
+                <div class="pv3 mb2 tc bg-blue white code f7 measure">.measure</div>
+                <div class="pv3 mb2 tc bg-blue white code f7 measure-wide">.measure-wide</div>
+
+                <h3 class="f3f3="height">
+                  Height
+                  <span class="bg-light-gray code f7 pa1 b1">.h-100</span>
+                </h3>
+                <p>Heights can either be applied on a percentage basis (<span class="bg-light-gray code f7 pa1 b1">.h-25</span>) or on a fixed REM basis (<span class="bg-light-gray code f7 pa1 b1">.h3</span>)</p>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h1">.h1</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h2">.h2</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h3">.h3</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h4">.h4</div>
+                <div class="tc fl w-10 mr2 bg-blue overflow-visible h5">.h5</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h-25">.h-25</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h-50">.h-50</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h-75">.h-75</div>
+                <div class="tc fl w-10 mr1 bg-blue overflow-visible h-100">.h-100</div>
+                <div class="cf"></div>
+
+                <h3 class="f3f3="flexbox">
+                  Flexbox
+                  <span class="bg-light-gray code f7 pa1 b1">.flex</span>
+                </h3>
+                <span class="bg-light-gray dib code f7 pa1 b1 mb1">.flex</span>
+                <div class="ba bw2 b--red flex b1 pa3 mb3">
+                  <div class="h3 w3 mh2 bg-blue"></div>
+                  <div class="h3 w3 mh2 bg-blue"></div>
+                  <div class="h3 w3 mh2 bg-blue"></div>
+                </div>
+
+                <span class="bg-light-gray dib code f7 pa1 b1 mb1">.flex-column</span>
+                <div class="ba bw2 b--red flex flex-column b1 pa3 mb3">
+                  <div class="h3 w3 mv2 bg-blue"></div>
+                  <div class="h3 w3 mv2 bg-blue"></div>
+                  <div class="h3 w3 mv2 bg-blue"></div>
+                </div>
+
+                <span class="bg-light-gray dib code f7 pa1 b1 mb1">.flex-wrap</span>
+                <div class="ba bw2 b--red flex flex-wrap b1 pa3 w5 mb3">
+                  <div class="h3 w3 ma2 bg-blue"></div>
+                  <div class="h3 w3 ma2 bg-blue"></div>
+                  <div class="h3 w3 ma2 bg-blue"></div>
+                </div>
+
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.items-start</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-start">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.items-center</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.items-baseline</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-baseline">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.items-stretch</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-stretch">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.items-end</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-end">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.self-start</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-red self-start"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.self-end</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-red self-end"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.self-center</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-red self-center"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.self-baseline</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-red self-baseline"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.self-stretch</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-red self-stretch"></div>
+                  </div>
+                </div>
+
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.justify-start</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center justify-start">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.justify-end</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center justify-end">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.justify-center</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center justify-center">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.justify-between</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center justify-between">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.justify-around</span>
+                  <div class="ba bw2 b--red flex  b1 pa3 mb3 h4 items-center justify-around">
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                    <div class="pa3 ma1 bg-blue"></div>
+                  </div>
+                </div>
+
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.content-start</span>
+                  <div class="ba bw2 b--red flex flex-wrap b1 pa3 mb3 h4 items-center content-start">
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.content-end</span>
+                  <div class="ba bw2 b--red flex flex-wrap b1 pa3 mb3 h4 items-center content-end">
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.content-center</span>
+                  <div class="ba bw2 b--red flex flex-wrap b1 pa3 mb3 h4 items-center content-center">
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.content-between</span>
+                  <div class="ba bw2 b--red flex flex-wrap b1 pa3 mb3 h4 items-center content-between">
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                  </div>
+                </div>
+                <div class="fl w-20-l w-50 ph1">
+                  <span class="bg-light-gray dib code f7 pa1 b1 mb1">.content-around</span>
+                  <div class="ba bw2 b--red flex flex-wrap b1 pa3 mb3 h4 items-center content-around">
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                    <div class="pa2 ma1 bg-blue"></div>
+                  </div>
+                </div>
+
+                <div class="ba bw2 b--red flex flex-wrap b1 pa3 w5 mb3 items-center justify-between w-100">
+                  <div class="pv3 ph2 ma1 bg-blue white order-last">.order-last</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-8">.order-8</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-7">.order-7</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-6">.order-6</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-5">.order-5</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-4">.order-4</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-3">.order-3</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-2">.order-2</div>
+                  <div class="pv3 ph2 ma1 bg-blue white order-1">.order-1</div>
+                </div>
+                <div class="cf"></div>
+
+                <h3 id="aspect-ratio">
+                  Aspect Ratio
+                  <span class="bg-light-gray code f7 pa1 b1">.aspect-ratio</span>
+                </h3>
+                <p>Aspect ratios can be applied (usually to embedded content) using a set of nested divs with specific classes.</p>
+                <p>The outer div should have the class <span class="bg-light-gray code f7 pa1 b1">.aspect-ratio</span>, as well as the specific ratio you want (ie: <span class="bg-light-gray code f7 pa1 b1">.aspect-ratio--16x9</span>). This div will stretch to the width of its container - if you want it to be smaller, wrap it in another container with a specific width.</p>
+                <p>The inner element (which is the actual element you are embedding) should have a class of <span class="bg-light-gray code f7 pa1 b1">.aspect-ratio--object</span>.</p>
+                <p>At the end of the day, your markup will look like:</p>
+                <code><pre class="f6 bg-light-gray dib pa2 b1 near-black">
+                  &lt;div class="the-container-with-whatever-width-you-want"&gt;
+                  &lt;div class="aspect-ratio aspect-ratio--16x9"&gt;
+                  &lt;iframe class="aspect-ratio--object" /&gt;
+                  &lt;/div&gt;
+                  &lt;/div&gt;
+                </pre></code>
+                <div class="flex flex-row flex-wrap justify-start">
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--16x9">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--16x9</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--8x5">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--8x5</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--6x4">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--6x4</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--7x5">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--7x5</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--4x3">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--4x3</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--1x1</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--3x4">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--3x4</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--5x8">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--5x8</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--5x7">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--5x7</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="w-25-ns w-50 br bw2 b--transparent mb2">
+                    <div class="aspect-ratio aspect-ratio--9x16">
+                      <p class="aspect-ratio--object bg-dark-gray f7 code white">
+                        <span class="bc nowrap">.aspect-ratio--9x16</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 id="background-images">
+                  Background Images
+                  <span class="bg-light-gray code f7 pa1 b1">.contain</span>
+                </h3>
+                <p class="f6">Images credit <a href="http://www.wocintechchat.com/">#WOCINTECH</a></p>
+                <div class="flex flex-row flex-wrap mb4">
+                  <div class="w-25-l w-100 mr2">
+                    <span class="f7">Normal</span>
+                    <div class="h5 bg-left ba bw2 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg);"></div>
+                  </div>
+                  <div class="w-25-l w-100 mr2">
+                    <span class="bg-light-gray code f7 pa1 b1">.contain</span>
+                    <div class="h5 contain bg-left ba bw2 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg);"></div>
+                  </div>
+                  <div class="w-25-l w-100 mr2">
+                    <span class="bg-light-gray code f7 pa1 b1">.cover</span>
+                    <div class="h5 cover bg-left ba bw2 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg);"></div>
+                  </div>
+                </div>
+                <div class="flex flex-row flex-wrap">
+                  <div class="w-20-ns w-100 br bw2 b--transparent">
+                    <span class="bg-light-gray code f7 pa1 b1">.bg-left</span>
+                    <div class="h4 bg-left ba bw1 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg); background-size: 50%;"></div>
+                  </div>
+                  <div class="w-20-ns w-100 br bw2 b--transparent">
+                    <span class="bg-light-gray code f7 pa1 b1">.bg-top</span>
+                    <div class="h4 bg-top ba bw1 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg); background-size: 50%;"></div>
+                  </div>
+                  <div class="w-20-ns w-100 br bw2 b--transparent">
+                    <span class="bg-light-gray code f7 pa1 b1">.bg-right</span>
+                    <div class="h4 bg-right ba bw1 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg); background-size: 50%;"></div>
+                  </div>
+                  <div class="w-20-ns w-100 br bw2 b--transparent">
+                    <span class="bg-light-gray code f7 pa1 b1">.bg-bottom</span>
+                    <div class="h4 bg-bottom ba bw1 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg); background-size: 50%;"></div>
+                  </div>
+                  <div class="w-20-ns w-100 br bw2 b--transparent">
+                    <span class="bg-light-gray code f7 pa1 b1">.bg-center</span>
+                    <div class="h4 bg-center ba bw1 mt2" style="background-image: url(http://i.imgur.com/sbkP7q6.jpg); background-size: 50%;"></div>
+                  </div>
+                </div>
+
+                <h2 class="f2 mb0" id="layout">Layout</h2>
+                <h3 id="responsive">
+                  Responsive
+                  <span class="bg-light-gray code f7 pa1 b1">.relative</span>
+                </h3>
+                <p>Responsive layouts work by adding suffixes to the already existing Tachyons classes. <i>Every</i> tachyons class supports <i>all</i> of the responsive suffixes</p>
+
+                <ul class="list pl2 f6">
+                  <li><b>-ns</b> (not small) applies when the screen is wider than 30em</li>
+                  <li><b>-m</b> (medium) applies when the screen is wider than 30em and less than 60em</li>
+                  <li><b>-l</b> (large) applies when the screen is wider than 60em</li>
+                </ul>
+
+                <p>You'll notice that these have a sort of cascade. <span class="bg-light-gray code f7 pa1 b1">-ns</span> attributes will collide with <span class="bg-light-gray code f7 pa1 b1">-m</span> attributes. This is by design, and allows you to easily set "default" styles.</p>
+
+                <p>For instance, if you want an element to be <span class="bg-light-gray code f7 pa1 b1">.w5</span>, but shrink to <span class="bg-light-gray code f7 pa1 b1">.w-100</span> on mobile (small) screens, you would apply the classes <span class="bg-light-gray code f7 pa1 b1">w-100 w5-ns</span>. <span class="bg-light-gray code f7 pa1 b1">.w-100</span> will apply by default, but it is overridden everywhere but mobile by <span class="bg-light-gray code f7 pa1 b1">.w5-ns</span></p>
+
+                <h3 id="positioning-methods">
+                  Positioning Methods
+                  <span class="bg-light-gray code f7 pa1 b1">.relative</span>
+                </h3>
+                <div class="bg-blue w-third-l w-100 h4 fl">
+                  <p class="white">This is just some default positioned content.</p>
+                  <p class="static left-2 top-2 white bg-mid-gray pa2 dib ma0 code f6">.static .left-2 .top-2</p>
+                </div>
+
+                <div class="bg-red w-third-l w-100 h4 fl">
+                  <p class="white">This is just some default positioned content.</p>
+                  <p class="relative left-2 top-2 white bg-mid-gray pa2 dib ma0 code f6">.relative .left-2 .top-2</p>
+                </div>
+
+                <div class="relative bg-green w-third-l w-100 h4 fl mb3">
+                  <p class="white">This is just some default positioned content.</p>
+                  <p class="absolute left-2 top-2 white bg-mid-gray pa2 dib ma0 code f6">.absolute .left-2 .top-2</p>
+                </div>
+                <div class="cf"></div>
+                <p>You can also use <span class="bg-light-gray code f7 pa1 b1">.fixed</span> to apply <span class="bg-light-gray code f7 pa1 b1">position: fixed</span>.<p>
+                  <p>We can't show an example of that here, because it would fly off the page. See the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN Docs</a> for more info.
+
+
+                    <h3 class="f2 mb0" id="positioning-locations">
+                      Positioning Locations
+                      <span class="bg-light-gray code f7 pa1 b1">.top-0</span>
+                    </h3>
+                    <div class="flex flex-row">
+                      <div class="tc mr3">
+                        <h4>Vertical</h4>
+                        <div class="dib w4">
+                          <button class="k--button-blue on pointer nowrap mb1 w-100" data-vertical-pos="top-0">top-0</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="top-1">top-1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="top-2">top-2</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="top--1">top--1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="top--2">top--2</button>
+                        </div>
+                        <div class="dib w4">
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="bottom-0">bottom-0</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="bottom-1">bottom-1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="bottom-2">bottom-2</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="bottom--1">bottom--1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-vertical-pos="bottom--2">bottom--2</button>
+                        </div>
+                      </div>
+                      <div class="tc">
+                        <h4>Horizontal</h4>
+                        <div class="dib w4">
+                          <button class="k--button-blue on pointer nowrap mb1 w-100" data-horizontal-pos="left-0">left-0</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="left-1">left-1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="left-2">left-2</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="left--1">left--1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="left--2">left--2</button>
+                        </div>
+                        <div class="dib w4">
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="right-0">right-0</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="right-1">right-1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="right-2">right-2</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="right--1">right--1</button>
+                          <button class="k--button-light-gray on pointer nowrap mb1 w-100" data-horizontal-pos="bottom--2">right--2</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w5 h4 relative bg-blue ba bw5 b--light-blue" data-component="pos-play">
+                      <div class="pa2 absolute bg-red white f7 code" data-component="pos-char"></div>
+                    </div>
+
+                    <h3 id="vertical-alignment">
+                      Vertical Alignment
+                      <span class="bg-light-gray code f7 pa1 b1">.v-mid</span>
+                    </h3>
+
+                    <div class="flex flex-row flex-wrap">
+                      <div class="pa3 mb2 mr2 ba bw2 b--blue">
+                        <div class="w2 h3 bg-red dib v-top"></div>
+                        <span class="dib w4">That div has <span class="bg-light-gray code f7 pa1 b1 nowrap">.v-base</span></span>
+                      </div>
+                      <div class="pa3 mb2 mr2 ba bw2 b--blue">
+                        <div class="w2 h3 bg-red dib v-top"></div>
+                        <span class="dib w4">That div has <span class="bg-light-gray code f7 pa1 b1 nowrap">.v-top</span></span>
+                      </div>
+                      <div class="pa3 mb2 mr2 ba bw2 b--blue">
+                        <div class="w2 h3 bg-red dib v-mid"></div>
+                        <span class="dib w4">That div has <span class="bg-light-gray code f7 pa1 b1 nowrap">.v-mid</span></span>
+                      </div>
+                      <div class="pa3 mb2 mr2 ba bw2 b--blue">
+                        <div class="w2 h3 bg-red dib v-btm"></div>
+                        <span class="dib w4">That div has <span class="bg-light-gray code f7 pa1 b1 nowrap">.v-btm</span></span>
+                      </div>
+                    </div>
+
+                    <h3 id="centering">
+                      Centering
+                      <span class="bg-light-gray code f7 pa1 b1">.vc</span>
+                    </h3>
+                    <p>These centering classes will center an element, relative to the nearest <i>relatively positioned</i> parent.</p>
+                    <div class="flex flex-row">
+                      <div class="w4 h4 bg-blue relative mr2">
+                        <div class="pa2 vc white code f7 bg-red">.vc</div>
+                      </div>
+                      <div class="w4 h4 bg-blue relative mr2">
+                        <div class="pa2 hc white code f7 bg-red">.hc</div>
+                      </div>
+                      <div class="w4 h4 bg-blue relative mr2">
+                        <div class="pa2 bc white code f7 bg-red">.bc</div>
+                      </div>
+                    </div>
+
+                    <h3 id="floating">
+                      Floating
+                      <span class="bg-light-gray code f7 pa1 b1">.fl</span>
+                    </h3>
+                    <div class="fl w-third-l w-100 ph3">
+                      <div class="fl pa2 bg-blue b1 white code f7">.fl</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum orci vitae tempor porttitor. Nunc viverra tempor risus, ut porta neque dictum a. Praesent dictum nibh in lacinia ullamcorper.</p>
+                    </div>
+                    <div class="fl w-third-l w-100 ph3">
+                      <div class="fn pa2 bg-blue b1 white code f7">.fn</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum orci vitae tempor porttitor. Nunc viverra tempor risus, ut porta neque dictum a. Praesent dictum nibh in lacinia ullamcorper.</p>
+                    </div>
+                    <div class="fl w-third-l w-100 ph3">
+                      <div class="fr pa2 bg-blue b1 white code f7">.fr</div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum orci vitae tempor porttitor. Nunc viverra tempor risus, ut porta neque dictum a. Praesent dictum nibh in lacinia ullamcorper.</p>
+                    </div>
+                    <div class="cf"></div>
+
+                    <h4>Clear fixes</h4>
+                    <div class="flex flex-row flex-wrap">
+                      <div class="w-20-ns w-50 mb0-ns mb2  pr2">
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="bg-red pv2"></div>
+                        <div class="bg-blue white f7 code cf">.cf</div>
+                        <div class="bg-red pv2"></div>
+                      </div>
+                      <div class="w-20-ns w-50 mb0-ns mb2  pr2">
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="bg-red pv2"></div>
+                        <div class="bg-blue white f7 code cl">.cl</div>
+                        <div class="bg-red pv2"></div>
+                      </div>
+                      <div class="w-20-ns w-50 mb0-ns mb2  pr2">
+                        <div class="fr bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fr bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fr bg-mid-gray w1 h3 mr2"></div>
+                        <div class="bg-red pv2"></div>
+                        <div class="bg-blue white f7 code cr">.cr</div>
+                        <div class="bg-red pv2"></div>
+                      </div>
+                      <div class="w-20-ns w-50 mb0-ns mb2  pr2">
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fr bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="bg-red pv2"></div>
+                        <div class="bg-blue white f7 code cb">.cb</div>
+                        <div class="bg-red pv2"></div>
+                      </div>
+                      <div class="w-20-ns w-50 mb0-ns mb2 pr2">
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="fl bg-mid-gray w1 h3 mr2"></div>
+                        <div class="bg-red pv2"></div>
+                        <div class="bg-blue white f7 code cn">.cn</div>
+                        <div class="bg-red pv2"></div>
+                      </div>
+                    </div>
+
+                    <h3 id="whitespace">
+                      Whitespace
+                      <span class="bg-light-gray code f7 pa1 b1">.nowrap</span>
+                    </h3>
+                    <div class="flex flex-row flex-wrap">
+                      <div class="mr2">
+                        <span class="bg-light-gray code f7 pa1 b1 dib">.ws-normal</span>
+                        <!-- Crazy markup, to explain how normal works -->
+                        <p class="w5 bw2 ba b--blue pa2 near-black">This class will be used by default,
+
+                          but you can apply it to override if needed.
+                          It beheaves as text normally does in HTML - ignoring white-space in the actual markup, and logically inserting line-breaks into the layout where they make sense.</p>
+                        </div>
+                        <div class="mr2 pr6">
+                          <span class="bg-light-gray code f7 pa1 b1 dib">.nowrap</span>
+                          <p class="w5 bw2 ba b--blue pa2 near-black nowrap">nowrap is like normal, but with no line breaks.</p>
+                        </div>
+                        <div class="mr2">
+                          <span class="bg-light-gray code f7 pa1 b1 dib">.pre</span>
+                          <p class="w5 bw2 ba b--blue pa2 near-black pre">When using the pre class,
+                            your content will perfectly
+                            your the white-space in
+                            the markup.
+
+                            so
+                            you
+                            have to be
+                            careful.
+
+                            It is most often used for
+                            codeblocks that need
+                            specific tabbing.</p>
+                          </div>
+                        </div>
+
+                        <h3 id="z-index">
+                          Z-Index
+                          <span class="bg-light-gray code f7 pa1 b1">.z-max</span>
+                        </h3>
+                        <p>Z-Index is used to tell the layout which element should be displayed <i>on top</i>. It does not apply to static elements</p>
+
+                        <div class="relative h5 pv2 content-box">
+                          <div class="w-100 h5 pa2 ba bw2 b--black bg-blue absolute top-0 left-0 color white f7 z-0 content-box">.z-0</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-red absolute color white f7 z-1 mt4 ml2 top-0 left-0">.z-1</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-green absolute  white f7 z-2 mt5 ml3 top-0 left-0">.z-2</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-yellow absolute f7 z-3 mt6 ml4 top-0 left-0">.z-3</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-mid-gray absolute white f7 z-4 mt5 ml5 top-2 left-1">.z-4</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-orange absolute white f7 z-5 mt4 ml6 top-0 left-0">.z-5</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-purple absolute white f7 z-999 mt2 ml7 top-0 left--2">.z-999</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-gold absolute  white f7 z-9999 mt4 ml7 top-1 left-1">.z-9999</div>
+                          <div class="w4 h4 pa2 ba bw2 b--black bg-pink absolute f7 z-max mt5 ml7 top-1 left-2">.z-max</div>
+                        </div>
+
+                        <p>There are also three utility classes you can use for z-index: <span class="bg-light-gray code f7 pa1 b1 dib">.z-inherit</span>, <span class="bg-light-gray code f7 pa1 b1 dib">.z-initial</span>, and <span class="bg-light-gray code f7 pa1 b1 dib">.z-unset</span>
+
+                          <h3 id="overflow">
+                            Overflow
+                            <span class="bg-light-gray code f7 pa1 b1">.overflow-scroll</span>
+                          </h3>
+
+                          <div class="flex flex-row flex-wrap overflow-hidden">
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-visible</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-visible">
+                                Here is some text that does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-scroll</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-scroll">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-hidden</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-hidden">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-auto</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-auto">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-x-visible</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-x-visible">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-x-scroll</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-x-scroll">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-x-hidden</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-x-hidden">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-x-auto</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-x-auto">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-y-visible</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-y-visible">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-y-scroll</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-y-scroll">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-y-hidden</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-y-hidden">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                            <div class="w-25-ns w-100 h4 pr2 pb2 mb4">
+                              <span class="bg-light-gray code f7 pa1 b1">.overflow-y-auto</span>
+                              <div class="pa2 mt2 h-100 ba bw2 b--blue overflow-y-auto">
+                                Here is some text that is does not fit in the div containing it.
+                                We are good engineers, and must do something!
+                                We set an overflow to decide how it appears!
+                              </div>
+                            </div>
+                          </div>
+
+                          <h2 id="styling">Styling</h2>
+                          <h3 id="display">
+                            Display
+                            <span class="bg-light-gray code f7 pa1 b1">.dib</span>
+                          </h3>
+                          <div class="fl w-20-ns w-100 ph1">
+                            <span class="bg-light-gray code f7 pa1 b1">.db</span>
+                            <div class="ba bw2 b--red b1 pa3 mb3 h4">
+                              <div class="pa2 ma1 bg-blue db"></div>
+                              <div class="pa2 ma1 bg-blue db"></div>
+                              <div class="pa2 ma1 bg-blue db"></div>
+                            </div>
+                          </div>
+                          <div class="fl w-20-ns w-100 ph1">
+                            <span class="bg-light-gray code f7 pa1 b1">.dib</span>
+                            <div class="ba bw2 b--red b1 pa3 mb3 h4">
+                              <div class="pa2 ma1 bg-blue dib"></div>
+                              <div class="pa2 ma1 bg-blue dib"></div>
+                              <div class="pa2 ma1 bg-blue dib"></div>
+                            </div>
+                          </div>
+                          <div class="fl w-20-ns w-100 ph1">
+                            <span class="bg-light-gray code f7 pa1 b1">.di</span>
+                            <div class="ba bw2 b--red b1 pa3 mb3 h4">
+                              <div class="pa2 ma1 bg-blue di"></div>
+                              <div class="pa2 ma1 bg-blue di"></div>
+                              <div class="pa2 ma1 bg-blue di"></div>
+                            </div>
+                          </div>
+                          <div class="cf"></div>
+                          <p>There are also classes for the table display settings. They're hard to visualize, so here is a list<p>
+                            <ul class="list pl0 lh-copy">
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dt</span> -- table</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dit</span> -- inline-table</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dtc</span> -- table-cell</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dt-row</span> -- table-row</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dt-row-group</span> -- table-row-group</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dt-column</span> -- table-column</li>
+                              <li><span class="bg-light-gray code f7 pa1 b1">.dt-column-group</span> -- table-column-group</li>
+                            </ul>
+
+                            <h3 id="outline">
+                              Outline
+                              <span class="bg-light-gray code f7 pa1 b1">.outline-0</span>
+                            </h3>
+                            <input class="dib mr2 outline" disabled value=".outline" />
+                            <input class="dib mr2 outline-0" disabled value=".outline-0" />
+                            <input class="dib mr2 outline-transparent" disabled value=".outline-transparent" />
+
+                            <h3 id="borders">
+                              Borders
+                              <span class="bg-light-gray code f7 pa1 b1">.ba</span>
+                            </h3>
+                            <p>Borders use the same face codes as you'll find in the <a href="#spacing">Spacing</a> section, but they do not have the vertical & horizontal options. You can set top (t), bottom (b), right (r), left (l), all (a), and none (n).</p>
+
+                            <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw2 b--mid-gray white">.ba</div>
+                            <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 bt bw2 b--mid-gray white">.bt</div>
+                            <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 br bw2 b--mid-gray white">.br</div>
+                            <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 bb bw2 b--mid-gray white">.bb</div>
+                            <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 bl bw2 b--mid-gray white">.bl</div>
+                            <div class="cf"></div>
+
+                            <p>Border colors can be set to any of our <a href="#colors">brand colors</a>, using the syntax <span class="bg-light-gray code f7 pa1 b1">.b--<color name></span>.</p>
+
+                              <div class="fl w-20 h3 mr2 bg-blue pa2 f7 b1 ba bw2 b--red white">.b--red</div>
+                              <div class="fl w-20 h3 mr2 bg-blue pa2 f7 b1 ba bw2 b--green white">.b--green</div>
+                              <div class="fl w-20 h3 mr2 bg-blue pa2 f7 b1 ba bw2 b--gray white">.b--gray</div>
+                              <div class="cf"></div>
+
+                              <p>And finally, border widths are set on a scale of 1-5</p>
+                              <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw1 b--mid-gray white content-box">.bw1</div>
+                              <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw2 b--mid-gray white content-box">.bw2</div>
+                              <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw3 b--mid-gray white content-box">.bw3</div>
+                              <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw4 b--mid-gray white content-box">.bw4</div>
+                              <div class="fl w-10 h2 mr2 bg-blue pa2 f7 b1 ba bw5 b--mid-gray white content-box">.bw5</div>
+                              <div class="cf"></div>
+
+                              <h3 id="shadows">
+                                Shadows
+                                <span class="bg-light-gray code f7 pa1 b1">.shadow-4</span>
+                              </h3>
+                              <div class="flex flex-row mb2">
+                                <div class="w-20 mr2 h3 shadow-1 bg-blue code f7 white pa2">.shadow-1</div>
+                                <div class="w-20 mr2 h3 shadow-2 bg-blue code f7 white pa2">.shadow-2</div>
+                                <div class="w-20 mr2 h3 shadow-3 bg-blue code f7 white pa2">.shadow-3</div>
+                                <div class="w-20 mr2 h3 shadow-4 bg-blue code f7 white pa2">.shadow-4</div>
+                                <div class="w-20 mr2 h3 shadow-5 bg-blue code f7 white pa2">.shadow-5</div>
+                              </div>
+
+                              <h3 id="rotation">
+                                Rotation
+                                <span class="bg-light-gray code f7 pa1 b1">.rotate-45</span>
+                              </h3>
+
+                              <div class ="flex flex-row flex-wrap mb2">
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">(no rotation)</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-45">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-45</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-90">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-90</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-135">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-135</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-180">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-180</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-225">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-225</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-270">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-270</span>
+                                </div>
+                                <div class="relative w4 mh5 mb5">
+                                  <div class="bg-blue rotate-315">
+                                    <span class="db bg-red mb5 pv3"></span>
+                                    <span class="db bg-green pv3"></span>
+                                  </div>
+                                  <span class="white f7 code bc nowrap">.rotate-315</span>
+                                </div>
+                              </div>
+
+                              <h3 id="hover-effects">
+                                Hover Effects
+                                <span class="bg-light-gray code f7 pa1 b1">.glow</span>
+                              </h3>
+
+                              <div class="flex flex-row flex-wrap mb2">
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 dim">.dim</div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 glow o-30">.glow</div>
+                                <div class="ph4 mb2 pv2 bg-blue f7 code white mr2 hide-child">
+                                  .hide-child
+                                  <div class="w2 h2 bg-red child mha mt2"></div>
+                                </div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 underline-hover">.underline-hover</div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 grow">.grow</div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 grow-large ">.grow-large</div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 pointer">.pointer</div>
+                                <div class="pa4 mb2 bg-blue f7 code white mr2 shadow-hover">.shadow-hover</div>
+                              </div>
+                            </div>
+    </main>
+  </body>
+</html>
