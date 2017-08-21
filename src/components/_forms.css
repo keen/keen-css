@@ -25,10 +25,42 @@
   font-weight: var(--font-weight-body);
   letter-spacing: -.02em;
   line-height: 1.5;
-  padding: .5rem .75rem;
+  padding: .5rem;
   transition: all .15s ease-in-out;
   width: 100%;
 }
+
+select.k--input, select.k--select {
+  cursor: pointer;
+  height: calc(1.5 * 0.875rem + 1rem + 2px);
+}
+
+.k--input-small, .k--select-small {
+  font-size: .75rem;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+}
+
+select.k--input-small, select.k--select-small {
+  height: calc(1.5 * 0.75rem + 0.5rem + 2px);
+}
+
+.k--input-large, .k--select-large {
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: calc(1 * 1rem + 2rem + 2px);
+}
+
+select.k--input-large, select.k--select-large {
+  height: calc(1 * 1rem + 2rem + 2px);
+}
+
+.k--input::placeholder {
+  color: var(--moon-gray);
+}
+
 
 .k--input:disabled, .k--select:disabled {
   background-color: var(--near-white);
@@ -52,15 +84,6 @@
   display: block;
   font-size: .75rem;
   margin: .5rem 0;
-}
-
-select.k--input, .k--select {
-  cursor: pointer;
-  height: calc(1.5 * 0.875rem + 1rem + 2px);
-}
-
-.k--input::placeholder {
-  color: var(--moon-gray);
 }
 
 .k--input:focus, .k--select:focus {
