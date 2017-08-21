@@ -3,4 +3,5 @@
 @import './_old-buttons'; /* remove this soon */
 @import './_button-group';
 @import './_forms';
+@import './_form-group';
 @import './_modal';

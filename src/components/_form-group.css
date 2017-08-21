@@ -1,16 +1,16 @@
 /*
 
-  BUTTON GROUP
+  FORM GROUP
 
-  To combine buttons into a grouped button utility.
+  To combine inputs and buttons into a grouped utility.
 
 */
 
-.k--button-group {
+.k--form-group {
   display: inline-flex;
 }
 
-.k--button-group * {
+.k--form-group * {
   position: relative;
   z-index: 0;
   &:active, &:focus {
