@@ -1477,6 +1477,24 @@ template {
     width: 100%;
 }
 
+.k--textarea {
+    background-image: none;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid hsl(220, 20%, 80%);
+    border-radius: .25rem;
+    color: hsl(220, 20%, 50%);
+    display: block;
+    font-size: .875rem;
+    font-weight: 200;
+    letter-spacing: -.02em;
+    line-height: 1.5;
+    padding: .5rem;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    width: 100%;
+}
+
 select.k--input, select.k--select {
     cursor: pointer;
     height: calc(1.5 * .875rem + 1rem + 2px);
@@ -1516,6 +1534,40 @@ select.k--input-large, select.k--select-large {
     color: hsl(220, 20%, 80%);
 }
 
+.k--textarea::-webkit-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--textarea:-ms-input-placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--textarea::placeholder {
+    color: hsl(220, 20%, 80%);
+}
+
+.k--input[readonly] {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+}
+
+.k--textarea[readonly] {
+    background-color: hsl(220, 20%, 96%);
+    border-color: hsl(220, 20%, 92%);
+}
+
+.k--input[readonly]:focus {
+    border-color: hsl(220, 20%, 80%);
+    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
+    background-color: hsl(220, 20%, 96%);
+}
+
+.k--textarea[readonly]:focus {
+    border-color: hsl(220, 20%, 80%);
+    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
+    background-color: hsl(220, 20%, 96%);
+}
+
 .k--input:disabled {
     background-color: hsl(220, 20%, 96%);
     border-color: hsl(220, 20%, 92%);
@@ -1530,22 +1582,11 @@ select.k--input-large, select.k--select-large {
     cursor: not-allowed;
 }
 
-.k--input[readonly] {
+.k--textarea:disabled {
     background-color: hsl(220, 20%, 96%);
     border-color: hsl(220, 20%, 92%);
-}
-
-.k--input[readonly]:focus {
-    border-color: hsl(220, 20%, 80%);
-    box-shadow: 0 0 0 .125rem hsla(220, 100%, 4%, .05);
-    background-color: hsl(220, 20%, 96%);
-}
-
-.k--form-help {
-    color: hsl(220, 20%, 60%);
-    display: block;
-    font-size: .75rem;
-    margin: .5rem 0;
+    color: hsl(220, 20%, 80%);
+    cursor: not-allowed;
 }
 
 .k--input:focus {
@@ -1560,6 +1601,20 @@ select.k--input-large, select.k--select-large {
     border-color: hsl(195, 100%, 46%);
     outline: none;
     box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+}
+
+.k--textarea:focus {
+    background-color: #fff;
+    border-color: hsl(195, 100%, 46%);
+    outline: none;
+    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+}
+
+.k--form-help {
+    color: hsl(220, 20%, 60%);
+    display: block;
+    font-size: .75rem;
+    margin: .5rem 0;
 }
 
 .k--label-radio {

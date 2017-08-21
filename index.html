@@ -407,6 +407,49 @@
 
           <div class="w-100 mt4-ns">
             <h4 class="f4 f3-ns mv3">
+              Textareas
+            </h4>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mv1">
+                  Standard
+                </h5>
+                <code>k--textarea</code>
+              </div>
+              <div class="w-40-ns">
+                <textarea class="k--textarea" name="name" rows="3" cols="80" placeholder="Textarea Placeholder"></textarea>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mv1">
+                  Readonly
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>readonly</code> is set on the <code>textarea</code> element with the <code>k--textarea</code> class.
+                </p>
+              </div>
+              <div class="w-40-ns">
+                <textarea class="k--textarea" name="name" rows="3" cols="80" readonly>Lorem Ipsum</textarea>
+              </div>
+            </div>
+            <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
+              <div class="f6 pr3-ns mb3 mb0-ns gray">
+                <h5 class="dark-gray f6 fw4 mv1">
+                  Disabled
+                </h5>
+                <p class="gray mv1 measure">
+                  This state is achieved when <code>disabled</code> is set on the <code>textarea</code> element with the <code>k--textarea</code> class.
+                </p>
+              </div>
+              <div class="w-40-ns">
+                <textarea class="k--textarea" name="name" rows="3" cols="80" disabled>Lorem Ipsum</textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-100 mt4-ns">
+            <h4 class="f4 f3-ns mv3">
               Labels and Helper Text
             </h4>
             <div class="bt b--light-gray pv3 pv4-l flex flex-column flex-row-ns justify-between items-start items-center-ns">
@@ -749,6 +792,8 @@
             </div>
 
           </div>
+
+          <textarea class="k--input" name="name" rows="8" cols="80" placeholder="textarea"></textarea>
 
         </section>
 
