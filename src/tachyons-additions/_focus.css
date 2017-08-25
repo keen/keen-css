@@ -1,0 +1,31 @@
+/*
+
+  FOCUS STYLES
+
+  see src/tachyons/_custom-colors.css for variables.
+
+*/
+
+.focus-blue:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 .125rem var(--focus-blue);
+  outline: none;
+}
+
+.focus-green:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 .125rem var(--focus-green);
+  outline: none;
+}
+
+.focus-gold:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 .125rem var(--focus-gold);
+  outline: none;
+}
+
+.focus-red:focus {
+  border-color: var(--red);
+  box-shadow: 0 0 0 .125rem var(--focus-red);
+  outline: none;
+}

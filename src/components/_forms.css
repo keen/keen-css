@@ -1,0 +1,115 @@
+/*
+
+  FORMS
+
+  Classes for building on-brand, consistent forms.
+
+*/
+
+[class^="k--label"] {
+  display: block;
+  font-size: .875rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+
+.k--input, .k--select, .k--textarea {
+  background-image: none;
+  background-clip: padding-box;
+  background-color: var(--white);
+  border: 1px solid var(--moon-gray);
+  border-radius: .25rem;
+  color: var(--gray);
+  display: block;
+  font-size: .875rem;
+  font-weight: var(--font-weight-body);
+  letter-spacing: -.02em;
+  line-height: 1.5;
+  padding: .5rem;
+  transition: all .15s ease-in-out;
+  width: 100%;
+}
+
+select.k--input, select.k--select {
+  cursor: pointer;
+  height: calc(1.5 * 0.875rem + 1rem + 2px);
+}
+
+.k--input-small, .k--select-small {
+  font-size: .75rem;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+}
+
+select.k--input-small, select.k--select-small {
+  height: calc(1.5 * 0.75rem + 0.5rem + 2px);
+}
+
+.k--input-large, .k--select-large {
+  font-size: 1rem;
+  line-height: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: calc(1 * 1rem + 2rem + 2px);
+}
+
+select.k--input-large, select.k--select-large {
+  height: calc(1 * 1rem + 2rem + 2px);
+}
+
+.k--input::placeholder, .k--textarea::placeholder {
+  color: var(--moon-gray);
+}
+
+.k--input[readonly], .k--textarea[readonly] {
+  background-color: var(--near-white);
+  border-color: var(--light-gray);
+}
+
+.k--input[readonly]:focus, .k--textarea[readonly]:focus {
+  border-color: var(--moon-gray);
+  box-shadow: 0 0 0 0.125rem var(--black-05);
+  background-color: var(--near-white);
+}
+
+.k--input:disabled, .k--select:disabled, .k--textarea:disabled {
+  background-color: var(--near-white);
+  border-color: var(--light-gray);
+  color: var(--moon-gray);
+  cursor: not-allowed;
+}
+
+.k--input:focus, .k--select:focus, .k--textarea:focus {
+  background-color: var(--white);
+  border-color: var(--blue);
+  outline: none;
+  box-shadow: 0 0 0 0.125rem rgba(5, 176, 235, 0.3);
+}
+
+.k--form-help {
+  color: var(--silver);
+  display: block;
+  font-size: .75rem;
+  margin: .5rem 0;
+}
+
+.k--label-radio, .k--label-checkbox {
+  cursor: pointer;
+  color: var(--gray);
+  font-weight: var(--font-weight-body);
+  padding-left: 1.25rem;
+}
+
+.k--label-radio input, .k--label-checkbox input {
+  cursor: pointer;
+  margin-left: -1.25rem;
+  margin-right: .25rem;
+}
+
+.k--label-radio.k--disabled, .k--label-checkbox.k--disabled {
+  color: var(--moon-gray);
+  cursor: not-allowed;
+  & input {
+    cursor: not-allowed;
+  }
+}

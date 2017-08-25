@@ -25,14 +25,6 @@ iframe[name='google_conversion_frame'] {
   outline: 0;
 }
 
-strong {
-  font-weight: 500;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
-}
-
 .mw-site {
   max-width: 80rem;
 }

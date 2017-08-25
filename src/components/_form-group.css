@@ -1,0 +1,122 @@
+/*
+
+  FORM GROUP
+
+  To combine inputs and buttons into a grouped utility.
+
+  Media Query Extensions:
+    -ns = not-small
+    -m  = medium
+    -l  = large
+
+*/
+
+.k--form-group {
+  display: inline-flex;
+}
+
+.k--form-group * {
+  position: relative;
+  z-index: 0;
+  &:active, &:focus {
+    z-index: 2;
+  }
+  &:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  &:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+  &:not(:first-child) {
+    margin-left: -1px;
+  }
+  &:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+}
+
+@media (--breakpoint-not-small) {
+  .k--form-group-ns {
+    display: inline-flex;
+  }
+
+  .k--form-group-ns * {
+    position: relative;
+    z-index: 0;
+    &:active, &:focus {
+      z-index: 2;
+    }
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not(:first-child) {
+      margin-left: -1px;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+  }
+}
+
+@media (--breakpoint-medium) {
+  .k--form-group-m {
+    display: inline-flex;
+  }
+
+  .k--form-group-m * {
+    position: relative;
+    z-index: 0;
+    &:active, &:focus {
+      z-index: 2;
+    }
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not(:first-child) {
+      margin-left: -1px;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+  }
+}
+
+@media (--breakpoint-large) {
+  .k--form-group-l {
+    display: inline-flex;
+  }
+
+  .k--form-group-l * {
+    position: relative;
+    z-index: 0;
+    &:active, &:focus {
+      z-index: 2;
+    }
+    &:first-child {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:not(:first-child) {
+      margin-left: -1px;
+    }
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+  }
+}

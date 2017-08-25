@@ -1,0 +1,24 @@
+/*
+
+  TABLES
+
+*/
+
+
+table {
+  font-weight: var(--font-weight-body);
+  border-collapse: collapse;
+}
+
+caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: .875rem;
+  text-align: left;
+  caption-side: bottom;
+}
+
+th {
+  font-weight: 500;
+  text-align: left;
+}

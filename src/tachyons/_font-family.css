@@ -34,8 +34,9 @@
 /* Monospaced Typefaces (for code) */
 
 /* From http://cssfontstack.com */
-code, .code {
-  font-family: Consolas,
+.code {
+  font-family: Menlo,
+               Consolas,
                monaco,
                monospace;
 }
@@ -97,4 +98,3 @@ code, .code {
   font-family: baskerville,
                serif;
 }
-
