@@ -48,7 +48,17 @@ a {
 }
 
 a:hover {
-  color: var(--dark-gray);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 1px dotted currentColor;
+  outline-offset: 0.125rem;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
 }
 
 address {
