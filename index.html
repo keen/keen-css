@@ -12,33 +12,33 @@
           <h1 class="f4 f3-l fw4 ttu fw7 tracked lh-title mv0 mv1-l">Keen CSS</h1>
           <ul class="list pl0">
             <li class="f6 mb1">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#section-buttons">Helpers</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="#section-buttons">Helpers</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#section-buttons">Buttons</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="#section-buttons">Buttons</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#section-forms">Forms</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="#section-forms">Forms</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="#section-badges">Badges</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="#section-badges">Badges</a>
             </li>
           </ul>
           <ul class="list pl0">
             <li class="f6 mb1">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="http://tachyons.io/">Tachyons</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="http://tachyons.io/">Tachyons</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="http://tachyons.io/docs/">Documentation</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="http://tachyons.io/docs/">Documentation</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="http://tachyons.io/docs/table-of-properties/">Table of Properties</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="http://tachyons.io/docs/table-of-properties/">Table of Properties</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="http://tachyons.io/docs/table-of-styles/">Table of Styles</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="http://tachyons.io/docs/table-of-styles/">Table of Styles</a>
             </li>
             <li class="pl3">
-              <a class="pv1 db light-silver hover-dark-gray no-underline underline-hover" href="https://github.com/tachyons-css/tachyons/">GitHub Repo</a>
+              <a class="pv1 db light-silver hover-dark-gray link" href="https://github.com/tachyons-css/tachyons/">GitHub Repo</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,7 @@
             Hello, friend.
           </h2>
           <p class="f5 f4-m f3-l measure fw2 lh-copy">
-            I'm Keen CSS. Built atop <a href="http://tachyons.io">Tachyons</a>, I provide a flexible framework for building a more legibile, pleasant, and beautiful user experience for <a href="https://keen.io">Keen IO</a>.
+            I'm Keen CSS. Built atop <a href="http://tachyons.io" class="link">Tachyons</a>, I provide a flexible framework for building a more legibile, pleasant, and beautiful user experience for <a href="https://keen.io">Keen IO</a>.
           </p>
         </section>
 
@@ -230,7 +230,7 @@
                 <code>k--active</code>
               </div>
               <div>
-                <div class="k--button-group">
+                <div class="k--group">
                   <button class="k--button" type="button">Left</button>
                   <button class="k--button" type="button">Middle</button>
                   <button class="k--button k--active" type="button">Right</button>
@@ -249,11 +249,11 @@
                   Button Group
                 </h5>
                 <p class="gray mv1 measure">
-                  For grouping a set buttons. These are mainly used when a set of toggles are required in an interactive application. Simply surround a group of buttons in a <code>div</code> with the class <code>k--button-group</code>
+                  For grouping a set buttons. These are mainly used when a set of toggles are required in an interactive application. Simply surround a group of buttons in a <code>div</code> with the class <code>k--group</code>
                 </p>
               </div>
               <div>
-                <div class="k--button-group">
+                <div class="k--group">
                   <button class="k--button" type="button">Left</button>
                   <button class="k--button" type="button">Middle</button>
                   <button class="k--button" type="button">Right</button>
@@ -261,7 +261,7 @@
               </div>
             </div>
             <pre class="gray f6 bg-near-white br2 ba b--light-gray pa2 pa3-ns mv0" style="white-space: pre-wrap;">
-<code>&lt;div class=&quot;k--button-group&quot;&gt;
+<code>&lt;div class=&quot;k--group&quot;&gt;
   &lt;button class=&quot;k--button&quot; type=&quot;button&quot;&gt;Left&lt;/button&gt;
   &lt;button class=&quot;k--button&quot; type=&quot;button&quot;&gt;Middle&lt;/button&gt;
   &lt;button class=&quot;k--button&quot; type=&quot;button&quot;&gt;Right&lt;/button&gt;
@@ -695,18 +695,18 @@
                   Form Group
                 </h5>
                 <p class="gray mv1 measure">
-                  For grouping a set of inputs, or an input and button. These are mainly used when a button is tied to a single form input, and space and simplicity are essential. Simply surround the elements in a <code>div</code> with the class <code>k--form-group</code>
+                  For grouping a set of inputs, or an input and button. These are mainly used when a button is tied to a single form input, and space and simplicity are essential. Simply surround the elements in a <code>div</code> with the class <code>k--group</code>
                 </p>
               </div>
               <div>
-                <div class="k--form-group">
+                <div class="k--group">
                   <input type="text" class="k--input" placeholder="Placeholder">
                   <button class="k--button-primary" type="button">Button</button>
                 </div>
               </div>
             </div>
             <pre class="gray f6 bg-near-white br2 ba b--light-gray pa2 pa3-ns mv0" style="white-space: pre-wrap;">
-<code>&lt;div class=&quot;k--form-group&quot;&gt;
+<code>&lt;div class=&quot;k--group&quot;&gt;
   &lt;input class=&quot;k--input&quot; type=&quot;text&quot; placeholder=&quot;Placeholder&quot;&gt;
   &lt;button class=&quot;k--button&quot; type=&quot;button&quot;&gt;Button&lt;/button&gt;
 &lt;/div&gt;</code></pre>
