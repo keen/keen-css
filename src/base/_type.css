@@ -135,3 +135,6 @@ mark {
   background-color: var(--light-yellow);
   color: inherit;
 }
+
+::-moz-selection { background: var(--lightest-blue); }
+::selection { background: var(--lightest-blue); }
