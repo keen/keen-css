@@ -21,10 +21,6 @@ iframe[name='google_conversion_frame'] {
   text-decoration: none;
 }*/
 
-.link:focus {
-  outline: 0;
-}
-
 .mw-site {
   max-width: 80rem;
 }

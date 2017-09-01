@@ -6,12 +6,7 @@
 
 */
 
-.k--button,
-.k--button-primary,
-.k--button-secondary,
-.k--button-link,
-.k--button-danger,
-.k--button-danger-primary {
+[class^="k--button"] {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: .25rem;
@@ -28,6 +23,12 @@
   vertical-align: middle;
   user-select: none;
   white-space: nowrap;
+}
+
+[class^="k--button"],
+[class^="k--button"]:hover,
+[class^="k--button"]:focus {
+  text-decoration: none;
 }
 
 .k--button-small {
@@ -62,17 +63,16 @@
   color: var(--white);
   &:hover, &:active, &.k--active {
     color: var(--white);
-    opacity: 0.8;
+    opacity: 0.85;
   }
   &:focus {
-    border-color: var(--black-20);
+    border-color: var(--black-20) !important;
     box-shadow: 0 0 0 0.125rem var(--focus-blue);
     outline: none;
   }
 }
 
 .k--button-danger-primary {
-  border-color: var(--red);
   background-color: var(--red);
   color: var(--white);
   &:hover, &:active, &.k--active {
@@ -80,18 +80,17 @@
     opacity: 0.85;
   }
   &:focus {
-    border-color: var(--black-20);
+    border-color: var(--black-20) !important;
     box-shadow: 0 0 0 0.125rem var(--focus-red);
     outline: none;
   }
 }
 
 .k--button-danger {
-  border-color: var(--red);
+  border-color: currentColor;
   color: var(--red);
   &:hover, &:active, &.k--active {
     background-color: var(--washed-red);
-    color: var(--red);
     opacity: 1;
   }
   &:focus {
@@ -101,11 +100,10 @@
 }
 
 .k--button-secondary {
-  border-color: var(--blue);
+  border-color: currentColor;
   color: var(--blue);
   &:hover, &:active, &.k--active {
     background-color: var(--washed-blue);
-    color: var(--primary);
     opacity: 1;
   }
   &:focus {
@@ -139,6 +137,6 @@
   box-shadow: none;
   border-color: var(--light-gray);
   color: var(--moon-gray);
-  cursor: not-allowed;
+  cursor: default;
   opacity: 1;
 }

@@ -1,0 +1,26 @@
+/*
+
+   LINKS
+   Docs: http://tachyons.io/docs/elements/links/
+
+*/
+
+.link {
+  text-decoration: none;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+.link:hover   {
+  text-decoration: none;
+  outline-width: 0;
+}
+.link:active  {
+  text-decoration: none;
+  outline-width: 0;
+}
+.link:focus   {
+  text-decoration: none;
+}

@@ -23,8 +23,8 @@
   "scripts": {
     "build": "node builder.js",
     "watch": "watch 'npm run build' ./src/",
-    "browsersync": "browser-sync start --server --files '*.html', 'css/*.css'",
-    "dev": "run-p watch browsersync"
+    "serve": "browser-sync start --server --port 3300 --no-notify --files '*.html', 'css/keen.css'",
+    "dev": "run-p watch serve"
   },
   "dependencies": {
     "autoprefixer": "^6.7.7",

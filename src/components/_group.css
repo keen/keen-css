@@ -1,8 +1,8 @@
 /*
 
-  BUTTON GROUP
+  GROUP
 
-  To combine buttons into a grouped button utility.
+  To combine buttons  and form elements into a grouped utility.
 
   Media Query Extensions:
     -ns = not-small
@@ -11,11 +11,11 @@
 
 */
 
-.k--button-group {
+.k--group {
   display: inline-flex;
 }
 
-.k--button-group * {
+.k--group * {
   position: relative;
   z-index: 0;
   &:active, &:focus {
@@ -38,11 +38,11 @@
 }
 
 @media (--breakpoint-not-small) {
-  .k--button-group-ns {
+  .k--group-ns {
     display: inline-flex;
   }
 
-  .k--button-group-ns * {
+  .k--group-ns * {
     position: relative;
     z-index: 0;
     &:active, &:focus {
@@ -66,11 +66,11 @@
 }
 
 @media (--breakpoint-medium) {
-  .k--button-group-m {
+  .k--group-m {
     display: inline-flex;
   }
 
-  .k--button-group-m * {
+  .k--group-m * {
     position: relative;
     z-index: 0;
     &:active, &:focus {
@@ -94,11 +94,11 @@
 }
 
 @media (--breakpoint-large) {
-  .k--button-group-l {
+  .k--group-l {
     display: inline-flex;
   }
 
-  .k--button-group-l * {
+  .k--group-l * {
     position: relative;
     z-index: 0;
     &:active, &:focus {
