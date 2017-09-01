@@ -1014,30 +1014,21 @@ template {
 .k--button-link {
     border-color: transparent;
     color: hsl(195, 100%, 46%);
+    padding: .5rem;
+    -webkit-transition: none;
+    transition: none;
 }
 
-.k--button-link:hover {
-    background-color: #d4f4ff;
-    color: hsl(195, 100%, 46%);
+.k--button-link:hover, .k--button-link:active, .k--button-link.k--active {
+    background-color: transparent;
     opacity: 1;
-}
-
-.k--button-link:active {
-    background-color: #d4f4ff;
-    color: hsl(195, 100%, 46%);
-    opacity: 1;
-}
-
-.k--button-link.k--active {
-    background-color: #d4f4ff;
-    color: hsl(195, 100%, 46%);
-    opacity: 1;
+    text-decoration: underline;
 }
 
 .k--button-link:focus {
-    border-color: hsl(195, 100%, 46%);
-    box-shadow: 0 0 0 .125rem rgba(5, 176, 235, .3);
+    border-color: transparent;
     outline: none;
+    text-decoration: underline;
 }
 
 [class^="k--button"].k--disabled {

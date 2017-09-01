@@ -115,15 +115,17 @@
 .k--button-link {
   border-color: transparent;
   color: var(--blue);
+  padding: .5rem;
+  transition: none;
   &:hover, &:active, &.k--active {
-    background-color: var(--washed-blue);
-    color: var(--blue);
+    background-color: transparent;
     opacity: 1;
+    text-decoration: underline;
   }
   &:focus {
-    border-color: var(--blue);
-    box-shadow: 0 0 0 0.125rem var(--focus-blue);
+    border-color: transparent;
     outline: none;
+    text-decoration: underline;
   }
 }
 
