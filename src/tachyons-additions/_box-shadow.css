@@ -1,0 +1,49 @@
+/*
+
+  BOX-SHADOW
+  Docs: http://tachyons.io/docs/themes/box-shadow/
+
+  Media Query Extensions:
+   -ns = not-small
+   -m  = medium
+   -l  = large
+
+ */
+
+:root {
+  --shadow-1: inset 0 2px 4px hsla(220, 30%, 12%, .08);
+  --shadow-2: 0  2px  4px 0px hsla(220, 30%, 12%, .08), 0 1px  1px hsla(220, 30%, 12%, .04);
+  --shadow-3: 0  4px  8px 1px hsla(220, 30%, 12%, .08), 0 2px  2px hsla(220, 30%, 12%, .04);
+  --shadow-4: 0  8px 16px 3px hsla(220, 30%, 12%, .08), 0 4px  6px hsla(220, 30%, 12%, .04);
+  --shadow-5: 0 16px 32px 6px hsla(220, 30%, 12%, .08), 0 8px 12px hsla(220, 30%, 12%, .04);
+}
+
+.shadow-1 { box-shadow: var(--shadow-1); }
+.shadow-2 { box-shadow: var(--shadow-2); }
+.shadow-3 { box-shadow: var(--shadow-3); }
+.shadow-4 { box-shadow: var(--shadow-4); }
+.shadow-5 { box-shadow: var(--shadow-5); }
+
+@media (--breakpoint-not-small) {
+  .shadow-1-ns { box-shadow: var(--shadow-1); }
+  .shadow-2-ns { box-shadow: var(--shadow-2); }
+  .shadow-3-ns { box-shadow: var(--shadow-3); }
+  .shadow-4-ns { box-shadow: var(--shadow-4); }
+  .shadow-5-ns { box-shadow: var(--shadow-5); }
+}
+
+@media (--breakpoint-medium) {
+  .shadow-1-m { box-shadow: var(--shadow-1); }
+  .shadow-2-m { box-shadow: var(--shadow-2); }
+  .shadow-3-m { box-shadow: var(--shadow-3); }
+  .shadow-4-m { box-shadow: var(--shadow-4); }
+  .shadow-5-m { box-shadow: var(--shadow-5); }
+}
+
+@media (--breakpoint-large) {
+  .shadow-1-l { box-shadow: var(--shadow-1); }
+  .shadow-2-l { box-shadow: var(--shadow-2); }
+  .shadow-3-l { box-shadow: var(--shadow-3); }
+  .shadow-4-l { box-shadow: var(--shadow-4); }
+  .shadow-5-l { box-shadow: var(--shadow-5); }
+}

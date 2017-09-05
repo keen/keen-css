@@ -41,13 +41,13 @@ iframe[name='google_conversion_frame'] {
   transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
   /*-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;*/
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: var(--shadow-3);
 }
 
 .rise:hover {
   transform: translateY(-1px);
   transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
-  box-shadow: 0 7px 14px rgba(50,50,93,.11), 0 3px 6px rgba(0,0,0,.08);
+  box-shadow: var(--shadow-4);
 }
 
 /*p a {
