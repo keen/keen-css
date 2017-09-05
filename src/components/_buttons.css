@@ -6,7 +6,7 @@
 
 */
 
-[class^="k--button"] {
+[class*="k--button"] {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: .25rem;
@@ -25,9 +25,9 @@
   white-space: nowrap;
 }
 
-[class^="k--button"],
-[class^="k--button"]:hover,
-[class^="k--button"]:focus {
+[class*="k--button"],
+[class*="k--button"]:hover,
+[class*="k--button"]:focus {
   text-decoration: none;
 }
 
@@ -118,12 +118,12 @@
   }
 }
 
-[class^="k--button"].k--disabled,
-[class^="k--button"].k--disabled:hover,
-[class^="k--button"].k--disabled:focus,
-[class^="k--button"][disabled],
-[class^="k--button"][disabled]:hover,
-[class^="k--button"][disabled]:focus {
+[class*="k--button"].k--disabled,
+[class*="k--button"].k--disabled:hover,
+[class*="k--button"].k--disabled:focus,
+[class*="k--button"][disabled],
+[class*="k--button"][disabled]:hover,
+[class*="k--button"][disabled]:focus {
   background-color: var(--near-white);
   box-shadow: none;
   border-color: var(--light-gray);
