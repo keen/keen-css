@@ -6332,86 +6332,6 @@ img {
 
 */
 
-/* google conversion frame */
-
-iframe[name='google_conversion_frame'] {
-    height: 0 !important;
-    width: 0 !important;
-    line-height: 0 !important;
-    font-size: 0 !important;
-    margin-top: -13px;
-    float: left;
-}
-
-/*a {
-  text-decoration: none;
-}*/
-
-.mw-site {
-    max-width: 80rem;
-}
-
-.gotham {
-    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: -.02em;
-}
-
-.gotham-rounded {
-    font-family: "Gotham Rounded SSm A",
-                 "Gotham Rounded SSm B",
-                 "Helvetica Neue",
-                 Helvetica,
-                 Arial,
-                 sans-serif;
-    letter-spacing: -.02em;
-}
-
-.rise {
-    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    /*-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
-    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
-}
-
-.rise:link {
-    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    /*-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
-    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
-}
-
-.rise:visited {
-    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    /*-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
-    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
-}
-
-.rise:hover {
-    -webkit-transform: translateY(-1px);
-            transform: translateY(-1px);
-    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
-    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
-    box-shadow: 0 8px 16px 3px hsla(220, 30%, 12%, .08), 0 4px 6px hsla(220, 30%, 12%, .04);
-}
-
-/*p a {
-  text-decoration: none;
-  border-bottom: 1px dotted;
-  color: var(--blue);
-}*/
-
 /* Variables */
 
 /* Importing here will allow you to override any variables in the modules */
@@ -6427,45 +6347,6 @@ iframe[name='google_conversion_frame'] {
    Colors
 
 */
-
-/*
-
-  Tachyons
-  COLOR VARIABLES
-
-  Grayscale
-  - Solids
-  - Transparencies
-  Colors
-  - Base Set
-  - Validation Colors
-
-
-*/
-
-:root {
-    /*from chrome dev tools (material grayscale)*//*--black:        #263238;
-  --near-black:   #37474f;
-  --dark-gray:    #455a64;
-  --mid-gray:     #546e7a;
-  --gray:         #607d8b;
-  --silver:       #78909c;
-  --light-silver: #90a4ae;
-  --moon-gray:    #b0bec5;
-  --light-gray:   #cfd8dc;
-  --near-white:   #eceff1;
-  --white: #fff;*//* HSL conversion *//*--black:        hsl(200, 19%, 18%);
-  --near-black:   hsl(200, 17%, 26%);
-  --dark-gray:    hsl(197, 17%, 32%);
-  --mid-gray:     hsl(198, 18%, 40%);
-  --gray:         hsl(199, 18%, 46%);
-  --silver:       hsl(200, 15%, 54%);
-  --light-silver: hsl(198, 15%, 62%);
-  --moon-gray:    hsl(200, 15%, 73%);
-  --light-gray:   hsl(197, 17%, 83%);
-  --near-white:   hsl(204, 15%, 93%);
-  --white: #fff;*//* #00b0eb */
-}
 
 /*
 
@@ -6500,8 +6381,6 @@ iframe[name='google_conversion_frame'] {
 */
 
 /* Media Queries */
-
-/* additional media-query for added initially for header breakpoint  */
 
 /* Debugging */
 
@@ -6646,6 +6525,25 @@ iframe[name='google_conversion_frame'] {
     box-sizing: content-box;
 }
 
+/*
+
+  Tachyons
+  COLOR VARIABLES
+
+  Grayscale
+  - Solids
+  - Transparencies
+  Colors
+  - Base Set
+  - Validation Colors
+
+
+*/
+
+:root {
+    /* #00b0eb */
+}
+
 .vc {
     position: absolute;
     top: 50%;
@@ -6702,6 +6600,93 @@ iframe[name='google_conversion_frame'] {
 
 /*
 
+  ADDITIONAL FONT FAMILIES
+
+*/
+
+.gotham-rounded {
+    font-family: "Gotham Rounded SSm A",
+                 "Gotham Rounded SSm B",
+                 "Helvetica Neue",
+                 Helvetica,
+                 Arial,
+                 sans-serif;
+    letter-spacing: -.02em;
+}
+
+/* google conversion frame */
+
+iframe[name='google_conversion_frame'] {
+    height: 0 !important;
+    width: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+    margin-top: -13px;
+    float: left;
+}
+
+/*
+
+  HOVER EFFECTS
+
+    - Rise
+    - Glow
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
+
+*/
+
+/*
+
+  Add shadow, lift element and grow shadow on hover.
+
+*/
+
+.rise {
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
+}
+
+.rise:link {
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
+}
+
+.rise:visited {
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+    box-shadow: 0 4px 8px 1px hsla(220, 30%, 12%, .08), 0 2px 2px hsla(220, 30%, 12%, .04);
+}
+
+.rise:hover {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+    -webkit-transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+    transition: transform .15s ease, box-shadow .15s ease, color .15s ease, -webkit-transform .15s ease;
+    box-shadow: 0 8px 16px 3px hsla(220, 30%, 12%, .08), 0 4px 6px hsla(220, 30%, 12%, .04);
+}
+
+/*
+
    LINKS
    Docs: http://tachyons.io/docs/elements/links/
 
@@ -6728,6 +6713,72 @@ iframe[name='google_conversion_frame'] {
 .link:focus {
     text-decoration: none;
 }
+
+/*
+
+   MAX WIDTHS
+   Docs: http://tachyons.io/docs/layout/max-widths/
+
+   Base:
+     mw = max-width
+
+     -site = 80rem = 1280px (between mw8 and mw9)
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/* Max Width Scale */
+
+.mw-site {
+    max-width: 80rem;
+}
+
+/*
+
+  CUSTOM MEDIA QUERIES
+
+  Media query values can be changed to fit your own content.
+  There are no magic bullets when it comes to media query width values.
+  They should be declared in em units - and they should be set to meet
+  the needs of your content. You can also add additional media queries,
+  or remove some of the existing ones.
+
+  These media queries can be referenced like so:
+
+  @media (--breakpoint-not-small) {
+    .medium-and-larger-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-medium) {
+    .medium-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-large) {
+    .large-and-larger-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+  @media (--breakpoint-sm-md) {
+    .large-and-larger-screen-specific-style {
+      background-color: red;
+    }
+  }
+
+*/
+
+/* Media Queries */
+
+/* additional media-query for added initially for header breakpoint  */
 
 .on {
     outline: none;
@@ -8668,6 +8719,10 @@ iframe[name='google_conversion_frame'] {
         left: 50%;
         -webkit-transform: translateY(-50%) translateX(-50%);
                 transform: translateY(-50%) translateX(-50%);
+    }
+
+    .mw-site-ns {
+        max-width: 80rem;
     }
 
     .on-ns {
@@ -10613,6 +10668,10 @@ iframe[name='google_conversion_frame'] {
                 transform: translateY(-50%) translateX(-50%);
     }
 
+    .mw-site-m {
+        max-width: 80rem;
+    }
+
     .on-m {
         outline: none;
     }
@@ -12530,6 +12589,10 @@ iframe[name='google_conversion_frame'] {
         left: 50%;
         -webkit-transform: translateY(-50%) translateX(-50%);
                 transform: translateY(-50%) translateX(-50%);
+    }
+
+    .mw-site-l {
+        max-width: 80rem;
     }
 
     .on-l {

@@ -83,7 +83,6 @@
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 @import './_colors';
-@import './_custom-colors';
 @import './_media-queries';
 
 /* Debugging */

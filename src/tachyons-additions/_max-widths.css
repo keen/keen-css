@@ -1,0 +1,33 @@
+/*
+
+   MAX WIDTHS
+   Docs: http://tachyons.io/docs/layout/max-widths/
+
+   Base:
+     mw = max-width
+
+     -site = 80rem = 1280px (between mw8 and mw9)
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/* Max Width Scale */
+
+.mw-site { max-width: 80rem; }
+
+@media (--breakpoint-not-small) {
+  .mw-site-ns { max-width: 80rem; }
+}
+
+@media (--breakpoint-medium) {
+  .mw-site-m { max-width: 80rem; }
+}
+
+@media (--breakpoint-large) {
+  .mw-site-l { max-width: 80rem; }
+}

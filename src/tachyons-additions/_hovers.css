@@ -1,0 +1,32 @@
+/*
+
+  HOVER EFFECTS
+
+    - Rise
+    - Glow
+    - Hide Child
+    - Underline text
+    - Grow
+    - Pointer
+    - Shadow
+
+*/
+
+/*
+
+  Add shadow, lift element and grow shadow on hover.
+
+*/
+
+.rise, .rise:link, .rise:visited {
+  transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+  box-shadow: var(--shadow-3);
+}
+
+.rise:hover {
+  transform: translateY(-1px);
+  transition: transform .15s ease, box-shadow .15s ease, color .15s ease;
+  box-shadow: var(--shadow-4);
+}

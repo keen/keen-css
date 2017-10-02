@@ -1,0 +1,14 @@
+/*
+
+  ADDITIONAL FONT FAMILIES
+
+*/
+
+.gotham-rounded {
+  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B",
+               "Helvetica Neue",
+               Helvetica,
+               Arial,
+               sans-serif;
+  letter-spacing: -.02em;
+}
